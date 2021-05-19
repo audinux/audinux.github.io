@@ -1,3 +1,5 @@
+![Audinux](images/AudinuxBanner.png)
+
 ## Welcome to Audinux website
 
 ### Presentation
@@ -21,9 +23,7 @@ To list the last 20 updated packages:
 $ dnf repoquery --repoid=ycollet-linuxmao --queryformat "%45{name} %{evr} %{buildtime}" | sort -r -k3 | head --lines=20
 ```
 
-#### Configuration of the system
-
-# Real time kernel
+#### Installing the real time kernel
 
 You can install the real time kernel. We will be able to select at boot time the real time kernel:
 ```
@@ -35,6 +35,8 @@ You can install some old kernel versions like 5.10.35.rt39:
 ```
 $ dnf install kernel-rt-mao-5.10.35.rt39
 ```
+
+#### Configuring the system
 
 Before using the real time kernel, you need to fine tune /etc/secutity/limits.d/95-jack.conf.
 This file is installed by the jack-audio-connection-kit package.
@@ -77,6 +79,28 @@ Section "Extensions"
     Option "GLX" "Disable"
 EndSection
 ```
+
+### VCV Rack
+
+To get all the available rack plugins:
+```
+$ dnf search --repoid=ycollet-linuxmao rack | grep ^rack | grep -v "\.src" | cut -d":" -f1
+```
+
+To install Rack and all the rack plugins:
+```
+$ dnf install Rack
+$ dnf install `dnf search --repoid=ycollet-linuxmao rack | grep ^rack | grep -v "\.src" | cut -d":" -f1`
+```
+
+To avoid a crash when using the jack audio interface of rack, don't put "unlimited" in /etc/security/limits.d/95-jack.conf.
+
+For example, in my settings:
+```
+@jackuser - rtprio 90
+@jackuser - memlock 4194304
+```
+You must leave some unlocked memory otherwise, Rack will not be able to allocate memory for graphics.
 
 ### Links
 
