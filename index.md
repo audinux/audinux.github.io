@@ -1,37 +1,92 @@
-## Welcome to GitHub Pages
+## Welcome to Audinux website
 
-You can use the [editor on GitHub](https://github.com/audinux/audinux.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+### Presentation
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+LinuxMAO (Audinux soon) is a Fedora based repository dedicated to audio tools.
 
-### Markdown
+### Installation
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### Installing the repository
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+To install this repo, as a root user, enter the following command:
+```
+$ dnf copr enable ycollet/linuxmao
+```
+To list all the package provided by this repo (you must enable the repo before):
+```
+$ dnf list --available | grep ycollet
+```
+To list the last 20 updated packages:
+```
+$ dnf repoquery --repoid=ycollet-linuxmao --queryformat "%45{name} %{evr} %{buildtime}" | sort -r -k3 | head --lines=20
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+#### Configuration of the system
 
-### Jekyll Themes
+# Real time kernel
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/audinux/audinux.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+You can install the real time kernel. We will be able to select at boot time the real time kernel:
+```
+$ dnf install kernel-rt-mao
+```
+This command will install the last available RT kernel (the 5.11.4.rt11 as of today).
 
-### Support or Contact
+You can install some old kernel versions like 5.10.35.rt39:
+```
+$ dnf install kernel-rt-mao-5.10.35.rt39
+```
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Before using the real time kernel, you need to fine tune /etc/secutity/limits.d/95-jack.conf.
+This file is installed by the jack-audio-connection-kit package.
+Under Fedora 34, you have the following content:
+```
+# Default limits for users of jack-audio-connection-kit
+
+@jackuser - rtprio 70
+@jackuser - memlock 4194304
+
+@pulse-rt - rtprio 20
+@pulse-rt - nice -20
+```
+
+You can add a "@jackuser - nice -20" line and comment all the @pulse-rt lines. Here is the result:
+```
+# Default limits for users of jack-audio-connection-kit
+
+@jackuser - rtprio 90
+@jackuser - memlock 4194304
+@jackuser - nice -20
+
+#@pulse-rt - rtprio 20
+#@pulse-rt - nice -20
+```
+
+And then, add yourself to the jackuser group:
+```
+# as a root user
+$ usermod -a -G jackuser <my_user_id>
+```
+
+And then log off from your session and log in again so that the changes can take effect.
+
+With the latest kernel, there is a problem with AMD/Radeon graphic cards. This is a combination of problem between the kernel graphic driver and the xorg server.
+One way to wark around this problem is to deactivate the graphic acceleration layer of xorg.
+Add a file  /etc/X11/xorg.conf.d/disable-gpu.conf with the following content:
+```
+Section "Extensions"
+    Option "GLX" "Disable"
+EndSection
+```
+
+### Links
+
+The link to the LinuxMAO COPR repository:
+https://copr.fedorainfracloud.org/coprs/ycollet/linuxmao/
+
+The github repository where you can find the specs of the RPM packages:
+https://github.com/ycollet/fedora-spec
+
+### Contact
+
+If you met a problem when using one of the package shipped by this COPR repository, feel free to fill a bug report at:
+https://github.com/ycollet/fedora-spec
