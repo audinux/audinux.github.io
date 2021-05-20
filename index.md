@@ -104,13 +104,8 @@ You must leave some unlocked memory otherwise, Rack will not be able to allocate
 
 ### Links
 
-The link to the LinuxMAO COPR repository:
-https://copr.fedorainfracloud.org/coprs/ycollet/linuxmao/
-
-The github repository where you can find the specs of the RPM packages:
-https://github.com/ycollet/fedora-spec
+[Links pages](pages/links.md)
 
 ### Contact
 
-If you met a problem when using one of the package shipped by this COPR repository, feel free to fill a bug report at:
-https://github.com/ycollet/fedora-spec
+If you met a problem when using one of the package shipped by this COPR repository, feel free to fill a bug report at the [github spec repository](https://github.com/ycollet/fedora-spec).
