@@ -1,4 +1,4 @@
-![Audinux](images/AudinuxBanner.png)
+![Audinux](../images/AudinuxBanner.png)
 
 ## Configuration of the repository
 
