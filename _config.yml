@@ -1,4 +1,4 @@
-theme: jekyll-theme-dinky
+remote_theme: audinux/dinky
 show_downloads: false
 title: Audinux
 description: A Fedora COPR repository for Audio creation
