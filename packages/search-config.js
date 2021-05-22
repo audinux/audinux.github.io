@@ -6,7 +6,7 @@ $.getJSON("search-data.json", function (json) {
 
 
   var configuration = {
-    searchableFields: ['name', 'tag', 'category', 'description'],
+    searchableFields: ['name', 'tag', 'summary', 'description'],
     sortings: {
       name_asc: {
         field: 'name',
@@ -18,16 +18,16 @@ $.getJSON("search-data.json", function (json) {
       }
     },
     aggregations: {
-      tag: {
-        title: 'Tags',
-        size: 10
-      },
       category: {
         title: 'Categories',
         size: 10
       },
       type: {
         title: 'Types',
+        size: 10
+      },
+      tag: {
+        title: 'Tags',
         size: 10
       }
     }
