@@ -20,15 +20,15 @@ $.getJSON("search-data.json", function (json) {
     aggregations: {
       category: {
         title: 'Categories',
-        size: 10
+        size: 15
       },
       type: {
         title: 'Types',
-        size: 10
+        size: 15
       },
       tag: {
         title: 'Tags',
-        size: 10
+        size: 30
       }
     }
   }
