@@ -107,6 +107,11 @@
                   (v{{ item.version }}) <a :href="item.url">{{ item.url }}</a>
                   <br />
                   <small><span style="white-space: pre-wrap;">{{ item.description }}</span></small>
+                  <div v-if="item.packages.length > 1">
+                    <small>Packages: </small><span
+                    style="font-size: 12px;   background-color: #9cfafd; border-radius: 5px; padding: 1px 3px 1px 3px; margin: 2px;"
+                    v-for="pkg in item.packages">{{ pkg }}</span>
+                  </div>
                 </td>
                 <td>
                   <span
