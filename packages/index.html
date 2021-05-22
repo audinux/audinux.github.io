@@ -1,0 +1,165 @@
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="description" content="Search Fedora Audio packages">
+  <meta name="keywords" content="Fedora, RPM, package, Linux, Audio, Plugin, Music">
+  <title>Demo Fedora Audio package faceted search</title>
+
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0/css/bootstrap.min.css">
+
+  <!-- https://vuejs.org/v2/guide/deployment.html
+    script type="text/javascript" src="https://cdn.jsdelivr.net/vue/latest/vue.js"></script 
+  -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/vue/latest/vue.min.js"></script>
+
+  <!-- see https://github.com/itemsapi/itemsjs  -->
+  <script type="text/javascript" src="https://unpkg.com/itemsjs@latest/dist/itemsjs.min.js"></script>
+
+
+</head>
+
+<body>
+  <div id="el">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#" v-on:click="reset()">Audio packages for Fedora</a>
+        </div>
+        <div id="navbar">
+          <form class="navbar-form navbar-left">
+            <div class="form-group">
+              <input type="text" v-model="query" class="form-control" placeholder="Search">
+            </div>
+          </form>
+        </div>
+        <!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container" style="margin-top: 50px;">
+
+      <h1>List of items ({{ searchResult.pagination.total }})</h1>
+
+      <div class="breadcrumbs" style="margin: 0 0 10px 0; " v-if="selected_filters.length">
+
+        <span v-for="filter in selected_filters" class="label label-default"
+          v-on:click="remove_filter(filter.facet, filter.name)" style="margin-right: 5px; cursor: pointer;">{{
+          filter.name }}
+          <span class="glyphicon glyphicon-remove"></span>
+        </span>
+
+        <span class="label label-default pull-right" v-on:click="reset()"
+          style="cursor: pointer; margin-right: 0;">Clear filters
+          <span class="glyphicon glyphicon-remove"></span>
+        </span>
+
+      </div>
+
+      <div class="clearfix"></div>
+
+      <div class="" style="margin-bottom: 10px;">
+        <select class="form-control pull-left" style="width: auto; margin-top: 0px;" v-model="sort">
+          <option disabled value="">Select sort</option>
+          <option v-for="option in sort_keys" v-bind:value="option">
+            {{ option }}
+          </option>
+        </select>
+
+        <select class="form-control pull-left" style="width: auto; margin-top: 0px; margin-left: 5px;"
+          v-model="per_page">
+          <option disabled value="">Select listing size</option>
+          <option value="50">50</option>
+          <option value="100">100</option>
+        </select>
+
+        <div class="clearfix"></div>
+      </div>
+
+      <div class="clearfix"></div>
+
+      <div class="row">
+        <div class="col-md-2 col-xs-2">
+          <div v-for="facet in searchResult.data.aggregations">
+            <h5 style="margin-bottom: 5px;"><strong style="color: #337ab7;">{{ facet.title }}</strong></h5>
+
+            <ul class="browse-list list-unstyled long-list" style="margin-bottom: 0;">
+              <li v-for="bucket in facet.buckets">
+                <div class="checkbox block" style="margin-top: 0; margin-bottom: 0;">
+                  <label>
+                    <input class="checkbox" type="checkbox" v-model="filters[facet.name]" v-bind:value="bucket.key">
+                    {{ bucket.key }} ({{ bucket.doc_count }})
+                  </label>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-10 col-xs-10">
+          <div class="breadcrumbs"></div>
+          <div class="clearfix"></div>
+          <table class="table table-striped">
+            <tbody>
+              <tr v-for="item of searchResult.data.items">
+                <td></td>
+                <td>
+                  <b>{{ item.name }}</b>: {{ item.summary }}
+                  <br />
+                  (v{{ item.version }}) <a :href="item.url">{{ item.url }}</a>
+                  <br />
+                  <span style="white-space: pre-wrap;">{{ item.description }}</span>
+                </td>
+                <td>
+                  <span
+                    style="font-size: 12px; display: block; float: left; background-color: #dff2db; border-radius: 5px; padding: 1px 3px 1px 3px; margin: 2px;"
+                    v-for="type in item.type">{{ type }}</span>
+                </td>
+                <td>
+                  <span
+                    style="font-size: 12px; display: block; float: left; background-color: #dbebf2; border-radius: 5px; padding: 1px 3px 1px 3px; margin: 2px;"
+                    v-for="tag in item.tag">{{ tag }}</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="clearfix"></div>
+        </div> 
+
+        <div class="clearfix" style="margin-bottom: 100px;"></div>
+        Draft: see <a href="https://gitlab.com/BrunoVernay/pkg-faceted-search">sources on Gitlab</a>.
+      </div>
+    </div>
+  </div> 
+
+  <!-- script type="text/javascript">
+    $.getJSON("search-data.json", function(json) {
+      console.log(json); // this will show the info it in firebug console
+      var rows = json
+  });
+  </script -->
+  <script type="text/javascript" src="search-config.js"></script>
+
+  <script>
+    let allLines = []
+
+    window.addEventListener("message", (message) => {
+      if (message.data.console) {
+        let insert = document.querySelector("#insert")
+        allLines.push(message.data.console.payload)
+        insert.innerHTML = allLines.join(";\r")
+
+        let result = eval.call(null, message.data.console.payload)
+        if (result !== undefined) {
+          console.log(result)
+        }
+      }
+    }) 
+  </script>
+
+
+</body>
+
+</html>

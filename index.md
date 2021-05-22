@@ -12,6 +12,8 @@ For some informations related to VCV Rack, have a look at this [page](pages/vcvr
 
 Some interesting links are shared on this [page](pages/links.md).
 
+You can access a search engine to find the package you want here: [search engine](packages/index.html)
+
 ### Contact
 
 If you met a problem when using one of the package shipped by this COPR repository, feel free to fill a bug report at the [github spec repository](https://github.com/ycollet/fedora-spec).
