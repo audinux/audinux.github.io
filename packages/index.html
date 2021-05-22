@@ -103,8 +103,7 @@
               <tr v-for="item of searchResult.data.items">
                 <td></td>
                 <td>
-                  <b>{{ item.name }}</b>: {{ item.summary }}
-                  <br />
+                  <h5>{{ item.name }} <small class="text-muted fs-6">{{ item.summary }}</small></h5>       
                   (v{{ item.version }}) <a :href="item.url">{{ item.url }}</a>
                   <br />
                   <small><span style="white-space: pre-wrap;">{{ item.description }}</span></small>
