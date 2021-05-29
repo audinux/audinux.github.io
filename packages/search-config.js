@@ -53,7 +53,7 @@ $.getJSON("search-data.json", function (json) {
         selected_filters: [],
         sort_keys: Object.keys(configuration.sortings),
         sort: '',
-        per_page: 50
+        per_page: 100
       }
     },
     methods: {
