@@ -20,7 +20,7 @@
   <!-- see https://github.com/itemsapi/itemsjs  -->
   <script type="text/javascript" src="https://unpkg.com/itemsjs@latest/dist/itemsjs.min.js"></script>
 
-
+ 
 </head>
 
 <body>
@@ -42,7 +42,7 @@
         <div class="col-auto ">
           <h1>Audio/Music packages for Fedora ({{ searchResult.pagination.total }})</h1>
         </div>
-        <div class="col-3">
+        <div class="col-4">
           <form>
             <div class="form-group">
               <input type="text" v-model="query" class="form-control" placeholder="Search">
@@ -52,7 +52,7 @@
       </div>
       <div class="row  justify-content-between" style="margin-bottom: 10px;">
         <div class="col-md-auto">
-          <select class="form-control" style="width: auto; margin-top: 0px;" v-model="sort">
+          <select class="form-select" style="width: auto; margin-top: 0px;" v-model="sort">
             <option disabled value="">Select sort</option>
             <option v-for="option in sort_keys" v-bind:value="option">
               {{ option }}
@@ -60,8 +60,9 @@
           </select>
         </div>
         <div class="col-md-auto">
-          <select class="form-control" style="width: auto; margin-top: 0px; margin-left: 5px;" v-model="per_page">
+          <select class="form-select" style="width: auto; margin-top: 0px; margin-left: 5px;" v-model="per_page">
             <option disabled value="">Select listing size</option>
+            <option value="50">20</option>
             <option value="50">50</option>
             <option value="100">100</option>
           </select>
