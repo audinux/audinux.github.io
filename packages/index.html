@@ -20,7 +20,14 @@
   <!-- see https://github.com/itemsapi/itemsjs  -->
   <script type="text/javascript" src="https://unpkg.com/itemsjs@latest/dist/itemsjs.min.js"></script>
 
- 
+  <style>
+    @import url("https://fonts.googleapis.com/css?family=Arvo:400,700,400italic");
+ .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #c30000 !important;
+    border-color: #da2929 !important;
+    font-weight: bold;
+}
+    </style>
 </head>
 
 <body>
@@ -28,7 +35,8 @@
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="/">Audinux</a>
+          <a class="navbar-brand" href="/"><img src="/images/AudinuxBanner.png" alt="Audinux" width="650" /></a>
+          
         </div>
         <div id="navbar">
 
@@ -40,7 +48,7 @@
     <div class="container" style="margin-top: 30px;">
       <div class="row  align-items-end justify-content-between" style="margin-bottom: 10px;">
         <div class="col-auto ">
-          <h1>Audio/Music packages for Fedora ({{ searchResult.pagination.total }})</h1>
+          <h1 style="font-family: Arvo, Monaco, serif;">Audio/Music packages for Fedora ({{ searchResult.pagination.total }})</h1>
         </div>
         <div class="col-4">
           <form>
@@ -82,7 +90,7 @@
       <div class="row">
         <div class="col-md-2 col-xs-2">
           <div v-for="facet in searchResult.data.aggregations">
-            <h5 style="margin-bottom: 5px;"><strong style="color: #337ab7;">{{ facet.title }}</strong></h5>
+            <h5 style="margin-bottom: 5px;"><strong style="color: #c30000;">{{ facet.title }}</strong></h5>
 
             <ul class="browse-list list-unstyled long-list " style="margin-bottom: 20;">
               <li v-for="bucket in facet.buckets">
