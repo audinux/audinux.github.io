@@ -14,7 +14,7 @@ Some interesting links are shared on this [page](pages/links.md).
 
 You can access a search engine to find the package you want here: [search engine](packages/index.html)
 
-Some documents (slides, other ressources) for Linux and audio workshops: [workshops](packages/workshops.html)
+Some documents (slides, other ressources) for Linux and audio workshops: [workshops](pages/workshops.html)
 
 ### Contact
 
