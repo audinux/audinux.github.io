@@ -50,34 +50,26 @@
         <div class="col-auto ">
           <h1 style="font-family: Arvo, Monaco, serif;">Audio/Music packages for Fedora ({{ searchResult.pagination.total }})</h1>
         </div>
-        <div class="col-4">
-          <form>
-            <div class="form-group">
-              <input type="text" v-model="query" class="form-control" placeholder="Search">
-            </div>
-          </form>
-        </div>
       </div>
-      <div class="row  justify-content-between" style="margin-bottom: 10px;">        
-        <div class="col-md-auto">
-          <select class="form-select" style="width: auto; margin-top: 0px; margin-left: 5px;" v-model="per_page">
-            <option disabled value="">Select listing size</option>
-            <option value="20">20</option>
-            <option value="50">50</option>
-            <option value="100">100</option>
-            <option value="500">500</option>
-          </select>
-        </div>
+      <div class="row" style="margin-bottom: 10px;">                
+        
         <div class="col">
           <button type="button" class="btn btn-primary btn-sm" style="margin: 5;" v-for="filter in selected_filters"
             v-on:click="remove_filter(filter.facet, filter.name)">{{ filter.name }}
             <span class="fa fa-remove"></span></button>
         </div>
         <div class="col-3">
+          <form>
+            <div class="form-group">
+              <input type="text" v-model="query" class="form-control" placeholder="Search">
+            </div>
+          </form>
+        </div>
+        <div class="col-3">
           <button type="button" class="btn btn-primary btn-sm" style="margin: 5;" v-on:click="reset()">Clear filters
             <span class="fa fa-remove"></span></button>
-
         </div>
+
       </div>
 
       <div class="row">

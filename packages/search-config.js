@@ -43,7 +43,7 @@ $.getJSON("search-data.json", function (json) {
         selected_filters: [],
         sort_keys: [],
         sort: '',
-        per_page: 100
+        per_page: 500
       }
     },
     methods: {
