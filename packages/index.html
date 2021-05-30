@@ -122,24 +122,6 @@
 
   <script type="text/javascript" src="search-config.js"></script>
 
-  <script>
-    let allLines = []
-
-    window.addEventListener("message", (message) => {
-      if (message.data.console) {
-        let insert = document.querySelector("#insert")
-        allLines.push(message.data.console.payload)
-        insert.innerHTML = allLines.join(";\r")
-
-        let result = eval.call(null, message.data.console.payload)
-        if (result !== undefined) {
-          console.log(result)
-        }
-      }
-    })
-  </script>
-
-
 </body>
 
 </html>
