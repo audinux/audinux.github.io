@@ -7,16 +7,6 @@ $.getJSON("search-data.json", function (json) {
 
   var configuration = {
     searchableFields: ['name', 'tag', 'summary', 'description'],
-    sortings: {
-      name_asc: {
-        field: 'name',
-        order: 'asc'
-      },
-      name_desc: {
-        field: 'name',
-        order: 'desc'
-      }
-    },
     aggregations: {
       category: {
         title: 'Categories',
@@ -51,7 +41,7 @@ $.getJSON("search-data.json", function (json) {
         // initializing filters with empty arrays
         filters: filters,
         selected_filters: [],
-        sort_keys: Object.keys(configuration.sortings),
+        sort_keys: [],
         sort: '',
         per_page: 100
       }
@@ -95,6 +85,20 @@ $.getJSON("search-data.json", function (json) {
             })
           }
         }
+
+        result.data.items.sort(function(a, b) {
+          var nameA = a.name.toUpperCase(); // ignore upper and lowercase
+          var nameB = b.name.toUpperCase(); // ignore upper and lowercase
+          if (nameA < nameB) {
+            return -1;
+          }
+          if (nameA > nameB) {
+            return 1;
+          }
+        
+          // names must be equal
+          return 0;
+        })
 
         return result
       }

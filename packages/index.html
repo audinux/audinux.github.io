@@ -58,15 +58,7 @@
           </form>
         </div>
       </div>
-      <div class="row  justify-content-between" style="margin-bottom: 10px;">
-        <div class="col-md-auto">
-          <select class="form-select" style="width: auto; margin-top: 0px;" v-model="sort">
-            <option disabled value="">Select sort</option>
-            <option v-for="option in sort_keys" v-bind:value="option">
-              {{ option }}
-            </option>
-          </select>
-        </div>
+      <div class="row  justify-content-between" style="margin-bottom: 10px;">        
         <div class="col-md-auto">
           <select class="form-select" style="width: auto; margin-top: 0px; margin-left: 5px;" v-model="per_page">
             <option disabled value="">Select listing size</option>
