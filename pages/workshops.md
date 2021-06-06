@@ -26,3 +26,15 @@ And some various files on some interest for Audio and Linux: [ZIP](../workshop/D
 * kernel-advice-and-resources.odp
 * Presentation_gnulinux2013.odp
 * UsingImpro-Visor.pdf
+
+Another file: [ZIP](http://ycollette.free.fr/Guitare/Ressources.zip)
+* Some demos audio files (emblematic electronic music)
+* AES_Latency.pdf
+* A small documentary about Live Coding: 'Arte Tracks - Live coding and algorave
+* An article about Sonic Pi
+* Some LMMS examples files
+* Some Tracker files
+* A refcard about Pure Data
+* A QTractor user manual
+* A refcard about SuperCollider
+* A tutorial about TuxGuitar
