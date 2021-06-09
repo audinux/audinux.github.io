@@ -2,6 +2,8 @@
 
 ## Workshops
 
+### Audio
+
 Description | link
 ----------- | ----
 Some slides related to ALSA Modular Synth | [PDF](../workshop/AMS.pdf), [ODP](../workshop/AMS.odp)
@@ -38,3 +40,14 @@ Another file: [ZIP](http://ycollette.free.fr/Guitare/Ressources.zip)
 * A QTractor user manual
 * A refcard about SuperCollider
 * A tutorial about TuxGuitar
+
+### Build / Packaging
+
+Description | link
+----------- | ----
+CMake tutorial | [PDF](../workshop/cmake/cmake.pdf), [ODP](../workshop/cmake/cmake.odp)
+DEB packaging tutorial | [PDF](../workshop/deb/deb.pdf), [ODP](../workshop/deb/deb.odp)
+RPM packaging tutorial | [PDF](../workshop/rpm/rpm.pdf), [ODP](../workshop/rpm/rpm.odp)
+
+Resources for the CMake tutotial: [ZIP](../workshop/cmake/CMakeResources.zip)
+Resources for the RPM tutotial: [ZIP](../workshop/rpm/RPMResources.zip)
