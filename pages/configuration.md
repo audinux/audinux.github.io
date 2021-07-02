@@ -32,7 +32,7 @@ $ dnf install kernel-rt-mao-5.10.35.rt39
 
 ### Configuring the system
 
-Before using the real time kernel, you need to fine tune /etc/secutity/limits.d/95-jack.conf.
+Before using the real time kernel, you need to fine tune /etc/security/limits.d/95-jack.conf.
 This file is installed by the jack-audio-connection-kit package.
 Under Fedora 34, you have the following content:
 ```
