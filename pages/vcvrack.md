@@ -4,13 +4,14 @@
 
 To get all the available rack plugins:
 ```
-$ dnf search --repoid=ycollet-linuxmao rack | grep ^rack | grep -v "\.src" | cut -d":" -f1
+$ dnf search --repoid=copr:copr.fedorainfracloud.org:ycollet:linuxmao rack | grep ^rack- | grep -v "\.src" | cut -d":" -f1
 ```
+
 
 To install Rack and all the rack plugins:
 ```
 $ dnf install Rack
-$ dnf install `dnf search --repoid=ycollet-linuxmao rack | grep ^rack | grep -v "\.src" | cut -d":" -f1`
+$ dnf install `dnf search --repoid=copr:copr.fedorainfracloud.org:ycollet:linuxmao rack | grep ^rack- | grep -v "\.src" | cut -d":" -f1`
 ```
 
 To avoid a crash when using the jack audio interface of rack, don't put "unlimited" in /etc/security/limits.d/95-jack.conf.
