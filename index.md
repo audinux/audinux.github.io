@@ -10,6 +10,8 @@ If you want some informations related to the configuration of this repository, h
 
 For some informations related to VCV Rack, have a look at this [page](pages/vcvrack.md).
 
+For some articles related to audio, have a look at this [page](articles/articles.md).
+
 Some interesting links are shared on this [page](pages/links.md).
 
 You can access a search engine to find the package you want here: [search engine](packages/index.html)
