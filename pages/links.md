@@ -2,7 +2,9 @@
 
 ## Links
 
-The link to the [LinuxMAO COPR repository](https://copr.fedorainfracloud.org/coprs/ycollet/linuxmao/)
+[Audinux COPR repository](https://copr.fedorainfracloud.org/coprs/ycollet/audinux/)
 
-The [github repository](https://github.com/ycollet/fedora-spec) where you can find the specs of the RPM packages:
+[Old LinuxMAO COPR repository](https://copr.fedorainfracloud.org/coprs/ycollet/linuxmao/)
+
+The [github repository](https://github.com/audinux/fedora-spec) where you can find the specs of the RPM packages:
 
