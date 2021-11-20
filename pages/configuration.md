@@ -5,17 +5,18 @@
 ### Installing the repository
 
 To install this repo, as a root user, enter the following command:
-```
-$ dnf copr enable ycollet/linuxmao
-```
+- Fedora 35: `$ dnf copr enable ycollet/audinux`
+- Fedora 33, 34: `$ dnf copr enable ycollet/linuxmao`
+
 To list all the package provided by this repo (you must enable the repo before):
 ```
 $ dnf list --available | grep ycollet
 ```
+
 To list the last 20 updated packages:
-```
-$ dnf repoquery --repoid=ycollet-linuxmao --queryformat "%45{name} %{evr} %{buildtime}" | sort -r -k3 | head --lines=20
-```
+- Fedora 35: `$ dnf repoquery --repoid=copr:copr.fedorainfracloud.org:ycollet:audinux --queryformat "%45{name} %{evr} %{buildtime}" | sort -r -k3 | head --lines=20`
+- Fedora 33, 34: `$ dnf repoquery --repoid=ycollet-linuxmao --queryformat "%45{name} %{evr} %{buildtime}" | sort -r -k3 | head --lines=20`
+
 
 ### Installing the real time kernel
 
