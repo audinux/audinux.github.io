@@ -22,4 +22,4 @@ Some documents (slides, other ressources) for Linux and audio workshops: [worksh
 
 ### Contact
 
-If you met a problem when using one of the package shipped by this COPR repository, feel free to fill a bug report at the [github spec repository](https://github.com/ycollet/fedora-spec).
+If you met a problem when using one of the package shipped by this COPR repository, feel free to fill a bug report at [github spec repository](https://github.com/audinux/fedora-spec).
