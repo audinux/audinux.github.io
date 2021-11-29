@@ -8,6 +8,8 @@ LinuxMAO (Audinux soon) is a Fedora based repository dedicated to audio tools.
 
 If you want some informations related to the configuration of this repository, have a look at this [page](pages/configuration.md).
 
+News related to the life of the repository: check this [page](pages/news.md).
+
 For some informations related to VCV Rack, have a look at this [page](pages/vcvrack.md).
 
 For some articles related to audio, have a look at this [page](articles/articles.md).
