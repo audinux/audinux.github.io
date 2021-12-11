@@ -2,8 +2,20 @@
 
 ## News
 
-### New of october 2021
+### News of december 2021
+Various updates to packages:
+* new packages:
 
+* updated packages:
+  * kernel-rt-mao was updated to 5.15.7-rt23
+  * kernel-rt-stable-mao was updated to 5.10.83-rt58
+  * JUCE was updated to 6.1.3
+  * hydrogen was updated to 1.1.1
+  * stargate was updated to 21.12.1
+  * Various fixed related to tracker packages: protrekkr (hangs because of lxml update), goattracker, mammut, plebtracker and zytrax
+  * airwindows has been updated too
+
+### News of november 2021
 Various updates to packages:
 * new packages:
   * 2 new packages related to Akai pieces of gear:
@@ -12,7 +24,9 @@ Various updates to packages:
   * A new package to add LiVes master version has been added. This packaged will be updated once a month with a compilable master version of LiVes
   * A new LV2 synth has been added: zynayumi. It emulates an old chiptune synth
   * A new package has been added: tangamp a LV2 amplifier
+
 * updated packages:
+  * mpk-m2-editor has been fixed. There was a conflict with Ray Session. Once mpk-m2-editor was installed, Ray Session stopped working.
   * as usual, several VCVRack plugins packages have been updated. Normally, by the end of the month, the version 2 of VCVRack should be out
   * Airwindows too saw some periodic updates. Normally, airwindows is updated upstream once a week with, most of the time, a new plugin
   * lebiniou has been updated to the last version: 3.64.3
