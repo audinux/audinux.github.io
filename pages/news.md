@@ -14,6 +14,8 @@ Various updates to packages:
   * stargate was updated to 21.12.1
   * Various fixed related to tracker packages: protrekkr (hangs because of lxml update), goattracker, mammut, plebtracker and zytrax
   * airwindows has been updated too
+  * din has been updated to version 52
+  * Rack is currently updated to version 2. Rack v1 and Rack v2 will be useable in parallel.
 
 ### News of november 2021
 Various updates to packages:
