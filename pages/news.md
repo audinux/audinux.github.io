@@ -2,21 +2,74 @@
 
 ## News
 
+### News of january 2022
+Various updates to packages:
+* new packages:
+  * famitracker has been added to the repository
+  * vamp nnls-chroma plugins has been added to the repository
+  * vamp bbc-vamp-plugins has been added to the repository
+  * vamp beatroot-vamp has been added to the repository
+  * vamp cepstral-pitchtracker has been added to the repository
+  * vamp cqvamp has been added to the repository
+  * vamp match-vamp  has been added to the repository
+  * vamp miredu has been added to the repository
+  * vamp ofa-vamp-plugin has been added to the repository
+  * vamp pyin has been added to the repository
+
+* updated packages:
+  * stargate has been updated to 22.01.1
+  * kernel-rt-mao was updated to 5.15.14-rt27
+  * kernel-rt-stable-mao was updated to 5.10.90-rt60
+  * amsynth has been updated to 1.12.4
+  * some rack v2 plugins have been updated
+  * geonkick has been updated to 2.8.1
+  * fasttracker has been updated to 1.50
+  * protracker has been updated to 1.39
+  * sonobus has been updated to 1.4.9
+  * bipscript has been updated to 0.15
+  * Ray Session has been updated to 0.12.2
+  * yabridge has been updated to 3.8.0
+  * sfizz has been updated to 1.2.0
+  * DISTRHO plugins has been added back
+  * hydrogen-drumkits has been added back
+  * fverb has been added back
+
 ### News of december 2021
 Various updates to packages:
 * new packages:
-
+  * Rack v2 is now in the repository
+  * psindustrializer is now in the repository
+  * sfxr is now in the repository
+  * monique-monosynth is now in the repository
+  * lives-mao is now in the repository
+  
 * updated packages:
-  * kernel-rt-mao was updated to 5.15.7-rt23
-  * kernel-rt-stable-mao was updated to 5.10.83-rt58
+  * kernel-rt-mao was updated to 5.15.12-rt25
+  * kernel-rt-stable-mao was updated to 5.10.87-rt59
   * JUCE was updated to 6.1.3
   * hydrogen was updated to 1.1.1
-  * stargate was updated to 21.12.1
+  * stargate was updated to 21.12.3
   * Various fixed related to tracker packages: protrekkr (hangs because of lxml update), goattracker, mammut, plebtracker and zytrax
-  * airwindows has been updated too
+  * airwindows has been updated too last master
   * din has been updated to version 52
   * Rack is currently updated to version 2. Rack v1 and Rack v2 will be useable in parallel.
-
+  * din as been updated to 52.0
+  * improviz has been updated to 1.0.2
+  * fasttracker has been updated to 1.49
+  * Ray Session has been updated to 0.12.2
+  * JUCE has been updated to 6.1.4
+  * lsp-plugins has been updated to 1.1.31
+  * ChowMatrix has been updated to 1.3.0
+  * AnalogTapeModel has been updated to 2.10.0
+  * pure-data has been updated to 0.52.0
+  * linux-show-player has been updated to 0.5.3
+  * protracker2 has been updated to 1.38
+  * lebiniou has been updated to 3.64.0
+  * amsynth has been updated to 1.12.3
+  * jacktrip has been updated to 1.3.0
+  * non-daw and ntk has been fixed
+  * BespokeSynth has been updated to 1.1.0
+  
 ### News of november 2021
 Various updates to packages:
 * new packages:
