@@ -5,6 +5,18 @@
 ### News of january 2022
 Various updates to packages:
 * new packages:
+  * suge-xt 1.0 has been added to the repository
+  * vamp-aubio-plugins have been added to the repository
+  * ua-vamp-plugin vamp plugins have been added to the repository
+  * azi vamp plugins have been added to the repository
+  * tuning-differences vamp plugins have been added to the repository
+  * tipic vamp plugins have been added to the repository
+  * vamp tempogram vamp plugins have been added to the repository
+  * vamp-simple-cepstrum vamp plugins have been added to the repository
+  * silvet vamp plugins have been added to the repository
+  * sigmentino vamp plugins have been added to the repository
+  * qm-vam-plugin vamp plugins have been added to the repository
+  * tsunami has beed added to the repository
   * famitracker has been added to the repository
   * vamp nnls-chroma plugins has been added to the repository
   * vamp bbc-vamp-plugins has been added to the repository
@@ -17,6 +29,13 @@ Various updates to packages:
   * vamp pyin has been added to the repository
 
 * updated packages:
+  * konfyt has been updated to 1.1.7
+  * kernel rt have been updated to 5.16.2-rt19. Be careful, there are some problem with some usb audio cards (like the FocusRite ones) during JACK playback. Still not fixed on 5.16 branch.
+  * schismtracker has been updated to 20220125
+  * padthv1 has been updated to 0.9.24
+  * spectmorph has been updated to 0.5.2
+  * traverso has been updated to the last master version
+  * JUCE has been updated to 6.1.5
   * stargate has been updated to 22.01.1
   * kernel-rt-mao was updated to 5.15.14-rt27
   * kernel-rt-stable-mao was updated to 5.10.90-rt60
