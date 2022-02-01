@@ -2,6 +2,17 @@
 
 ## News
 
+### News of february 2022
+Various updates to packages:
+* new packages:
+  * fat1 auto tuner has been added to the repository
+  * mclk midi clock plugin has been added to the repository
+  * lv2-harmonizer for voice has been added to the repository
+
+* updated packages:
+  * airwindows has been updated to last master.
+  * stargate has been updated to 22.02.1
+
 ### News of january 2022
 Various updates to packages:
 * new packages:
