@@ -2,6 +2,48 @@
 
 ## News
 
+### News of march 2022
+Various updates to packages:
+* new packages:
+  * furnace has been added to the repository
+  * aether has been added to the repository
+  * rezound has been added to the repository
+  * delayarchitect has been added to the repository
+  * jamesdsp has been added to the repository
+  * vocproc has been added to the reporitory
+  * tiatracker has been added to the repository
+  * komposter has been added to the repository
+  * freqalizer has been added to the repository
+  
+* updated packages:
+  * yabridge has been updated to 3.8.1 and fixed
+  * lsp-plugins has been updated to 1.2.0
+  * kernel-rt-mao has been updated to 5.15.31.rt38
+  * ossia-score has been updated to 3.0.6
+  * some rack plugins have been updated
+  * seq42 has been updated to 2.1.0
+  * airwindows has been updated
+  * lebiniou has been updated to 3.66.0
+  * rivendell has been updated to 3.6.5
+  * protracker has been updated to 1.43
+  * kernel-rt-stable-mao has been updated to 5.10.106.rt64
+  * element has been updated to 0.46.4
+  * bipscript has been updated to 0.16
+  * polyphone has been updated to 2.3.0
+  * librearp has been updated to 2.3
+  * stargate has been updated to 22.03
+  * JUCE has been updated to 6.1.6
+  * fasttracker has been updated to 1.52
+  * gxplugins has been updated to 0.9
+  * jamulus has been updated to 3.8.2
+  * geonkick has been update to 2.9.0
+  * sendmidi has been updated to 1.1.0
+  * receivemidi has been updated to 1.2.0
+  * cardinal has been updated to 22.02
+  * mandelbulber has been updated to 2.27
+  * lenmus has been updated to 6.0.0
+  * ninjas2 has been updated to 0.2.0
+  
 ### News of february 2022
 Various updates to packages:
 * new packages:
