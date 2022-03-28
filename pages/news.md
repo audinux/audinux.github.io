@@ -14,7 +14,8 @@ Various updates to packages:
   * tiatracker has been added to the repository
   * komposter has been added to the repository
   * freqalizer has been added to the repository
-  
+  * ykchorus has been added to the repository
+
 * updated packages:
   * yabridge has been updated to 3.8.1 and fixed
   * lsp-plugins has been updated to 1.2.0
