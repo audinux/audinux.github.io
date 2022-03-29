@@ -2,6 +2,8 @@
 
 ## News
 
+Work will start soon on Fedora 36. The beta version of Fedora 36 has just been annonced !
+
 ### News of march 2022
 Various updates to packages:
 * new packages:
