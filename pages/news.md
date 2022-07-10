@@ -4,6 +4,81 @@
 
 Work will start soon on Fedora 36. The beta version of Fedora 36 has just been annonced !
 
+### News of july 2022
+* new packages:
+  * powertabeditor has been added to the repository
+  
+* updated packages:
+  * various update of rack plugins
+  * xuidesigner has been updated to 0.4
+
+
+### News of june 2022
+* new packages:
+  * chordv has been added to the repository
+  * alsa-scarlett-gui has been added to the repository
+  * fire plugin has been added to the repository
+  * HISE has been added to the repository
+  * rt-tests has been updated to 2.4
+
+* updated packages:
+  * various update of rack plugins
+  * openboard has been updated to 1.6.3
+  * odin2 has been updated to 2.3.3
+  * fasttracker2 has been updated to 1.55
+  * rakarrack-plus has been updated to 1.2.2
+  * JUCE has been updated to 7.0.0
+  * JUCE 6.1 has been updated to 6.1.6
+  * lv2-noise-repellent has been updated to 0.2.3
+  * ossia-core has been updated to 3.0.9
+  * element has been updated to 0.46.6
+  * airwindows has been updated
+  * yabridge has been updated to 4.0.1
+  * plugdata has been updated to 0.5.3
+  * kernel-rt has been updated to 5.15.49-rt47
+  
+### News of may 2022
+* new packages:
+  * gula has been added to the repository
+  * shortcircuit has been added to the repository
+  
+* updated packages:
+  * various update of rack plugins
+  * aeolus has been updated to 0.10.4
+  * geonkick has been updated to 2.9.1
+  * protracker2 has been updated to 1.49
+  * kernel-rt-stable has been updated to 5.10.115-rt67
+  * kernel-rt has been updated to 5.15.44-rt46
+  
+### News of april 2022
+* new packages:
+  * wavbreaker has been added to the repository
+  * radium-compressor has been added to the repository
+  * aether has been added to the repository
+  * lv2-metaltone has been added to the repository
+  * lv2-noise-repellent has been added to the repository
+  * A package carla-mao has beed added to the repository. It's the official Carla package plus the activation of the windows bridge.
+  * plugdata has been added to the repository (a plugin version of pure-data)
+  
+* updated packages:
+  * various update of rack plugings
+  * Cardinal has been updated to 22.04
+  * prottracker2 has been updated to 1.46
+  * airwindows has been updated
+  * fasttracker2 has been updated to 1.53
+  * lpdeditor has been updated to 0.0.16
+  * xjadeo has been updated to 0.8.11
+  * snd has been updated to 22.2
+  * seq42 has been updated to 2.1.1
+  * rakarrack-plus has been updated to 1.2.1
+  * mamba has been updated to 2.3
+  * harvid has been updated to 0.9.0
+  * kernel-rt has been updated to 5.17.1-rt17
+  * sonobus has been updated to 1.5.1
+  * kernel-rt has been updated to 5.15.36-rt41
+  * aeolus has been updated to 0.10.1
+  * LinVST has been updated to 4.76
+  
 ### News of march 2022
 Various updates to packages:
 * new packages:
