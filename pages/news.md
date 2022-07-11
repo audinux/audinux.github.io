@@ -7,7 +7,8 @@ Work will start soon on Fedora 36. The beta version of Fedora 36 has just been a
 ### News of july 2022
 * new packages:
   * powertabeditor has been added to the repository
-  
+  * GuitarMidi-LV2 has been added to the repository
+
 * updated packages:
   * various update of rack plugins
   * xuidesigner has been updated to 0.4
