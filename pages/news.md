@@ -2,7 +2,8 @@
 
 ## News
 
-Work will start soon on Fedora 36. The beta version of Fedora 36 has just been annonced !
+Fedora 34 has reach end of life. The LinuxMAO is no more updated and will be disabled soon.
+Since Fedora 35, the repository is called Audinux (due to a conflict with the website linuxmao.org).
 
 ### News of july 2022
 * new packages:
@@ -12,7 +13,8 @@ Work will start soon on Fedora 36. The beta version of Fedora 36 has just been a
 * updated packages:
   * various update of rack plugins
   * xuidesigner has been updated to 0.4
-
+  * protracker has been updated to 1.50
+  * fasttracker has been updated to 1.56
 
 ### News of june 2022
 * new packages:
