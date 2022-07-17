@@ -9,8 +9,10 @@ Since Fedora 35, the repository is called Audinux (due to a conflict with the we
 * new packages:
   * powertabeditor has been added to the repository
   * GuitarMidi-LV2 has been added to the repository
-
+  * RoomReverb has been added to the repository
+  
 * updated packages:
+  * Carla-mao has been updated to 2.5.0
   * various update of rack plugins
   * xuidesigner has been updated to 0.4
   * protracker has been updated to 1.50
