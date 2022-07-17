@@ -15,6 +15,12 @@ Since Fedora 35, the repository is called Audinux (due to a conflict with the we
   * xuidesigner has been updated to 0.4
   * protracker has been updated to 1.50
   * fasttracker has been updated to 1.56
+  * mandelbulber2 has been updated to 2.28
+  * stargate has been updated to 22.07.1
+  * Carla-mao has been updated to 2.4.4
+  * kernel-rt-stable-mao has been updated to 5.10.131-rt72
+  * cardinal 22.07.1
+  * some rack plugins has been updated
 
 ### News of june 2022
 * new packages:
