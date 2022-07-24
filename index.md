@@ -2,22 +2,20 @@
 
 ## Welcome to Audinux website
 
-### Presentation
+**Audinux** (formerly LinuxMAO) is a Fedora-based repository dedicated to audio tools.
 
-LinuxMAO (Audinux soon) is a Fedora based repository dedicated to audio tools.
+### Using Audinux
 
-If you want some informations related to the configuration of this repository, have a look at this [page](pages/configuration.md).
+- [Installing and configuring Audinux](pages/configuration.md)
+- [Search packages](packages/index.html)
+- [Installing VCV Rack and plugins](pages/vcvrack.md)
+- [Related links](pages/links.md)
 
-For some informations related to VCV Rack, have a look at this [page](pages/vcvrack.md).
+### Other information
 
-For some articles related to audio, have a look at this [page](articles/articles.md).
-
-Some interesting links are shared on this [page](pages/links.md).
-
-You can access a search engine to find the package you want here: [search engine](packages/index.html)
-
-Some documents (slides, and other ressources) for Linux and audio workshops: [workshops](pages/workshops.html)
+- [Articles about audio and music creation](articles/articles.md)
+- [Some documents (slides, and other ressources) for Linux and audio workshops](pages/workshops.html)
 
 ### Contact
 
-If you met a problem when using one of the package shipped by this COPR repository, feel free to fill a bug report at [github spec repository](https://github.com/audinux/fedora-spec).
+If you find a problem when using one of the packages shipped by this COPR repository, feel free to file a bug report at the [GitHub spec repository](https://github.com/audinux/fedora-spec).
