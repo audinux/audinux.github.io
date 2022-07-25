@@ -7,11 +7,14 @@ Since Fedora 35, the repository is called Audinux (due to a conflict with the we
 
 ### News of july 2022
 * new packages:
-  * powertabeditor has been added to the repository
-  * GuitarMidi-LV2 has been added to the repository
-  * RoomReverb has been added to the repository
+  * powertabeditor
+  * GuitarMidi-LV2
+  * RoomReverb
+  * remid
   
 * updated packages:
+  * Cardinal has been fixed
+  * libquisfz has been updated to 0.3.1
   * Carla-mao has been updated to 2.5.0
   * various update of rack plugins
   * xuidesigner has been updated to 0.4
@@ -23,7 +26,12 @@ Since Fedora 35, the repository is called Audinux (due to a conflict with the we
   * kernel-rt-stable-mao has been updated to 5.10.131-rt72
   * cardinal 22.07.1
   * some rack plugins has been updated
-
+  * yabridge has been added back to the repository.
+  * wineasio has been added back to the repository.
+  * ossia score has been updated to 3.0.12
+  * the vamp plugins have been cleaned up
+  * BambooTracker has been updated to 0.5.1
+  
 ### News of june 2022
 * new packages:
   * chordv has been added to the repository
