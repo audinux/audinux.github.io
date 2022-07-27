@@ -11,7 +11,10 @@ Since Fedora 35, the repository is called Audinux (due to a conflict with the we
   * GuitarMidi-LV2
   * RoomReverb
   * remid
-  
+  * neothesia
+  * BYOD
+  * rack-v2-skjack (first class jack module for VCV Rack 2)
+
 * updated packages:
   * Cardinal has been fixed
   * libquisfz has been updated to 0.3.1
@@ -31,7 +34,8 @@ Since Fedora 35, the repository is called Audinux (due to a conflict with the we
   * ossia score has been updated to 3.0.12
   * the vamp plugins have been cleaned up
   * BambooTracker has been updated to 0.5.1
-  
+  * yabridge has been fixed
+
 ### News of june 2022
 * new packages:
   * chordv has been added to the repository
