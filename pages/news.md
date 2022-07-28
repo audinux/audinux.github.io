@@ -14,6 +14,7 @@ Since Fedora 35, the repository is called Audinux (due to a conflict with the we
   * neothesia
   * BYOD
   * rack-v2-skjack (first class jack module for VCV Rack 2)
+  * rack-v1-skjack (first class jack module for VCV Rack 1)
 
 * updated packages:
   * Cardinal has been fixed
