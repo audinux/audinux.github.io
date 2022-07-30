@@ -18,7 +18,7 @@ Since Fedora 35, the repository is called Audinux (due to a conflict with the we
 
 * updated packages:
   * Cardinal has been fixed
-  * libquisfz has been updated to 0.3.1
+  * Libquisfz has been updated to 0.3.1
   * Carla-mao has been updated to 2.5.0
   * various update of rack plugins
   * xuidesigner has been updated to 0.4
@@ -36,6 +36,7 @@ Since Fedora 35, the repository is called Audinux (due to a conflict with the we
   * the vamp plugins have been cleaned up
   * BambooTracker has been updated to 0.5.1
   * yabridge has been fixed
+  * jamulus has been updated to 3.9.0
 
 ### News of june 2022
 * new packages:
