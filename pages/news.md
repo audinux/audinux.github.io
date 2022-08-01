@@ -37,6 +37,7 @@ Since Fedora 35, the repository is called Audinux (due to a conflict with the we
   * BambooTracker has been updated to 0.5.1
   * yabridge has been fixed
   * jamulus has been updated to 3.9.0
+  * kernel-rt updated to 5.15.55.rt48
 
 ### News of june 2022
 * new packages:
