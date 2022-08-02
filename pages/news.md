@@ -5,6 +5,18 @@
 Fedora 34 has reach end of life. The LinuxMAO is no more updated and will be disabled soon.
 Since Fedora 35, the repository is called Audinux (due to a conflict with the website linuxmao.org).
 
+### News of august 2022
+* new packages:
+  * stretcher (from clearly-broken github repository)
+  * uprising (from clearly-broken github repository)
+  * punch (from clearly-broken github repository)
+  * boomer (from clearly-broken github repository)
+  * soundboard (from clearly-broken github repository)
+
+* updated packages:
+  * kernel-rt-mao	has been updated to 5.15.55.rt48
+  * Various Rack plugins have been updated
+
 ### News of july 2022
 * new packages:
   * powertabeditor
