@@ -16,6 +16,13 @@ Since Fedora 35, the repository is called Audinux (due to a conflict with the we
 * updated packages:
   * kernel-rt-mao	has been updated to 5.15.55.rt48
   * Various Rack plugins have been updated
+  * XUIDesigner has been updated to 0.5
+  * Odein2 has been updated to 2.3.4
+  * schismtracker has been updated to 20220807
+  * Surge XT hqs been updated to 1.1.0
+  * PolyLV2 has been updated to last master
+  * snd has been updated to 22.5
+  * r128gain has been updated to 1.0.6
 
 ### News of july 2022
 * new packages:
