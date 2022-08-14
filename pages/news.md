@@ -12,6 +12,10 @@ Since Fedora 35, the repository is called Audinux (due to a conflict with the we
   * punch (from clearly-broken github repository)
   * boomer (from clearly-broken github repository)
   * soundboard (from clearly-broken github repository)
+  * fmit
+  * spek
+  * marsyas
+  * lv2file
 
 * updated packages:
   * kernel-rt-mao	has been updated to 5.15.55.rt48
