@@ -10,6 +10,7 @@
 - [Search packages](packages/index.html)
 - [Installing VCV Rack and plugins](pages/vcvrack.md)
 - [Related links](pages/links.md)
+- [Status of Fedora 37 beta](pages/build.md)
 
 ### Other information
 
