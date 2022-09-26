@@ -177,3 +177,6 @@ For Rack v1: use these patches:
 
 For Rack v2: use these patches:
 - https://aur.archlinux.org/packages/vcvrack
+
+Patch linuxampler following. this instructions:
+- https://rpc.gehennom.org/2015/06/mellotron-on-the-raspberry-pi/
