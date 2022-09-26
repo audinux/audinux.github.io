@@ -169,3 +169,11 @@ yabridge | OK | x86 only
 ykchorus | OK | lib64 hardcoded in spec
 zrythm | libpcre missing | libpcre missing
 zytrax | libsndfile missing | libsndfile missing
+
+## Todo
+
+For Rack v1: use these patches:
+- https://github.com/hexdump0815/vcvrack-dockerbuild-v1
+
+For Rack v2: use these patches:
+- https://aur.archlinux.org/packages/vcvrack
