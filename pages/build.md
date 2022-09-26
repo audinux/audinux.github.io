@@ -144,3 +144,28 @@ lvtk | lv2 headers | lv2 headers
 liblscp | linuxsampler missing | linuxsampler missing
 linuxsampler | lv2 headers | lv2 headers
 JUCE5 | std::array pb | std::array pb
+smartamppro  | OK | x86_64 hardcoded in spec
+sonobus | OK | x86_64 hardcoded in spec
+spectmorph | OK | __m128 type
+sonic-pi  | ruby version | ruby version
+spek | ffmpeg devel pb| ffmpeg devel pb
+stone-phaser | OK | -msse
+supercollider | conflicting declaration | conflicting declaration
+supercollider-sc3-plugins | Supercollider missing | Supercollider missing
+surge | OK | configure fails
+tap-lv2 | OK | -msse
+tsunami | libsndfile missing | libsndfile missing
+tunefish | OK | xmintrinsic
+tuning-difference | OK | -msse
+ultranova4linux | libusb-devel missing | libusb-devel missing
+veejay-core | compat-ffmpeg28-devel missing | compat-ffmpeg28-devel missing
+veejay-gui | veejay-server and compat-ffmpeg28-devel missing | veejay-server and compat-ffmpeg28-devel missing
+veejay-server | compat-ffmpeg28-devel missing | compat-ffmpeg28-devel missing
+vsxu | pointer comparison | pointer comparison
+wineasio | OK | x86 only
+wolf-shaper | OK | -msse
+xjadeo | ffmpeg pb | ffmpeg pb
+yabridge | OK | x86 only
+ykchorus | OK | lib64 hardcoded in spec
+zrythm | libpcre missing | libpcre missing
+zytrax | libsndfile missing | libsndfile missing
