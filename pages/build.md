@@ -5,7 +5,7 @@
 ### Tickets
 
 For this release, 2 tickets have been opened:
-- https://bugzilla.redhat.com/show_bug.cgi?id=2128041 - libsndfile problem (fixed)
+- https://bugzilla.redhat.com/show_bug.cgi?id=2128041 - libsndfile problem (not fixed)
 - https://bugzilla.redhat.com/show_bug.cgi?id=2127286 - lv2 headers problem (fixed)
 
 ### Fedora 37
