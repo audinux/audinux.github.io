@@ -169,6 +169,7 @@ yabridge | OK | x86 only
 ykchorus | OK | lib64 hardcoded in spec
 zrythm | libpcre missing | libpcre missing
 zytrax | libsndfile missing | libsndfile missing
+masterme | OK | fqust qudinux is missing
 
 ## Todo
 
