@@ -12,7 +12,7 @@ For this release, 2 tickets have been opened:
 
 Package | x86_64 | aarch64
 ------- | ------ | -------
-sisco.lv2 | OK | lv2 headers
+sisco.lv2 | OK | -msse
 shuriken | OK | arch unknow during configure
 shortcircuit | format-security | format-security
 shiro | OK | -msse flags
@@ -41,17 +41,12 @@ obxd | OK | -m64 flag
 mx44 | OK | assembly language
 monique-monosynth | std header pb | std header pb
 mod-pitchshifter | OK | -msse
-mod-host | lv2 headers | lv2 headers
-mod-gxpitchshifter | lv2 headers | lv2 headers
-mod-distortion | lv2 headers | lv2 headers
+mod-gxpitchshifter | OK | -msse
 midi-monitor | std header pb | std header pb
-midi_matrix.lv2 | lv2 headers | lv2 headers
-mda-lv2 | lv2 headers | lv2 headers
 matrixmixer.lv2 | OK | -msse
 mapmap | libsndfile missing | libsndfile missing
 mammut | OK | -msse2 flag
 lv2-mrfreeze | OK | -msse
-lv2-gxmrfreeze | lv2 headers | lv2 headers
 lv2-EQ10Q-plugins | pstreams-devel missing | pstreams-devel missing
 lv2-avldrums-x42-plugin | OK | -msse
 lv2-artyfx-plugins | OK | -msse
