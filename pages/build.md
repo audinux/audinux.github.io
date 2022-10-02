@@ -5,7 +5,7 @@
 ### Tickets
 
 For this release, 2 tickets have been opened:
-- https://bugzilla.redhat.com/show_bug.cgi?id=2128041 - libsndfile problem (not fixed)
+- https://bugzilla.redhat.com/show_bug.cgi?id=2128041 - libsndfile problem (fixed)
 - https://bugzilla.redhat.com/show_bug.cgi?id=2127286 - lv2 headers problem (fixed)
 
 ### Fedora 37
@@ -22,19 +22,15 @@ rkrlv2 | OK | -msse
 Rack-v1 | OK | Intrinsic problem
 Rack-v2 | OK | Intrinsic problem
 rivendell | OK  gcc cannot create executable
-rezound | libsndfile missing | libsndfile missing
-qutecsound | libsndfile missing | libsndfile missing
 qsampler | linuxsampler dep not built | linuxsampler dep not built
 purr-data | config.h not found |  config.h not found
 puredata | OK | patch pb
-psindustrializer | libsndfile missing | libsndfile missing
 protrekkr | OK | -m64 flag
 processing | OK | invalid platform
 plebtracker | format-security | format-security
-picoloop | libsndfile missing | libsndfile missing
 oxefmsynth | OK | -m64 flag
 orca | format security | format security
-openFrameworks | libsndfile missing | libsndfile missing
+openFrameworks | conflicting declaration | conflicting declarationg
 openboard | ffmpeg conflict | ffmpeg conflict
 odin2 | OK | -m64  flag
 obxd | OK | -m64 flag
@@ -44,7 +40,6 @@ mod-pitchshifter | OK | -msse
 mod-gxpitchshifter | OK | -msse
 midi-monitor | std header pb | std header pb
 matrixmixer.lv2 | OK | -msse
-mapmap | libsndfile missing | libsndfile missing
 mammut | OK | -msse2 flag
 lv2-mrfreeze | OK | -msse
 lv2-EQ10Q-plugins | pstreams-devel missing | pstreams-devel missing
@@ -56,13 +51,11 @@ livecd-tools-mao | OK | files not found
 LinVst | OK | x32 arch
 kernel-rt-stable-mao | vmlinux: Unknown error -22make | vmlinux: Unknown error -22make
 jamesdsp | OK | NMCTXREGS undeclared
-jacktrip | libsndfile missing | libsndfile missing
 improviz | OK | unsupported platform
 HISE | OK | intrinsic pb
 hexosynth | rust error | rust error
 helio-workstation | std header pb | std header pb
 harvid | ffmpeg pb | ffmpeg pb
-glava | libsndfile missing | libsndfile missing
 frequalizer | JUCE5 | JUCE5
 fat1.lv2 | OK | -msse
 ecasound | format security | format security
@@ -91,7 +84,7 @@ stone-phaser | OK | -msse
 supercollider | conflicting declaration | conflicting declaration
 supercollider-sc3-plugins | Supercollider missing | Supercollider missing
 tap-lv2 | OK | -msse
-tsunami | libsndfile missing | libsndfile missing
+tsunami | OK | cast error
 tunefish | OK | xmintrinsic
 tuning-difference | OK | -msse
 ultranova4linux | libusb-devel missing | libusb-devel missing
@@ -105,7 +98,6 @@ xjadeo | ffmpeg pb | ffmpeg pb
 yabridge | OK | x86 only
 ykchorus | OK | lib64 hardcoded in spec
 zrythm | libpcre missing | libpcre missing
-zytrax | libsndfile missing | libsndfile missing
 masterme | OK | fqust qudinux is missing
 
 ## Todo
