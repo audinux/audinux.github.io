@@ -19,14 +19,12 @@ shiro | OK | -msse flags
 sequencer64 | sched_yield not declared | sched_yield not declared
 ryukau | undefined ref to DGL::Rectangle | undefined ref to DGL::Rectangle
 rkrlv2 | OK | -msse 
-Rack-v1 | OK | Intrinsic problem
-Rack-v2 | OK | Intrinsic problem
 rivendell | OK  gcc cannot create executable
 qsampler | linuxsampler dep not built | linuxsampler dep not built
 purr-data | config.h not found |  config.h not found
 puredata | OK | patch pb
 protrekkr | OK | -m64 flag
-processing | OK | invalid platform
+processing | OK | x86 only
 plebtracker | format-security | format-security
 oxefmsynth | OK | -m64 flag
 orca | format security | format security
@@ -48,30 +46,26 @@ lv2-artyfx-plugins | OK | -msse
 lmms-mao | carla problem | carla problem
 lives-mao | too few arg for calloc | too few arg for calloc
 livecd-tools-mao | OK | files not found
-LinVst | OK | x32 arch
-kernel-rt-stable-mao | vmlinux: Unknown error -22make | vmlinux: Unknown error -22make
+LinVst | OK | x86 only
+kernel-rt-stable-mao | dwarves problem: vmlinux: Unknown error -22make | dwarves problem: vmlinux: Unknown error -22make
 jamesdsp | OK | NMCTXREGS undeclared
-improviz | OK | unsupported platform
+improviz | OK | x86 only
 HISE | OK | intrinsic pb
 hexosynth | rust error | rust error
 helio-workstation | std header pb | std header pb
 harvid | ffmpeg pb | ffmpeg pb
 frequalizer | JUCE5 | JUCE5
-fat1.lv2 | OK | -msse
 ecasound | format security | format security
-dssi-vst | OK | x86 only ?
-Carla-mao | OK | x86 only ?
+dssi-vst | OK | x86 only
+Carla-mao | OK | x86 only
 cardinal | linuxsamper missing | linuxsampler missing
 buzztrax | No rich dependencies | No rich dependencies
 brutefir | OK | packaging pb
-bipscript | port-smf was missing | portsmf was missing
-BespokeSynth | error: invalid use of incomplete type 'PyFrameObject | error: invalid use of incomplete type 'PyFrameObject
 ams-lv2 | OK | -msse
 alsa-scarlett-gui | format security | OK
 aether | error overflow | error overflow
 aeolus | OK | file not found in lib64
 cwiid | OK | -m64 flag
-portsmf | la file not found during packaging | la file not found during packaging
 liblscp | linuxsampler missing | linuxsampler missing
 linuxsampler | lv2 headers | lv2 headers
 JUCE5 | std::array pb | std::array pb
@@ -98,7 +92,6 @@ xjadeo | ffmpeg pb | ffmpeg pb
 yabridge | OK | x86 only
 ykchorus | OK | lib64 hardcoded in spec
 zrythm | libpcre missing | libpcre missing
-masterme | OK | fqust qudinux is missing
 
 ## Todo
 
