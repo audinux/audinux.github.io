@@ -14,15 +14,10 @@ For this release, 2 tickets have been opened:
 
 Package | x86_64 | aarch64
 ------- | ------ | -------
-sisco.lv2 | OK | -msse
-shiro | OK | -msse
-rkrlv2 | OK | -msse 
-protrekkr | OK | -m64 flag
-matrixmixer.lv2 | OK | -msse
-lv2-mrfreeze | OK | -msse
-lv2-avldrums-x42-plugin | OK | -msse
-lv2-artyfx-plugins | OK | -msse
-mammut | OK | -msse2 flag
+shiro | OK | -msse (source cloning failure)
+protrekkr | OK | narrowing conversion of '-80' from 'int' to 'char' [-Wnarrowing]
+protrekkr2 | OK | narrowing conversion of '-80' from 'int' to 'char' [-Wnarrowing]
+mammut | OK | #error "AVOIDDENORMALS is not defined"
 cwiid | OK | -m64 flag
 stone-phaser | OK | -msse
 tap-lv2 | OK | -msse
@@ -98,79 +93,83 @@ Package | x86_64 | aarch64
 ------- | ------ | -------
 rack-v1-WrongPeople | lua.hpp not found | lua.hpp not found
 rack-v1-Valley | OK | pmmintrin.h not found
-rack-v1-UnforgettableLuncheon | source problem | source problem
 rack-v1-SynthKit | arptest/build.mk not found | arptest/build.mk not found 
-rack-v1-SubmarineUtility | source problem | source problem
 rack-v1-STS | downloaded sources corrupted | downloaded sources corrupted
 rack-v1-stocaudio | libsamplerate download | libsamplerate download
 rack-v1-Starling_Via | gateseq.hpp not found | gateseq.hpp not found
-rack-v1-Southpole-parasites | source problem | source problem
-rack-v1-SerialRacker | source problem | source problem
-rack-v1-RODENTMODULES | source problem | source problem
-rack-v1-Quadraphonics | source problem | source problem
-rack-v1-PvC | source problem | source problem
-rack-v1-PG-Instruments | source problem | source problem
-rack-v1-NauModular | source problem | source problem
-rack-v1-mtsch-plugins | source problem | source problem
-rack-v1-Gratrix | source problem | source problem
-rack-v1-com-soundchasing-stochasm | source problem | source problem
 rack-v1-CaptainsSounds | util.h not found | util.h not found
-rack-v1-BOKONTEPByteBeatMachine | source problem | source problem
-rack-v1-BeckstromResearch | source problem | source problem
 rack-v1-Bark | OK | xmmintrin.h not found
-rack-v1-arjo_modules | source problem | source problem
 rack-v1-AriaSalvatrice | QuickJS/quickjs.h not found | QuickJS/quickjs.h not found
-rack-v1-aP-Modules | source problem | source problem
+
+Package | Not available
+rack-v1-UnforgettableLuncheon | not available on VCV Rack 1 anymore
+rack-v1-SubmarineUtility | not available on VCV Rack 1 anymore
+rack-v1-Southpole-parasites | not available on VCV Rack 1 anymore
+rack-v1-SerialRacker | not available on VCV Rack 1 anymore
+rack-v1-RODENTMODULES | not available on VCV Rack 1 anymore
+rack-v1-Quadraphonics | not available on VCV Rack 1 anymore
+rack-v1-PvC | not available on VCV Rack 1 anymore
+rack-v1-PG-Instruments | not available on VCV Rack 1 anymore
+rack-v1-NauModular | not available on VCV Rack 1 anymore
+rack-v1-mtsch-plugins | not available on VCV Rack 1 anymore
+rack-v1-Gratrix | not available on VCV Rack 1 anymore
+rack-v1-com-soundchasing-stochasm | not available on VCV Rack 1 anymore
+rack-v1-BOKONTEPByteBeatMachine | not available on VCV Rack 1 anymore
+rack-v1-BeckstromResearch | not available on VCV Rack 1 anymore
+rack-v1-arjo_modules | not available on VCV Rack 1 anymore
+rack-v1-aP-Modules | not available on VCV Rack 1 anymore
 
 
 #### Rack v2
 
 Package | x86_64 | aarch64
 ------- | ------ | -------
-rack-v2-VO | source version | source version
 rack-v2-Valley | OK | pmmintrin.h
-rack-v2-UnforgettableLuncheon | source version | source version
 rack-v2-trowaSoft | window.hpp missing | window.hpp missing
 rack-v2-SubmarineUtility | window.hpp missing | window.hpp missing
 rack-v2-SubmarineFree | format securiry | format security
 rack-v2-StudioSixPlusOne | simd/vector.hpp missing | simd/vector.hpp missing
-rack-v2-Stoermelder-P1 | source version | source version 
 rack-v2-WrongPeople | CFLAGS problem | CFLAGS problem
-rack-v2-Southpole-parasites | source problem | source problem
-rack-v2-SerialRacker | source problem | source problem
 rack-v2-RPJ | OK | emmintrin.h
-rack-v2-RODENTMODULES | source problem | source problem
-rack-v2-RJModules | source problem | source problem 
-rack-v2-ReTunesFree | source problem | source problem
 rack-v2-RebelTech | pmmintrin.h | pmmintrin.h
-rack-v2-RacketScience | source problem | source problem
-rack-v2-PvC | source problem | source problem
-rack-v2-PG-Instruments | source problem | source problem
-rack-v2-NauModular | source problem | source problem
-rack-v2-MyLittleTools | source problem | source problem
-rack-v2-mtsch-plugins | source problem | source problem
-rack-v2-mscHack | source problem | source problem
-rack-v2-MpSeries | source problem | source problem
-rack-v2-Mog | source problem | source problem
-rack-v2-ModularFungi | source problem | source problem
-rack-v2-NocturnalEncoder | source problem | source problem
-rack-v2-luckyxxl | source problem | source problem
-rack-v2-Koralfx-Modules | source problem | source problem
-rack-v2-ILovePerlin | source problem | source problem
-rack-v2-HetrickCV | Gamma/Domain.h not found | Gamma/Domain.h not found
-rack-v2-Gratrix | source problem | source problem
-rack-v2-FreeSurface | libsamplerate download | libsamplerate download
-rack-v2-forsitan | source problem | source problem
-rack-v2-DelexanderVol1 | source problem | source problem
-rack-v2-BeckstromResearch | source problem | source problem
 rack-v2-Bark | OK | xmmintrin.h
 rack-v2-BaconMusic | MidiFile.h not found | MidiFile.h not found
-rack-v2-AuntyLangtonsFree | source problem | source problem
-rack-v2-arjo_modules | source problem | source problem
-rack-v2-AriaSalvatrice | source problem | source problem
-rack-v2-aP-Modules | source problem | source problem
-rack-v2-23volts | source problem | source problem
 rack-v2-squinkylabs-plug1 | OK | emmintrin.h not found
+rack-v2-FreeSurface | libsamplerate download | libsamplerate download
+rack-v2-HetrickCV | Gamma/Domain.h not found | Gamma/Domain.h not found
+
+Package | Not available
+rack-v2-VO | Not available on VCV Rack 2 anymore
+rack-v2-UnforgettableLuncheon | Not available on VCV Rack 2 anymore
+rack-v2-Stoermelder-P1 | Not available on VCV Rack 2 anymore 
+rack-v2-Southpole-parasites | Not available on VCV Rack 2 anymore
+rack-v2-SerialRacker | Not available on VCV Rack 2 anymore
+rack-v2-RODENTMODULES | Not available on VCV Rack 2 anymore
+rack-v2-RJModules | Not available on VCV Rack 2 anymore 
+rack-v2-ReTunesFree | Not available on VCV Rack 2 anymore
+rack-v2-RacketScience | Not available on VCV Rack 2 anymore
+rack-v2-PvC | Not available on VCV Rack 2 anymore
+rack-v2-PG-Instruments | Not available on VCV Rack 2 anymore
+rack-v2-NauModular | Not available on VCV Rack 2 anymore
+rack-v2-MyLittleTools | Not available on VCV Rack 2 anymore
+rack-v2-mtsch-plugins | Not available on VCV Rack 2 anymore
+rack-v2-mscHack | Not available on VCV Rack 2 anymore
+rack-v2-MpSeries | Not available on VCV Rack 2 anymore
+rack-v2-Mog | Not available on VCV Rack 2 anymore
+rack-v2-ModularFungi | Not available on VCV Rack 2 anymore
+rack-v2-NocturnalEncoder | Not available on VCV Rack 2 anymore
+rack-v2-luckyxxl | Not available on VCV Rack 2 anymore
+rack-v2-Koralfx-Modules | Not available on VCV Rack 2 anymore
+rack-v2-ILovePerlin | Not available on VCV Rack 2 anymore
+rack-v2-Gratrix | Not available on VCV Rack 2 anymore
+rack-v2-forsitan | Not available on VCV Rack 2 anymore
+rack-v2-DelexanderVol1 | Not available on VCV Rack 2 anymore
+rack-v2-BeckstromResearch | Not available on VCV Rack 2 anymore
+rack-v2-AuntyLangtonsFree | Not available on VCV Rack 2 anymore
+rack-v2-arjo_modules | Not available on VCV Rack 2 anymore
+rack-v2-AriaSalvatrice | Not available on VCV Rack 2 anymore
+rack-v2-aP-Modules | Not available on VCV Rack 2 anymore
+rack-v2-23volts | Not available on VCV Rack 2 anymore
 
 ## Todo
 
