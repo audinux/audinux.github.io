@@ -14,16 +14,9 @@ For this release, 2 tickets have been opened:
 
 Package | x86_64 | aarch64
 ------- | ------ | -------
-shiro | OK | -msse (source cloning failure)
 protrekkr | OK | narrowing conversion of '-80' from 'int' to 'char' [-Wnarrowing]
 protrekkr2 | OK | narrowing conversion of '-80' from 'int' to 'char' [-Wnarrowing]
 mammut | OK | #error "AVOIDDENORMALS is not defined"
-cwiid | OK | -m64 flag
-stone-phaser | OK | -msse
-tap-lv2 | OK | -msse
-tuning-difference | OK | -msse
-wolf-shaper | OK | -msse
-oxefmsynth | OK | -m64 flag
 odin2 | OK | -m64  flag
 obxd | OK | -m64 flag
 shortcircuit | format-security | format-security
@@ -119,6 +112,26 @@ rack-v1-BeckstromResearch | not available on VCV Rack 1 anymore
 rack-v1-arjo_modules | not available on VCV Rack 1 anymore
 rack-v1-aP-Modules | not available on VCV Rack 1 anymore
 
+Source problem:
+```
+date incorrecte dans %changelog : Thu Nov 03 2020 Yann Collette <ycollette.nospam@free.fr> - 1.4.0-3
+rack-v1-sfjack-0.6.8-1.fc36.src.rpm
+
+ArableInstruments.tar.gz 
+BaconPlugs.tar.gz 
+CharredDesert.tar.gz 
+DrumKit.tar.gz 
+Erratic.tar.gz 
+VCVRack-plugin-JE.tar.gz 
+modular80.tar.gz 
+ArableInstruments.tar.gz 
+rack-v1-s-ol-17f7b13.tar.gz 
+southpole-vcvrack.tar.gz 
+rack-v1-squinkylabs-plug1-6bb6d1a.tar.gz 
+rack-v1-SunsetSignals-2f3a991.tar.gz 
+surge-rack.tar.gz 
+rack-v1-TheXOR-168a32e.tar.gz 
+```
 
 #### Rack v2
 
@@ -170,6 +183,24 @@ rack-v2-arjo_modules | Not available on VCV Rack 2 anymore
 rack-v2-AriaSalvatrice | Not available on VCV Rack 2 anymore
 rack-v2-aP-Modules | Not available on VCV Rack 2 anymore
 rack-v2-23volts | Not available on VCV Rack 2 anymore
+
+Source problem:
+```
+ArableInstruments.tar.gz 
+CharredDesert.tar.gz 
+DrumKit.tar.gz 
+rack-v2-EH_modules-53c958c.tar.gz 
+Erratic.tar.gz 
+rack-v2-FrankBuss-5074123.tar.gz 
+VCVRack-plugin-JE.tar.gz 
+modular80.tar.gz 
+ArableInstruments.tar.gz 
+southpole-vcvrack.tar.gz 
+rack-v2-SunsetSignals-2f3a991.tar.gz 
+surge-rack.tar.gz 
+synthkit.tar.gz 
+rack-v2-TheXOR-168a32e.tar.gz 
+```
 
 ## Todo
 
