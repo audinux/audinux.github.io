@@ -53,7 +53,6 @@ brutefir | OK | packaging pb
 aether | error overflow | error overflow
 aeolus | OK | file not found in lib64
 liblscp | linuxsampler missing | linuxsampler missing
-linuxsampler | OK | 'atomic_sub' was not declared in this scope
 JUCE5 | std::array pb | std::array pb
 smartamppro  | OK | x86_64 hardcoded in spec
 sonobus | OK | x86_64 hardcoded in spec
