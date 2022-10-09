@@ -28,7 +28,6 @@ shuriken | OK | arch unknow during configure
 sequencer64 | sched_yield not declared | sched_yield not declared
 ryukau | undefined ref to DGL::Rectangle | undefined ref to DGL::Rectangle
 rivendell | OK  gcc cannot create executable
-qsampler | linuxsampler dep not built | linuxsampler dep not built
 purr-data | config.h not found |  config.h not found
 puredata | OK | patch pb
 openFrameworks | conflicting declaration | conflicting declarationg
@@ -52,7 +51,6 @@ buzztrax | No rich dependencies | No rich dependencies
 brutefir | OK | packaging pb
 aether | error overflow | error overflow
 aeolus | OK | file not found in lib64
-liblscp | linuxsampler missing | linuxsampler missing
 JUCE5 | std::array pb | std::array pb
 smartamppro  | OK | x86_64 hardcoded in spec
 sonobus | OK | x86_64 hardcoded in spec
