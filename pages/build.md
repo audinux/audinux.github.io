@@ -81,17 +81,14 @@ yabridge | OK | x86 only
 
 Package | x86_64 | aarch64
 ------- | ------ | -------
-rack-v1-WrongPeople | lua.hpp not found | lua.hpp not found
 rack-v1-Valley | OK | pmmintrin.h not found
-rack-v1-SynthKit | arptest/build.mk not found | arptest/build.mk not found 
-rack-v1-STS | downloaded sources corrupted | downloaded sources corrupted
 rack-v1-stocaudio | libsamplerate download | libsamplerate download
-rack-v1-Starling_Via | gateseq.hpp not found | gateseq.hpp not found
-rack-v1-CaptainsSounds | util.h not found | util.h not found
 rack-v1-Bark | OK | xmmintrin.h not found
-rack-v1-AriaSalvatrice | QuickJS/quickjs.h not found | QuickJS/quickjs.h not found
 
 Package | Not available
+rack-v1-CaptainsSounds | util.h not found | util.h not found
+rack-v1-STS | repo empty | repo empty
+rack-v1-WrongPeople | does not build | does not build
 rack-v1-UnforgettableLuncheon | not available on VCV Rack 1 anymore
 rack-v1-SubmarineUtility | not available on VCV Rack 1 anymore
 rack-v1-Southpole-parasites | not available on VCV Rack 1 anymore
@@ -108,26 +105,20 @@ rack-v1-BOKONTEPByteBeatMachine | not available on VCV Rack 1 anymore
 rack-v1-BeckstromResearch | not available on VCV Rack 1 anymore
 rack-v1-arjo_modules | not available on VCV Rack 1 anymore
 rack-v1-aP-Modules | not available on VCV Rack 1 anymore
+rack-v1-SunsetSignals | OK | arch.mk pb
+rack-v1-squinkylabs-plug1 | OK | intrinsic pb
 
 Source problem:
 ```
 date incorrecte dans %changelog : Thu Nov 03 2020 Yann Collette <ycollette.nospam@free.fr> - 1.4.0-3
 rack-v1-sfjack-0.6.8-1.fc36.src.rpm
 
-ArableInstruments.tar.gz 
-BaconPlugs.tar.gz 
-CharredDesert.tar.gz 
-DrumKit.tar.gz 
-Erratic.tar.gz 
-VCVRack-plugin-JE.tar.gz 
-modular80.tar.gz 
-ArableInstruments.tar.gz 
-rack-v1-s-ol-17f7b13.tar.gz 
-southpole-vcvrack.tar.gz 
-rack-v1-squinkylabs-plug1-6bb6d1a.tar.gz 
-rack-v1-SunsetSignals-2f3a991.tar.gz 
-surge-rack.tar.gz 
-rack-v1-TheXOR-168a32e.tar.gz 
+BaconPlugs.tar.gz -> doesn"t build
+Erratic.tar.gz -> 0.6
+VCVRack-plugin-JE.tar.gz -> 0.6
+rack-v1-squinkylabs-plug1-6bb6d1a.tar.gz -> repo not available / check v2
+rack-v1-SunsetSignals-2f3a991.tar.gz  -> repo not available / check v2
+rack-v1-TheXOR-168a32e.tar.gz -> repo disappeared
 ```
 
 #### Rack v2
@@ -183,20 +174,17 @@ rack-v2-23volts | Not available on VCV Rack 2 anymore
 
 Source problem:
 ```
-ArableInstruments.tar.gz 
-CharredDesert.tar.gz 
-DrumKit.tar.gz 
-rack-v2-EH_modules-53c958c.tar.gz 
-Erratic.tar.gz 
-rack-v2-FrankBuss-5074123.tar.gz 
-VCVRack-plugin-JE.tar.gz 
-modular80.tar.gz 
-ArableInstruments.tar.gz 
-southpole-vcvrack.tar.gz 
-rack-v2-SunsetSignals-2f3a991.tar.gz 
-surge-rack.tar.gz 
-synthkit.tar.gz 
-rack-v2-TheXOR-168a32e.tar.gz 
+Erratic.tar.gz -> 0.6 only
+VCVRack-plugin-JE.tar.gz -> 0.6 only
+modular80.tar.gz -> 0.6 only
+rack-v1-s-ol-17f7b13.tar.gz -> 0.6 only
+southpole-vcvrack.tar.gz -> 0.6 only
+surge-rack.tar.gz -> build problem
+rack-v1-TheXOR-168a32e.tar.gz -> Source disappeared
+
+rack-v2-EH_modules-53c958c.tar.gz
+rack-v2-FrankBuss-5074123.tar.gz
+synthkit.tar.gz
 ```
 
 ## Todo
