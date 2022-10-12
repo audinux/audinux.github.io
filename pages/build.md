@@ -19,20 +19,13 @@ protrekkr2 | OK | narrowing conversion of '-80' from 'int' to 'char' [-Wnarrowin
 mammut | OK | #error "AVOIDDENORMALS is not defined"
 odin2 | OK | -m64  flag
 obxd | OK | -m64 flag
-shortcircuit | format-security | format-security
-plebtracker | format-security | format-security
-orca | format security | format security
-ecasound | format security | format security
-alsa-scarlett-gui | format security | OK
-shuriken | OK | arch unknow during configure
-sequencer64 | sched_yield not declared | sched_yield not declared
-ryukau | undefined ref to DGL::Rectangle | undefined ref to DGL::Rectangle
+ryukau | OK | not supported
 rivendell | OK  gcc cannot create executable
 purr-data | config.h not found |  config.h not found
 puredata | OK | patch pb
 openFrameworks | conflicting declaration | conflicting declarationg
 openboard | ffmpeg conflict | ffmpeg conflict
-mx44 | OK | assembly language
+mx44 | OK | not supported
 monique-monosynth | std header pb | std header pb
 midi-monitor | std header pb | std header pb
 lv2-EQ10Q-plugins | pstreams-devel missing | pstreams-devel missing
@@ -43,17 +36,13 @@ kernel-rt-stable-mao | dwarves problem: vmlinux: Unknown error -22make | dwarves
 jamesdsp | OK | NMCTXREGS undeclared
 HISE | OK | intrinsic pb
 hexosynth | rust error | rust error
-helio-workstation | std header pb | std header pb
 harvid | ffmpeg pb | ffmpeg pb
 frequalizer | JUCE5 | JUCE5
 cardinal | linuxsamper missing | linuxsampler missing
 buzztrax | No rich dependencies | No rich dependencies
 brutefir | OK | packaging pb
 aether | error overflow | error overflow
-aeolus | OK | file not found in lib64
 JUCE5 | std::array pb | std::array pb
-smartamppro  | OK | x86_64 hardcoded in spec
-sonobus | OK | x86_64 hardcoded in spec
 spectmorph | OK | __m128 type
 sonic-pi  | ruby version | ruby version
 spek | ffmpeg devel pb| ffmpeg devel pb
