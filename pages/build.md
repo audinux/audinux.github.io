@@ -20,6 +20,7 @@ mammut | OK | #error "AVOIDDENORMALS is not defined"
 odin2 | OK | -m64  flag
 obxd | OK | -m64 flag
 ryukau | OK | not supported
+
 rivendell | OK  gcc cannot create executable
 purr-data | config.h not found |  config.h not found
 puredata | OK | patch pb
@@ -115,20 +116,17 @@ rack-v1-TheXOR-168a32e.tar.gz -> repo disappeared
 Package | x86_64 | aarch64
 ------- | ------ | -------
 rack-v2-Valley | OK | pmmintrin.h
-rack-v2-trowaSoft | window.hpp missing | window.hpp missing
-rack-v2-SubmarineUtility | window.hpp missing | window.hpp missing
-rack-v2-SubmarineFree | format securiry | format security
-rack-v2-StudioSixPlusOne | simd/vector.hpp missing | simd/vector.hpp missing
-rack-v2-WrongPeople | CFLAGS problem | CFLAGS problem
 rack-v2-RPJ | OK | emmintrin.h
 rack-v2-RebelTech | pmmintrin.h | pmmintrin.h
 rack-v2-Bark | OK | xmmintrin.h
-rack-v2-BaconMusic | MidiFile.h not found | MidiFile.h not found
-rack-v2-squinkylabs-plug1 | OK | emmintrin.h not found
-rack-v2-FreeSurface | libsamplerate download | libsamplerate download
-rack-v2-HetrickCV | Gamma/Domain.h not found | Gamma/Domain.h not found
+rack-v2-squinkylabs-plug1 | OK | emmintrin.h
 
 Package | Not available
+rack-v2-trowaSoft | v1 only
+rack-v2-WrongPeople | v1 only
+rack-v2-SubmarineUtility | v1 only
+rack-v2-SubmarineFree | v1 only
+rack-v2-StudioSixPlusOne | v1 only
 rack-v2-VO | Not available on VCV Rack 2 anymore
 rack-v2-UnforgettableLuncheon | Not available on VCV Rack 2 anymore
 rack-v2-Stoermelder-P1 | Not available on VCV Rack 2 anymore 
