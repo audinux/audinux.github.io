@@ -47,8 +47,6 @@ JUCE5 | std::array pb | std::array pb
 spectmorph | OK | __m128 type
 sonic-pi  | ruby version | ruby version
 spek | ffmpeg devel pb| ffmpeg devel pb
-supercollider | conflicting declaration | conflicting declaration
-supercollider-sc3-plugins | Supercollider missing | Supercollider missing
 tsunami | OK | cast error
 tunefish | OK | xmintrinsic
 ultranova4linux | libusb-devel missing | libusb-devel missing
@@ -59,6 +57,7 @@ vsxu | pointer comparison | pointer comparison
 xjadeo | ffmpeg pb | ffmpeg pb
 ykchorus | OK | lib64 hardcoded in spec
 zrythm | libpcre missing | libpcre missing
+
 processing | OK | x86 only
 LinVst | OK | x86 only
 improviz | OK | x86 only
@@ -122,7 +121,6 @@ rack-v2-Bark | OK | xmmintrin.h
 rack-v2-squinkylabs-plug1 | OK | emmintrin.h
 
 Package | Not available
-rack-v2-trowaSoft | v1 only
 rack-v2-WrongPeople | v1 only
 rack-v2-SubmarineUtility | v1 only
 rack-v2-SubmarineFree | v1 only
