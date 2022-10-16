@@ -32,7 +32,6 @@ livecd-tools-mao | OK | files not found
 kernel-rt-stable-mao | dwarves problem: vmlinux: Unknown error -22make | dwarves problem: vmlinux: Unknown error -22make
 hexosynth | rust error | rust error
 frequalizer | JUCE5 | JUCE5
-cardinal | linuxsamper missing | linuxsampler missing
 buzztrax | No rich dependencies | No rich dependencies
 aether | error overflow | error overflow
 JUCE5 | std::array pb | std::array pb
@@ -64,12 +63,6 @@ wineasio | OK | x86 only
 yabridge | OK | x86 only
 
 #### Rack v1
-
-Package | x86_64 | aarch64
-------- | ------ | -------
-rack-v1-Valley | OK | pmmintrin.h not found
-rack-v1-stocaudio | libsamplerate download | libsamplerate download
-rack-v1-Bark | OK | xmmintrin.h not found
 
 Package | Not available
 rack-v1-CaptainsSounds | util.h not found | util.h not found
@@ -108,15 +101,6 @@ rack-v1-TheXOR-168a32e.tar.gz -> repo disappeared
 ```
 
 #### Rack v2
-
-Package | x86_64 | aarch64
-------- | ------ | -------
-rack-v2-Valley | OK | pmmintrin.h
-rack-v2-RPJ | OK | emmintrin.h
-rack-v2-RebelTech | pmmintrin.h | pmmintrin.h
-rack-v2-Bark | OK | xmmintrin.h
-rack-v2-squinkylabs-plug1 | OK | emmintrin.h
-rack-v2-dbRackModules | OK | pmmintrin
 
 Package | Not available
 rack-v2-WrongPeople | v1 only
@@ -180,7 +164,6 @@ For Rack v2: use these patches:
 
 Patch linuxampler following. this instructions:
 - https://rpc.gehennom.org/2015/06/mellotron-on-the-raspberry-pi/
-- Patch applies but HAVE_SMP problem
 
 Porting intrinsics to ARM using simde:
 - https://wiki.debian.org/SIMDEverywhere
