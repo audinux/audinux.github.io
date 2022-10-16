@@ -181,3 +181,6 @@ For Rack v2: use these patches:
 Patch linuxampler following. this instructions:
 - https://rpc.gehennom.org/2015/06/mellotron-on-the-raspberry-pi/
 - Patch applies but HAVE_SMP problem
+
+Porting intrinsics to ARM using simde:
+- https://wiki.debian.org/SIMDEverywhere
