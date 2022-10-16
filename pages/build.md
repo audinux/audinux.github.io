@@ -21,12 +21,8 @@ odin2 | OK | -m64  flag
 obxd | OK | -m64 flag
 ryukau | OK | not supported
 
-rivendell | OK  gcc cannot create executable
 purr-data | config.h not found |  config.h not found
-puredata | OK | patch pb
 openFrameworks | conflicting declaration | conflicting declarationg
-openboard | ffmpeg conflict | ffmpeg conflict
-mx44 | OK | not supported
 monique-monosynth | std header pb | std header pb
 midi-monitor | std header pb | std header pb
 lv2-EQ10Q-plugins | pstreams-devel missing | pstreams-devel missing
@@ -34,29 +30,30 @@ lmms-mao | carla problem | carla problem
 lives-mao | too few arg for calloc | too few arg for calloc
 livecd-tools-mao | OK | files not found
 kernel-rt-stable-mao | dwarves problem: vmlinux: Unknown error -22make | dwarves problem: vmlinux: Unknown error -22make
-jamesdsp | OK | NMCTXREGS undeclared
-HISE | OK | intrinsic pb
 hexosynth | rust error | rust error
-harvid | ffmpeg pb | ffmpeg pb
 frequalizer | JUCE5 | JUCE5
 cardinal | linuxsamper missing | linuxsampler missing
 buzztrax | No rich dependencies | No rich dependencies
-brutefir | OK | packaging pb
 aether | error overflow | error overflow
 JUCE5 | std::array pb | std::array pb
-spectmorph | OK | __m128 type
 sonic-pi  | ruby version | ruby version
-spek | ffmpeg devel pb| ffmpeg devel pb
-tsunami | OK | cast error
-tunefish | OK | xmintrinsic
-ultranova4linux | libusb-devel missing | libusb-devel missing
+openboard | ffmpeg conflict | ffmpeg conflict
 veejay-core | compat-ffmpeg28-devel missing | compat-ffmpeg28-devel missing
 veejay-gui | veejay-server and compat-ffmpeg28-devel missing | veejay-server and compat-ffmpeg28-devel missing
 veejay-server | compat-ffmpeg28-devel missing | compat-ffmpeg28-devel missing
+ultranova4linux | libusb-devel missing | libusb-devel missing
 vsxu | pointer comparison | pointer comparison
-xjadeo | ffmpeg pb | ffmpeg pb
-ykchorus | OK | lib64 hardcoded in spec
 zrythm | libpcre missing | libpcre missing
+rivendell | OK  gcc cannot create executable
+puredata | OK | patch pb
+mx44 | OK | not supported
+jamesdsp | OK | NMCTXREGS undeclared
+HISE | OK | intrinsic pb
+brutefir | OK | packaging pb
+spectmorph | OK | __m128 type
+tsunami | OK | cast error
+tunefish | OK | xmintrinsic
+ykchorus | OK | lib64 hardcoded in spec
 
 processing | OK | x86 only
 LinVst | OK | x86 only
@@ -119,6 +116,7 @@ rack-v2-RPJ | OK | emmintrin.h
 rack-v2-RebelTech | pmmintrin.h | pmmintrin.h
 rack-v2-Bark | OK | xmmintrin.h
 rack-v2-squinkylabs-plug1 | OK | emmintrin.h
+rack-v2-dbRackModules | OK | pmmintrin
 
 Package | Not available
 rack-v2-WrongPeople | v1 only
