@@ -23,16 +23,10 @@ ryukau | OK | not supported
 
 purr-data | config.h not found |  config.h not found
 openFrameworks | conflicting declaration | conflicting declarationg
-monique-monosynth | std header pb | std header pb
-midi-monitor | std header pb | std header pb
-lv2-EQ10Q-plugins | pstreams-devel missing | pstreams-devel missing
 lives-mao | too few arg for calloc | too few arg for calloc
 kernel-rt-stable-mao | dwarves problem: vmlinux: Unknown error -22make | dwarves problem: vmlinux: Unknown error -22make
 hexosynth | rust error | rust error
-frequalizer | JUCE5 | JUCE5
 buzztrax | No rich dependencies | No rich dependencies
-aether | error overflow | error overflow
-JUCE5 | std::array pb | std::array pb
 sonic-pi  | ruby version | ruby version
 veejay-core | compat-ffmpeg28-devel missing | compat-ffmpeg28-devel missing
 veejay-gui | veejay-server and compat-ffmpeg28-devel missing | veejay-server and compat-ffmpeg28-devel missing
@@ -40,12 +34,11 @@ veejay-server | compat-ffmpeg28-devel missing | compat-ffmpeg28-devel missing
 vsxu | pointer comparison | pointer comparison
 zrythm | libpcre missing | libpcre missing
 rivendell | OK  gcc cannot create executable
-mx44 | OK | not supported
-jamesdsp | OK | NMCTXREGS undeclared
 HISE | OK | intrinsic pb
-spectmorph | OK | __m128 type
 tsunami | OK | cast error
 
+spectmorph | OK | assembler error
+mx44 | OK | not supported
 processing | OK | x86 only
 LinVst | OK | x86 only
 improviz | OK | x86 only
@@ -159,3 +152,54 @@ Patch linuxampler following. this instructions:
 
 Porting intrinsics to ARM using simde:
 - https://wiki.debian.org/SIMDEverywhere
+
+## List of broken packages
+
+spectmorph
+lv2-EQ10Q-plugins
+odin2
+mammut
+protrekkr
+protrekkr2
+rack-v1-DelexanderVol1
+rack-v1-SurgeRack
+rack-v1-WrongPeople
+rack-v1-STS
+rack-v1-CaptainsSounds
+rack-v1-VCV-Recorder
+rack-v1-squinkylabs-plug1
+rack-v1-ParableInstruments
+rack-v1-JE
+rack-v1-BaconMusic
+rack-v2-SynthKit
+rack-v2-FrankBuss
+rack-v2-EH_modules
+rack-v2-SubmarineFree
+rack-v2-ChowDSP
+rivendell
+openFrameworks
+tsunami
+kernel-rt-stable-mao
+frequalizer
+zrythm
+vsxu
+veejay-core
+veejay-server
+veejay-gui
+sonic-pi
+purr-data
+processing
+obxd
+mx44
+monique-monosynth
+midi-monitor
+jamesdsp
+improviz
+HISE
+hexosynth
+buzztrax
+aether
+lives-mao
+yabridge
+wineasio
+LinVst
