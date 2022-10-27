@@ -19,7 +19,6 @@ protrekkr2 | OK | narrowing conversion of '-80' from 'int' to 'char' [-Wnarrowin
 mammut | OK | #error "AVOIDDENORMALS is not defined"
 odin2 | OK | -m64  flag
 obxd | OK | -m64 flag
-ryukau | OK | not supported
 
 purr-data | config.h not found |  config.h not found
 openFrameworks | conflicting declaration | conflicting declarationg
@@ -34,11 +33,10 @@ veejay-server | compat-ffmpeg28-devel missing | compat-ffmpeg28-devel missing
 vsxu | pointer comparison | pointer comparison
 zrythm | libpcre missing | libpcre missing
 rivendell | OK  gcc cannot create executable
-HISE | OK | intrinsic pb
 tsunami | OK | cast error
 
 spectmorph | OK | assembler error
-mx44 | OK | not supported
+mx44 | OK | x86 only
 processing | OK | x86 only
 LinVst | OK | x86 only
 improviz | OK | x86 only
@@ -46,6 +44,9 @@ dssi-vst | OK | x86 only
 Carla-mao | OK | x86 only
 wineasio | OK | x86 only
 yabridge | OK | x86 only
+aeolus_plugin | OK | x86 only
+HISE | OK | x86 only
+ryukau | OK | x86 only
 
 #### Rack v1
 
@@ -156,7 +157,6 @@ Porting intrinsics to ARM using simde:
 ## List of broken packages
 
 spectmorph
-lv2-EQ10Q-plugins
 odin2
 mammut
 protrekkr
@@ -166,7 +166,6 @@ rack-v1-SurgeRack
 rack-v1-WrongPeople
 rack-v1-STS
 rack-v1-CaptainsSounds
-rack-v1-VCV-Recorder
 rack-v1-squinkylabs-plug1
 rack-v1-ParableInstruments
 rack-v1-JE
@@ -180,7 +179,6 @@ rivendell
 openFrameworks
 tsunami
 kernel-rt-stable-mao
-frequalizer
 zrythm
 vsxu
 veejay-core
@@ -191,14 +189,10 @@ purr-data
 processing
 obxd
 mx44
-monique-monosynth
-midi-monitor
-jamesdsp
 improviz
 HISE
 hexosynth
 buzztrax
-aether
 lives-mao
 yabridge
 wineasio
