@@ -5,6 +5,23 @@
 Fedora 34 has reach end of life. The LinuxMAO is no more updated and will be disabled soon.
 Since Fedora 35, the repository is called Audinux (due to a conflict with the website linuxmao.org).
 
+### News of november 2022
+
+A lot of work as been performed on Fedora 37. Now, the repository supports aarch64 and x86_64 architectures.
+
+* new packages:
+  * kernel liquorix has been added to the repository
+  * kernel xanmod has been added to the repository
+  * chameleon plugin has been added
+  * ts-m1n3 plugin has been added
+  * proteus has been added
+  * smartguitarpedal has been added
+  * HISE has been added
+  * all the x42 plugins are now present in the repository
+
+* updated packages:
+  * many packages where updated ...
+
 ### News of august 2022
 * new packages:
   * stretcher (from clearly-broken github repository)
@@ -18,7 +35,7 @@ Since Fedora 35, the repository is called Audinux (due to a conflict with the we
   * lv2file
 
 * updated packages:
-  * kernel-rt-mao	has been updated to 5.15.55.rt48
+  * kernel-rt-mao has been updated to 5.15.55.rt48
   * Various Rack plugins have been updated
   * XUIDesigner has been updated to 0.5
   * Odein2 has been updated to 2.3.4
