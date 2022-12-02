@@ -5,6 +5,14 @@
 Fedora 34 has reach end of life. The LinuxMAO is no more updated and will be disabled soon.
 Since Fedora 35, the repository is called Audinux (due to a conflict with the website linuxmao.org).
 
+### News of december 2022
+
+* new packages:
+  * 
+
+* updated packages:
+  * 
+
 ### News of november 2022
 
 A lot of work as been performed on Fedora 37. Now, the repository supports aarch64 and x86_64 architectures.
@@ -18,10 +26,24 @@ A lot of work as been performed on Fedora 37. Now, the repository supports aarch
   * smartguitarpedal has been added
   * HISE has been added
   * all the x42 plugins are now present in the repository
+  * ladspa-blepco has been added to the repository
+  * ladspa-invada has been added to the repository
+  * ladspa-omins hads been added to the repository
+  * rack-v2-SurgeXTRack	has been added to the repository (not yet available on aarch64)
 
 * updated packages:
   * many packages where updated ...
-
+  * Rack has been updated to last release
+  * some rack plugins where updated too
+  * processing has been updated (I added a symlink to /usr/bin to allow starting processing command line - not yet available on aarch64)
+  * cardinal has been updated (this package requies almost 12Go of memory to compile)
+  * mod-gxpitchshifter has been updated
+  * mod-pitchshifter has been updated (should work now on Guitarix)
+  * stargate has been updated
+  * JUCE has been updated
+  * yabridge has been updated
+  * fasttracker2 has been updated
+  
 ### News of august 2022
 * new packages:
   * stretcher (from clearly-broken github repository)
