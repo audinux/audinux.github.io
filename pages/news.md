@@ -7,11 +7,33 @@ Since Fedora 35, the repository is called Audinux (due to a conflict with the we
 
 ### News of december 2022
 
+Fedora 35 has been tagged EOL (End Of Life)
+So, it's time to move to Fedora 36 or 37.
+
 * new packages:
-  * 
+  * inconcert
+  * jack-director
+  * ladspa-leet
+  * cyclone
+  * fogpad
 
 * updated packages:
-  * 
+  * kernel-lqx-mao (this kernel is still work in progress but seems to works fine)
+  * kernel-xan-mao (this kernel is still work in progress but seems to works fine)
+  * kernel-rt-stable-mao
+  * rack-v2 plugins have been updated to last release
+  * Rack-v2 has been updated to the last version
+  * stargate has been updated several times
+  * jmatconvol
+  * REV-plugins (LADSPA plugin)
+  * lv2-BChoppr
+  * protracker2
+  * lv2-foo-yc20-plugins
+  * LinVst
+  * jacktrip
+  * stochas
+  * jacktrip
+  * processing (works on wayland now)
 
 ### News of november 2022
 
