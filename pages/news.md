@@ -5,6 +5,23 @@
 Fedora 34 has reach end of life. The LinuxMAO is no more updated and will be disabled soon.
 Since Fedora 35, the repository is called Audinux (due to a conflict with the website linuxmao.org).
 
+### News of january 2023
+
+Fedora 35 has been tagged EOL (End Of Life)
+So, it's time to move to Fedora 36 or 37.
+
+* new packages:
+  * None yet
+
+* updated packages:
+  * ossia-score	(no aarch64 support yet)
+  * wavbreaker
+  * puredata has been fixed again
+  * stargate
+  * fire
+  * harvid
+  * xjadeo
+
 ### News of december 2022
 
 Fedora 35 has been tagged EOL (End Of Life)
@@ -16,6 +33,7 @@ So, it's time to move to Fedora 36 or 37.
   * ladspa-leet
   * cyclone
   * fogpad
+  * tascar
 
 * updated packages:
   * kernel-lqx-mao (this kernel is still work in progress but seems to works fine)
@@ -34,6 +52,18 @@ So, it's time to move to Fedora 36 or 37.
   * stochas
   * jacktrip
   * processing (works on wayland now)
+  * faust
+  * zam-mao-plugins
+  * puredata has been updated and fixed
+  * raysession has been updated and the pyliblo	has been fixed to be used with python 3.11
+  * wolf-shaper
+  * dragonfly-reverb
+  * padthv1
+  * proteus has been fixed to include presets
+  * smartamppro	has been fixed to include presets
+  * smartamp has been fixed to include presets
+  * lsp-plugins
+  * cardinal
 
 ### News of november 2022
 
