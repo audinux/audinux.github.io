@@ -11,8 +11,12 @@ Fedora 35 has been tagged EOL (End Of Life)
 So, it's time to move to Fedora 36 or 37.
 
 * new packages:
-  * None yet
-
+  * soundux
+  * audio-effects
+  * piano
+  * organ
+  * voc
+  
 * updated packages:
   * ossia-score	(no aarch64 support yet)
   * wavbreaker
@@ -21,6 +25,18 @@ So, it's time to move to Fedora 36 or 37.
   * fire
   * harvid
   * xjadeo
+  * rack-v2 plugins
+  * plugdata
+  * Carlam-mao
+  * BYOD (Build Your Own Distortion)
+  * pianobooster (a fix in font management)
+  * sound2light (various fixes in the package)
+  * sonobus
+  * JUCE
+  * ossia score
+  * wavbreaker
+  * pue data (update and some fixes to the package)
+  * fire
 
 ### Past news
 
