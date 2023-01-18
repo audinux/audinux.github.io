@@ -16,6 +16,9 @@ So, it's time to move to Fedora 36 or 37.
   * piano
   * organ
   * voc
+  * patchance
+  * playitslowly
+  * paulstretch_cpp
   
 * updated packages:
   * ossia-score	(no aarch64 support yet)
@@ -37,6 +40,10 @@ So, it's time to move to Fedora 36 or 37.
   * wavbreaker
   * pue data (update and some fixes to the package)
   * fire
+  * roomreverb
+  * BAngr
+  * kernel-rt-stable-mao
+  * din
 
 ### Past news
 
