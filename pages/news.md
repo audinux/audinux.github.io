@@ -19,6 +19,10 @@ So, it's time to move to Fedora 36 or 37.
   * patchance
   * playitslowly
   * paulstretch_cpp
+  * lv2-gula-plugins
+  * annulus
+  * lv2-russolo
+  * lv2-slowmo
   
 * updated packages:
   * ossia-score	(no aarch64 support yet)
@@ -44,6 +48,15 @@ So, it's time to move to Fedora 36 or 37.
   * BAngr
   * kernel-rt-stable-mao
   * din
+  * GxPlugins
+  * receivemidi
+  * sendmidi
+  * paulxstretch
+  * BambooTracker
+  * patchance
+  * konfyt
+  * rt-tests
+
 
 ### Past news
 
