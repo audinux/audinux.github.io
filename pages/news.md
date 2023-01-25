@@ -10,19 +10,27 @@ Since Fedora 35, the repository is called Audinux (due to a conflict with the we
 Fedora 35 has been tagged EOL (End Of Life)
 So, it's time to move to Fedora 36 or 37.
 
+
 * new packages:
   * soundux
   * audio-effects
   * piano
   * organ
   * voc
-  * patchance
+  * patchance (from the Ray Session eveloper)
+  * patchichi (from the Ray Session eveloper)
   * playitslowly
-  * paulstretch_cpp
+  * paulstretch_cpp (the original paulstretch version from the zynaddsubfx developer)
   * lv2-gula-plugins
   * annulus
   * lv2-russolo
   * lv2-slowmo
+  * jack-link
+  * jacktrip
+  * chaffverb
+  * hvcc (required for chaffverb - it's a puredata compiler which generates LV2 / VST / CLAP plugins)
+  * python-importlib-resources (required for hvcc)
+  * python-json2daisy (required for hvcc)
   
 * updated packages:
   * ossia-score	(no aarch64 support yet)
@@ -56,6 +64,10 @@ So, it's time to move to Fedora 36 or 37.
   * patchance
   * konfyt
   * rt-tests
+  * amsynth
+  * protracker2
+  * fasttracker2
+  * raysession
 
 
 ### Past news
