@@ -8,10 +8,54 @@ Since Fedora 35, the repository is called Audinux (due to a conflict with the we
 Fedora 35 has been tagged EOL (End Of Life)
 So, it's time to move to Fedora 36 or 37.
 
+I will stop building the RT kernel 5.15 because it has too many problems with audio (the USB Audio driver seems to have a lot of problems and doesn't play well with pipewire).
+
 ### News of february 2023
 
 * new packages:
 * updated packages:
+
+### News of february 2023
+
+* new packages:
+  * cabbage
+  * princepedal
+  * SN76489
+  * chataigne
+  * lv2-euclidean-rhythms
+  * camomile
+  * vswell
+  * ddsp
+  * soundscaperenderer
+
+* updated packages:
+  * jamin - package fixes, something broke in Gtk2 quite recently and some packages need fixes
+  * cardinal - huge build: requires more than 12 Go of RAm to build
+  * odin2
+  * sonobus
+  * supercollider-sc3-plugins
+  * supercollider
+  * yabridge - back again after a Wine update
+  * shortcircuit
+  * wolf-shaper
+  * processing 4.2
+  * processing 4.1.3
+  * rack-v2 - many updates and new rack added
+  * kernel-rt-stable-mao
+  * sequencer64
+  * Impro-Visor - fixes, Impro-Visor is now back and works !
+  * neothesia
+  * ebumeter
+  * tsunami
+  * cabbage
+  * kernel-xan-mao
+  * kernel-lqx-mao
+  * jacktrip
+  * LinVst - back after a Wine update
+  * BambooTracker
+  * timemachine - a gcc flag made timemachine hangs
+  * lv2-airwindows
+  * airwindows
 
 ### News of january 2023
 
