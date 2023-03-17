@@ -10,7 +10,9 @@ So, it's time to move to Fedora 36 or 37.
 
 I will stop building the RT kernel 5.15 because it has too many problems with audio (the USB Audio driver seems to have a lot of problems and doesn't play well with pipewire).
 
-### News of february 2023
+I started the build of packages for Fedora 38 - x86_64 / aarch64.
+
+### News of march 2023
 
 * new packages:
 * updated packages:
