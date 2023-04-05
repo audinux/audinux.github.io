@@ -12,10 +12,78 @@ I will stop building the RT kernel 5.15 because it has too many problems with au
 
 I started the build of packages for Fedora 38 - x86_64 / aarch64.
 
-### News of march 2023
+### News of april 2023
 
 * new packages:
 * updated packages:
+
+### News of march 2023
+
+* new packages:
+  * nki
+  * line
+  * lv2-aidadsp
+
+* updated packages:
+  * jacktrip
+  * dragonfly-reverb
+  * lv2-airwindows
+  * uhhyouplugins
+  * bipscript-ide
+  * bipscript
+  * sendmidi
+  * receivemidi
+  * chameleon
+  * faust
+  * kernel-rt-stable-mao
+  * r128gain
+  * HISE
+  * padthv1
+  * lsp-plugins
+  * shortcircuit
+  * seq66
+  * chataigne
+  * saugns
+  * ams
+  * tuna.lv2
+  * stepseq.lv2
+  * spectra.lv2
+  * sisco.lv2
+  * phaserotate.lv2
+  * mixtri.lv2
+  * mixtri.lv2
+  * meters.lv2
+  * matrixmixer.lv2
+  * lv2-avldrums-x42-plugin
+  * fil4.lv2
+  * fat1.lv2
+  * dpl.lv2
+  * darc.lv2
+  * darc.lv2
+  * lv2-neural-amp-modeler
+  * midivisualizer
+  * AnalogTapeModel
+  * chuck
+  * vmpc
+  * aeolus_plugin
+  * amsynth
+  * Carla-mao
+  * stargate
+  * lv2-mephisto
+  * Rack-v2
+  * rack-v2-Fundamental
+  * kernel-lqx-mao
+  * kernel-xan-mao
+  * plugdata
+  * noise-suppression-for-voice
+  * solfege
+  * fasttracker2
+  * gammou
+  * drops
+  * sickbeatbetty
+  * grandorgue
+  * jamin
+  * cardinal
 
 ### News of february 2023
 
