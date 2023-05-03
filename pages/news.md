@@ -2,20 +2,51 @@
 
 ## News
 
-Fedora 34 has reach end of life. The LinuxMAO is no more updated and will be disabled soon.
 Since Fedora 35, the repository is called Audinux (due to a conflict with the website linuxmao.org).
 
 Fedora 35 has been tagged EOL (End Of Life)
-So, it's time to move to Fedora 36 or 37.
 
 I will stop building the RT kernel 5.15 because it has too many problems with audio (the USB Audio driver seems to have a lot of problems and doesn't play well with pipewire).
 
-I started the build of packages for Fedora 38 - x86_64 / aarch64.
+### News of may 2023
+
+* new packages:
+* updated packages:
 
 ### News of april 2023
 
 * new packages:
+  * dpf-plugins
+  * elektroid
+  * aida-x
+  * valentine
+
 * updated packages:
+  * kernel-xan-mao
+  * surge-xt
+  * kernel-rt-mao
+  * seq66
+  * pipecontrol
+  * ossia-score
+  * Rack-v2
+  * liquidsfz
+  * dragonfly-reverb
+  * helio-workstation
+  * rack-v2 plugins
+  * grandorgue
+  * konfyt
+  * master_me
+  * sfizz
+  * fasttracker2
+  * hvcc
+  * sequencer64
+  * spectmorph
+  * mandelbulber2
+  * hydrogen
+  * seq42
+  * chataigne
+  * jacktrip
+  * lv2-airwindows
 
 ### News of march 2023
 
