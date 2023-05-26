@@ -4,7 +4,7 @@
 
 Since Fedora 35, the repository is called Audinux (due to a conflict with the website linuxmao.org).
 
-Fedora 35 has been tagged EOL (End Of Life)
+Fedora 36 has been tagged EOL (End Of Life)
 
 I will stop building the RT kernel 5.15 because it has too many problems with audio (the USB Audio driver seems to have a lot of problems and doesn't play well with pipewire).
 
