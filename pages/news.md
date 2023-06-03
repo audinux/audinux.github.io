@@ -11,7 +11,71 @@ I will stop building the RT kernel 5.15 because it has too many problems with au
 ### News of may 2023
 
 * new packages:
+  * DIE-Plugins
+  * mididebug.lv2
+  * midifilter.lv2
+  * midigen.lv2
+  * midimap.lv2
+  * onsettrigger.lv2
+  * stereoroute.lv2
+  * mod-utilities
+  * mod-system-plugins
+  * mod-neural-amp
+  * mod-cv-plugins
+  * Ildaeil
+  * js80p
+  * rack-v2 plugins
+
 * updated packages:
+  * kernel-rt-stable-mao
+  * grandorgue
+  * rack-v2 plugins
+  * lsp-plugins
+  * seq66
+  * chuck
+  * mamba
+  * wavegain
+  * spectmorph
+  * kernel-rt-mao
+  * chataigne
+  * faust
+  * konfyt
+  * wolf-shaper
+  * jacktrip
+  * protracker2
+  * testsignal.lv2
+  * matrixmixer.lv2
+  * stepseq.lv2
+  * zconvo.lv2
+  * xfade.lv2
+  * tuna.lv2
+  * sisco.lv2
+  * spectra.lv2
+  * sisco.lv2
+  * spectra.lv2
+  * repitch.lv2
+  * plumbing.lv2
+  * phaserotate.lv2
+  * nodelay.lv2
+  * mtc.lv2
+  * mixtri.lv2
+  * midifilter.lv2
+  * meters.lv2
+  * mclk.lv2
+  * gmsynth.lv2
+  * fil4.lv2
+  * fat1.lv2
+  * dpl.lv2
+  * darc.lv2
+  * lv2-avldrums-x42-plugin
+  * controlfilter.lv2
+  * balance.lv2
+  * jjazzlab
+  * plugdata
+  * uhhyouplugins
+  * surge-xt
+  * infamousPlugins
+  * kernel-xan-mao
 
 ### News of april 2023
 
