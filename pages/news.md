@@ -8,6 +8,46 @@ Fedora 36 has been tagged EOL (End Of Life)
 
 I will stop building the RT kernel 5.15 because it has too many problems with audio (the USB Audio driver seems to have a lot of problems and doesn't play well with pipewire).
 
+### News of june 2023
+
+* new packages:
+  * drumrox-kits
+  * grainbow
+  * gtick
+  * dxsyx
+  * dexed-extra-presets
+  * lv2-dexed
+  * rosegarden4
+
+* updated packages:
+  * libsmf
+  * neothesia
+  * fat1.lv2
+  * zconvo.lv2
+  * seq66
+  * fasttracker2
+  * protracker2
+  * drumrox
+  * chuck
+  * rack-v2
+  * vmpc
+  * ossia-score
+  * lv2-neural-amp-modeler
+  * kernel-rt-mao
+  * kernel-rt-stable-mao
+  * jalv_select
+  * jamesdsp
+  * jacktrip
+  * faust
+  * spectacle-analyzer
+  * grandorgue
+  * lv2-fps-plugins
+  * uhhyouplugins
+  * hydrogen
+  * supercollider
+  * padthv1
+  * Carla-mao
+
 ### News of may 2023
 
 * new packages:
