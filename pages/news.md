@@ -8,6 +8,60 @@ Fedora 36 has been tagged EOL (End Of Life)
 
 I will stop building the RT kernel 5.15 because it has too many problems with audio (the USB Audio driver seems to have a lot of problems and doesn't play well with pipewire).
 
+### News of july 2023
+
+* new packages:
+  * rack-v2 (some new rack plugins have been added)
+  * infernal-synth
+  * js80p
+  * allex-k-synth
+  * atlas-06-synthesizer
+  * rotor
+  * blackbird
+  * vst3sdk
+  * jack-oscillator
+  * harmonigon
+  * prototracker-modular
+  * SimpleSysexxer
+  * drumrox-kits-TamilMultiLayered
+  * drumrox-kits-Tamil
+  * drumrox-kits-Rokton-UDS
+  * drumrox-kits-Lel-PSR
+  * drumrox-kits-Lel-DR8
+  * grainbow
+  * gtick (thanks to jn64)
+
+* updated packages:
+  * rack-v2
+  * vmpc
+  * bipscript
+  * bipscript-ide
+  * patchance
+  * kernel-rt-mao
+  * processing
+  * grandorgue
+  * airwindows
+  * lv2-airwindows
+  * lsp-plugins
+  * seq66
+  * cardinal (this update add a new package CardinalMini with a reduced set of mebedded plugins - thanks to jn64)
+  * Ildaeil
+  * BespokeSynth
+  * jamesdsp
+  * chuck
+  * mandelbulber2
+  * drumrox
+  * lv2-neural-amp-modeler
+  * xfade.lv2
+  * kernel-rt-stable-mao
+  * milkytracker
+  * libsmf
+  * saugns
+  * neothesia
+  * fat1.lv2
+  * zconvo.lv2
+  * fat1.lv2
+
 ### News of june 2023
 
 * new packages:
@@ -20,7 +74,7 @@ I will stop building the RT kernel 5.15 because it has too many problems with au
   * rosegarden4
 
 * updated packages:
-  * libsmf
+  * Libsmf
   * neothesia
   * fat1.lv2
   * zconvo.lv2
