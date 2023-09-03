@@ -8,6 +8,63 @@ Fedora 36 has been tagged EOL (End Of Life)
 
 I will stop building the RT kernel 5.15 because it has too many problems with audio (the USB Audio driver seems to have a lot of problems and doesn't play well with pipewire).
 
+### News of august 2023
+
+* new packages:
+  * sfizz-ui (replace sfizz which is now a devel package)
+  * modeq
+  * lmms-mao-weekly (lmms 1.3 alpha is now stable enough and 1.2.2 is broken because of various problems)
+  * morgan
+  * AVLDrumkits-RedZeppelin-H2-repack.h2d (in bandshed-drumkits package)
+  * AVLDrumkits-BuskmansHoliday (in bandshed-drumkits package)
+  * AVLDrumkits-BlondeBop-HotRod.h2d (in bandshed-drumkits package)
+  * AVLDrumkits-BlondeBop.h2d (in bandshed-drumkits package)
+  * AVLDrumkits-BlackPearl-H2-repack (in bandshed-drumkits package)
+  * lv2-ir
+  * si-plugins
+  * gtk-wave-cleaner
+  * cstop
+  * mscore-mao (both 4.0 and 4.1 are now in the repository. The system to download audio sample is not yet packaged)
+  * rack-v2 plugins
+
+* updated packages:
+  * openFrameworks
+  * midivisualizer
+  * jacktrip
+  * saugns
+  * protracker2
+  * sfizz
+  * seq66
+  * roomreverb
+  * Rack-v2
+  * rack-v2 plugins
+  * miniaudicle
+  * chuck
+  * JUCE
+  * livecd-tools-mao
+  * rack-v2-HetrickCV
+  * lsp-plugins
+  * ChowKick
+  * rccomp
+  * rcverb
+  * geonkick
+  * zynthian-data
+  * vmpc
+  * grandorgue
+  * js80p
+  * HISE
+  * mpk-m2-editor
+  * rivendell
+  * libcoverart
+  * hvcc
+  * konfyt
+  * organ
+  * Carla-mao
+  * fasttracker2
+  * kernel-xan-mao
+  * kernel-lqx-mao
+  * lv2-airwindows
+
 ### News of july 2023
 
 * new packages:
