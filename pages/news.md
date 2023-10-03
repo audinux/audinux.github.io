@@ -6,7 +6,65 @@ Since Fedora 35, the repository is called Audinux (due to a conflict with the we
 
 Fedora 36 has been tagged EOL (End Of Life)
 
+Fedora 39 beta: I started to rebuild packages for Fedora 39 beta
+
 I will stop building the RT kernel 5.15 because it has too many problems with audio (the USB Audio driver seems to have a lot of problems and doesn't play well with pipewire).
+
+### News of september 2023
+
+* new packages:
+  * equis
+  * jc303
+  * sparta
+  * iem-plugins
+  * lv2-toobamp-plugins
+  * drumlabooh
+  * non-mixer-xt
+
+* updated packages:
+  * wavetable
+  * js80p
+  * ZLFO
+  * geonkick
+  * jack-link
+  * seq66
+  * lmms-mao-weekly
+  * raysession
+  * HISE
+  * rack-v2-CuteFoxModules
+  * neuralrecord
+  * tascar
+  * midivisualizer
+  * vmpc
+  * faust
+  * zconvo.lv2
+  * lv2-avldrums-x42-plugin
+  * lv2-airwindows
+  * BespokeSynth
+  * cardinal
+  * din
+  * phaserotate.lv2
+  * midifilter.lv2
+  * fil4.lv2
+  * fat1.lv2
+  * dpl.lv2
+  * darc.lv2
+  * padthv1
+  * lsp-plugins
+  * hydrogen
+  * tetraproc
+  * protracker2
+  * schismtracker
+  * organ
+  * miniaudicle
+  * chuck
+  * hvcc
+  * jamulus
+  * kernel-rt-stable-mao
+  * ztoolkit
+  * xjadeo
+  * jacktrip
+  * BambooTracker
 
 ### News of august 2023
 
@@ -398,7 +456,7 @@ I will stop building the RT kernel 5.15 because it has too many problems with au
   * melodrumatic
   * saugns
   * ladspa-pvoc
-  
+
 * updated packages:
   * ossia-score	(no aarch64 support yet)
   * wavbreaker
