@@ -10,6 +10,73 @@ Fedora 39 beta: I started to rebuild packages for Fedora 39 beta
 
 I will stop building the RT kernel 5.15 because it has too many problems with audio (the USB Audio driver seems to have a lot of problems and doesn't play well with pipewire).
 
+### News of october 2023
+
+* new packages:
+  * peaksynth-audio-plugin
+  * minigbs
+  * stomptuner
+  * ltc-tools
+  * mtc-tools
+  * libtimecode
+  * bedroomstudio
+  * delooper
+  * lv2-cv-to-cc
+  * lv2-audio-to-cv-pitch
+
+* updated packages:
+  * neuralrecord
+  * miniaudicle
+  * chuck
+  * protracker2
+  * fasttracker2
+  * pipecontrol
+  * schismtracker
+  * AnalogTapeModel
+  * non-mixer-xt
+  * grainbow
+  * lv2-invada-plugins
+  * livecd-tools-mao
+  * drmr
+  * cardinal
+  * jnoisemeter
+  * lmms-mao-weekly
+  * rack-v2-BaconMusic
+  * raysession
+  * uhhyouplugins
+  * tsunami
+  * splash
+  * wavetable
+  * alsa-scarlett-gui
+  * blocks
+  * SN76489
+  * equis
+  * lv2-neural-amp-modeler
+  * js80p
+  * lsp-plugins
+  * neuralrecord
+  * grandorgue
+  * SocaLabs-plugins
+  * drumlabooh
+  * kernel-rt-stable-mao
+  * wavefile
+  * ToneTwistPlugs
+  * faustlive
+  * geonkick
+  * rt-tests
+  * rakarrack-plus
+  * kernel-lqx-mao
+  * kernel-xan-mao
+  * plugdata
+  * furnace
+  * guitarmidi
+  * airwindows
+  * vmpc
+  * saugns
+  * guitarsynth
+  * wineasio
+  * Carla-mao
+
 ### News of september 2023
 
 * new packages:
