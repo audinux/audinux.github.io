@@ -26,3 +26,7 @@ It has been built using the script found on the fedora-specs github repository
 ### Contact
 
 If you find a problem when using one of the packages shipped by this COPR repository, feel free to file a bug report at the [GitHub spec repository](https://github.com/audinux/fedora-spec).
+
+## Chat
+
+You can access to a chat related to Audinux [here](https://chat.fedoraproject.org/#/room/#audinux:fedora.im)
