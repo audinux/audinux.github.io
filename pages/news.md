@@ -5,10 +5,53 @@
 Since Fedora 35, the repository is called Audinux (due to a conflict with the website linuxmao.org).
 
 Fedora 36 has been tagged EOL (End Of Life)
-
-Fedora 39 beta: I started to rebuild packages for Fedora 39 beta
+Fedora 37 has been tagged EOL (End Of Life)
 
 I will stop building the RT kernel 5.15 because it has too many problems with audio (the USB Audio driver seems to have a lot of problems and doesn't play well with pipewire).
+
+### News for december 2023
+
+* new packages:
+  * ToneTwistPlugs
+  * tuxguitar (1.6.0)
+  * tuxguitar (1.5.6)
+  * showdmidi
+  * rejj
+  * joepvanlier_ysfx
+  * geraintluff_ysfx
+  * ysfx-debugsource
+  * ysfx-debuginfo
+  * ysfx
+  * midilooper
+
+* updated packages:
+  * alsa-scarlett-gui
+  * rack-v2-Biset
+  * jalv_select
+  * sonobus
+  * chataigne
+  * geonkick
+  * neuralrecord
+  * grandorgue
+  * airwindows
+  * kernel-rt-stable-mao
+  * ossia-score
+  * rivendell
+  * plugdata
+  * JUCE
+  * js80p
+  * faust
+  * splash
+  * lmms-mao-weekly
+  * livecd-tools-mao
+  * jack_mixer
+  * kernel-lqx-mao
+  * kernel-xan-mao
+  * jacktrip
+  * AnalogTapeModel
+  * zam-mao-plugins
+  * fxseq
+  * spectmorph
 
 ### News of october 2023
 
