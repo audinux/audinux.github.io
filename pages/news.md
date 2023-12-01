@@ -9,7 +9,7 @@ Fedora 37 has been tagged EOL (End Of Life)
 
 I will stop building the RT kernel 5.15 because it has too many problems with audio (the USB Audio driver seems to have a lot of problems and doesn't play well with pipewire).
 
-### News for december 2023
+### News for november 2023
 
 * new packages:
   * ToneTwistPlugs
