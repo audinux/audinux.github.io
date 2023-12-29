@@ -23,6 +23,7 @@ A real looper for Linux | [PDF](../workshop/audio/SooperLooper.pdf), [ODP](../wo
 A sequencer for GuitarPro scores | [PDF](../workshop/audio/TuxGuitar.pdf), [ODP](../workshop/audio/TuxGuitar.odp)
 The real power of Modular synths | [PDF](../workshop/audio/VCVRack.pdf), [ODP](../workshop/audio/VCVRack.odp)
 A new approach to Modular synth: BespokeSynth | [PDF](../workshop/audio/BespokeSynth.pdf), [ODP](../workshop/audio/BespokeSynth.odp)
+Setting a sound with Guitarix | [PDF](../workshop/audio/GuitarEffectChain.pdf), [ODP](../workshop/audio/GuitarEffectChain.odp)
 
 And some various files on some interest for Audio and Linux: [ZIP](../workshop/audio/Divers.zip)
 * decouverte_du_noyau_gnu_linux.pdf
