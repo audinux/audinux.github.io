@@ -1,6 +1,6 @@
 // Everything is in the asynchronous function. It is called once search-data file is loaded.
 
-$.getJSON("search-data.json", function (json) {
+$.getJSON("data/search-data.json", function (json) {
   //console.log(json); 
   var rows = json
 
