@@ -9,6 +9,54 @@ Fedora 37 has been tagged EOL (End Of Life)
 
 I will stop building the RT kernel 5.15 because it has too many problems with audio (the USB Audio driver seems to have a lot of problems and doesn't play well with pipewire).
 
+### News for december 2023
+
+* new packages:
+  * MelMatchEQ
+  * sympathetic-string-resonator
+  * stereocrossdelay
+  * jackmidi2osc
+  * clap
+  * maim
+  * qtractor-mao (qtractor actually in fedora repo does not work with pipewire. You need at least 0.9.37. This package provides this version and above)
+
+* updated packages:
+  * stargate
+  * kernel-lqx-mao
+  * kernel-xan-mao
+  * vmpc
+  * jc303
+  * saugns
+  * uhhyouplugins
+  * harmonigon
+  * vaporizer2
+  * drumlabooh
+  * jjazzlab
+  * yabridge
+  * lsp-plugins
+  * kernel-rt-stable-mao
+  * padthv1
+  * lmms-mao-weekly
+  * airwindows
+  * joepvanlier_ysfx
+  * konfyt
+  * fasttracker2
+  * geonkick
+  * helio-workstation
+  * jalv_select
+  * sonobus
+  * openboard
+  * surge-xt
+  * non-mixer-xt
+  * rosegarden4
+  * hvcc
+  * miniaudicle
+  * chuck
+  * splash
+  * seq66
+  * lv2-airwindows
+  * raysession
+
 ### News for november 2023
 
 * new packages:
