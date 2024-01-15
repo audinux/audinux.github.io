@@ -4,6 +4,10 @@
 
 **Audinux** (formerly LinuxMAO) is a Fedora-based repository dedicated to audio tools.
 
+### Warning
+
+Using Liquorix kernel can cause some potential problems: if you boot on Liquorix kernel and the boot on standard Fedora, a SE Linux file system relabeling is triggered. I advice to just not use yet the Liquorix kernel. I have not tried yet the last XanMod kernel but this one shares the same kernel configuration so, you may have better results with this one.
+
 ### Using Audinux
 
 - [Installing and configuring Audinux](pages/configuration.md)
