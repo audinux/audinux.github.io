@@ -8,3 +8,4 @@
 
 The [github repository](https://github.com/audinux/fedora-spec) where you can find the specs of the RPM packages:
 
+A [Website of AI models](https://tonehunt.org/all).
