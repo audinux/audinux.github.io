@@ -8,6 +8,54 @@ Fedora 37 has been tagged EOL (End Of Life)
 
 I will stop building the RT kernel 5.15 because it has too many problems with audio (the USB Audio driver seems to have a lot of problems and doesn't play well with pipewire).
 
+### News for february 2024
+
+* new packages:
+  * qlcplus
+  * lv2-neural-amp-modeler-ui
+  * ImpulseLoaderStereo
+  * xruncounter
+  * line
+  * ImpulseLoaderStereo
+  * kickmess
+  * ImpulseLoader
+
+* updated packages:
+  * projectM-mao
+  * vaporizer2
+  * rack-v2
+  * aeolus_plugin
+  * kernel-xan-mao
+  * kernel-lqx-mao
+  * kernel-rt-mao
+  * vst3-guitarix
+  * fasttracker2
+  * lmms-mao-weekly
+  * stochas
+  * protrekkr2
+  * jack-link
+  * hvcc
+  * equis
+  * mandelbulber2
+  * leiningen
+  * JUCE
+  * xjadeo
+  * prototracker-modular
+  * cabbage
+  * infernal-synth
+  * clap-info
+  * jacktrip
+  * non-mixer-xt
+  * hexosynth
+  * surge-xt
+  * splash
+  * ossia-score
+  * furnace
+  * tuxguitar
+  * sparta
+  * grainbow
+  * aida-x
+
 ### News for january 2024
 
 * new packages:
