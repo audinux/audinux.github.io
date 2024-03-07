@@ -6,7 +6,7 @@
 
 ### Warning
 
-Using Liquorix kernel can cause some potential problems: if you boot on Liquorix kernel and then boot on standard Fedora, a SE Linux file system relabeling is triggered. I advice to just not use yet the Liquorix kernel. 
+Making music using Linux is addictive ...
 
 ### Using Audinux
 
