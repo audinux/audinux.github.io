@@ -14,7 +14,7 @@ Making music using Linux is addictive ...
 - [Search packages](packages/index.html)
 - [Installing VCV Rack and plugins](pages/vcvrack.md)
 - [Related links](pages/links.md)
-- [Status of Fedora 37 beta](pages/build.md)
+- [Status of Fedora 40 beta](pages/build.md)
 
 ### Other information
 

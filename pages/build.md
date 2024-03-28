@@ -4,9 +4,12 @@
 
 ### Tickets
 
-For this release, 2 tickets have been opened:
-- https://bugzilla.redhat.com/show_bug.cgi?id=2128041 - libsndfile problem (fixed)
-- https://bugzilla.redhat.com/show_bug.cgi?id=2127286 - lv2 headers problem (fixed)
+A ticket has been opened for vst3sdk: https://github.com/steinbergmedia/vst3sdk/issues/123
+
+### Fedora 40
+
+A lot of implicit function declarations in C.
+vst3 problems due to vst3sdk error.
 
 ### Fedora 38
 
