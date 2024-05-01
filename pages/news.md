@@ -8,7 +8,94 @@ I will stop building the RT kernel 5.15 because it has too many problems with au
 
 Build of Fedora 40 and Rawhide version is not over (4 days of rebuild). Now it's time to fix the broken packages.
 
-### News for match 2024
+* packages to fix for Fedora 40
+  * cardinal -> gcc segfault on arm64
+  * surge-xt - arm64 -> compiler segfault
+  * dssi-vst
+  * linvst -> 32 bits packages pb
+  * yabridge -> wineg++ pb
+  * mscore-mao
+  * lv2-loop192
+  * bipescript-ide -> conversion error on f40 / rawhide
+  * vmpc -> error: assignment of read-only member
+  * soundux -> convertion error
+  * shortcircuit -> distutils missing - python 3.12
+  * seq192 -> rawhide - conversion error
+  * rack-v2-monome -> -Wincompatible-pointer-types
+  * performer -> moc_performer.cpp:198:21: error: â€˜class Performerâ€™ has no member named â€˜loadHelpâ€™
+  * peaksynth-audio-plugin -> error: juce_audio_basics/juce_audio_basics.h: No such file or directory
+  * mapmap -> src/control/OscInterface.cpp:54:25: error: invalid conversion (rawhide only)
+  * loop192 -> error: invalid conversion
+  * glava -> is triggering the generation of an executable stack (because it has an executable .note.GNU-stack section) - rawhide only
+  * lives-mao -> libunicap-devel missing on rawhide
+
+### News for may 2024
+
+* new packages
+  * ratatouille 0.2-1
+  * multimeter 1.0.0-1
+  * sfxr-qt 1.5.0-1
+  * thekissofshame 1.0.0-1
+  * mxtune 1.2.0-1
+  * bridgelite 1.0.5-1
+
+* updated packages
+  * tascar 0.232.1-1
+  * firefly-synth 1.7.4-1
+  * audibleplanets 1.0.20-1
+  * grandorgue 3.14.2.1-7
+  * valentine 1.0.1-1
+  * schismtracker 20240426-2
+  * js80p 2.9.0-1
+  * ykchorus 0.2.4-1
+  * rack-v2-SurgeXTRack 2.2.3.0-2
+  * xjadeo 0.8.14-5
+  * rivendell 4.2.1-1
+  * vst3sdk 3.7.11-1
+  * jamesdsp 2.7.3-2
+  * protracker2 1.69.2-4
+  * rack-v2-Stoermelder-P1 2.0.beta4-2
+  * rack-v2-SIM 2.1.0-2
+  * rack-v2-SickoCV 2.6.9-2
+  * rack-v2-PS-PurrSoftware 2.0.34-2
+  * rack-v2-CVfunk 2.0.3-2
+  * rack-v2-Befaco 2.7.0-2
+  * ossia-score 3.1.14-1
+  * gtk-wave-cleaner 0.22.06-1
+  * cardinal 24.04-2
+  * kernel-rt-stable-mao 5.10.215.rt107-12
+  * miniaudicle 1.5.2.4-2
+  * chuck 1.5.2.4-2
+  * Rack-v2 2.5.1-4
+  * rack-v2-VCV-Recorder 2.0.2-3
+  * lmms-mao-weekly 1.2.99-12
+  * JUCE 7.0.12-10
+  * saugns 0.4.4b-1
+  * konfyt 1.6.1-3
+  * amsynth 1.13.3-3
+  * openav-luppp 1.1-11
+  * receivemidi 1.4.2-3
+  * sendmidi 1.3.1-3
+  * jamin 0.98.9-2
+  * qtractor-mao 0.9.90-2
+  * drmr 1.0.0.2879121-3
+  * padthv1 0.9.90-4
+  * drumrox-kits 0.0.1-2
+  * fasttracker2 1.81-3
+  * kernel-rt-mao 6.6.25.rt29-13
+  * rack-v2-Sparkette 2.6.0-2
+  * rack-v2-MUS-X 2.0.2-2
+  * rack-v2-Biset 2.0.12-2
+  * seq42 2.1.4-1
+  * drumlabooh 2.4.0-1
+  * drumrox 3.3.0-1
+  * tuxguitar 1.6.2-10
+  * splash 0.10.10-1
+  * faust 2.72.14-37
+  * faustlive 2.5.18-1
+  * furnace 0.6.2-4
+
+### News for march 2024
 
 * new packages
   * onetrick-keys 1.0.0-1
