@@ -32,6 +32,78 @@ Build of Fedora 40 and Rawhide version is not over (4 days of rebuild). Now it's
 ### News for may 2024
 
 * new packages
+  * zl-equalizer 0.3.0-1
+  * hera 0.0.1-1
+  * cetone-synth-light 0.0.1-1
+  * cetone033-synth 0.0.1-1
+  * cetone-synth 0.0.1-1
+  * foam-synth 0.1.3-1
+  * airwin2rack 2.11.0-1
+
+* updated packages
+  * schismtracker 20240529-2
+  * showdmidi 0.9.0-1
+  * receivemidi 1.4.3-3
+  * blocks 0.1-3
+  * kernel-rt-mao 6.6.32.rt32-13
+  * kernel-rt-stable-mao 5.10.217.rt109-12
+  * ossia-score 3.2.0-1
+  * js80p 3.1.0-1
+  * orca-lang 0.1.0.d6bf8e2-4
+  * line 0.6.2-1
+  * cardinal 24.05-2
+  * mda-lv2 0.9.b2df88c-4
+  * airwindows 0.0.1-83
+  * lsp-plugins 1.2.16-1
+  * rt-tests 2.7-1
+  * noise-suppression-for-voice 1.10-3
+  * firefly-synth 1.7.6-1
+  * jacktrip 2.3.0-2
+  * non-mixer-xt 1.3.3-1
+  * Rack-v2 2.5.2-4
+  * rack-v2-vanTies 2.4.0-2
+  * rack-v2-TMT 2.1.9-2
+  * rack-v2-SIM 2.1.1-2
+  * rack-v2-PdArray 2.1.1-2
+  * rack-v2-minimal-friction 2.1.0-2
+  * rack-v2-CVfunk 2.0.5-2
+  * rack-v2-CosineKitty-Sapphire 2.4.4-2
+  * rack-v2-StochasticTelegraph 2.0.14-2
+  * rack-v2-SickoCV 2.6.10-2
+  * rack-v2-questionablemodules 2.1.14-2
+  * rack-v2-PathSet 2.5.0-1
+  * rack-v2-MML 2.1.0-2
+  * rack-v2-Chinenual-VCV 2.7.0-2
+  * rack-v2-Befaco 2.7.1-2
+  * rack-v2-Airwin2Rack 2.11.0-2
+  * zam-mao-plugins 4.3-4
+  * fasttracker2 1.84-3
+  * surge-xt 1.3.2-2
+  * helio-workstation 3.13.0-2
+  * openboard 1.7.1-3
+  * audibleplanets 1.0.22-1
+  * rack-v2-Sparkette 2.7.1-2
+  * librearp 2.5-2
+  * wstd-manglr 1.1.0-1
+  * grandorgue 3.14.3.0-7
+  * lmms-mao-weekly 1.2.99-13
+  * clap 1.2.1-1
+  * kernel-lqx-mao 6.8.9.lqx1-14
+  * kernel-xan-mao 6.8.9.xan1-12
+  * digitsvst 0.0.1-1
+  * multimeter 1.0.0-1
+  * thekissofshame 1.0.1-1
+  * padthv1 0.9.91-4
+  * qtractor-mao 0.9.91-2
+  * rivendell 4.2.2-1
+  * amsynth 1.13.4-3
+  * furnace 0.6.3-4
+  * coppwr 1.6.0-1
+  * tascar 0.232.1-1
+
+### News for april 2024
+
+* new packages
   * ratatouille 0.2-1
   * multimeter 1.0.0-1
   * sfxr-qt 1.5.0-1
