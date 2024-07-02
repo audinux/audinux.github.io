@@ -29,6 +29,89 @@ Build of Fedora 40 and Rawhide version is not over (4 days of rebuild). Now it's
   * glava -> is triggering the generation of an executable stack (because it has an executable .note.GNU-stack section) - rawhide only
   * lives-mao -> libunicap-devel missing on rawhide
 
+### News for june 2024
+
+* new packages
+  * zl-ecomp 0.2.3-1
+  * zl-equalizer 0.3.2-2
+  * zl-inflator 0.3.0-1
+  * zl-lmakeup 0.2.7-1
+  * zl-lmatch 0.2.4-1
+  * zl-warm 0.2.1-1
+  * dexed 0.9.6-1
+  * guitarix 0.46.0-10
+
+* updated packages
+  * JUCE 8.0.0-10
+  * JUCE7 7.0.12-10
+  * ToneTwistPlugs 0.8-1
+  * airwindows 0.0.1-86
+  * balance.lv2 0.7.0-1
+  * chataigne 1.9.19-1
+  * darc.lv2 0.7.0-1
+  * dpl.lv2 0.7.0-1
+  * fat1.lv2 0.8.8-1
+  * faust 2.74.6-37
+  * fil4.lv2 0.8.9-1
+  * firefly-synth 1.8.0-1
+  * furnace 0.6.5-4
+  * hvcc 0.12.0-2
+  * jjazzlab 4.1.0-2
+  * js80p 3.1.1-1
+  * kernel-rt-mao 6.6.35.rt34-13
+  * kernel-rt-stable-mao 5.10.219.rt111-12
+  * konfyt 1.6.2-3
+  * libefsw 1.4.0-1
+  * lv2-avldrums-x42-plugin 0.7.3-3
+  * matrixmixer.lv2 0.4.7-2
+  * meters.lv2 0.9.26-1
+  * mixtri.lv2 0.4.11-1
+  * non-mixer-xt 2.0.1-1
+  * ossia-score 3.2.3-1
+  * padthv1 1.0.0-4
+  * phaserotate.lv2 0.6.6-1
+  * powertabeditor 0.0.1-3
+  * qlcplus 4.13.1-1
+  * qtractor-mao 1.0.0-2
+  * rack-v2-Ahornberg 2.3.1-2
+  * rack-v2-Biset 2.0.13-2
+  * rack-v2-CVfunk 2.0.7-2
+  * rack-v2-CosineKitty-Sapphire 2.4.6-2
+  * rack-v2-CuteFoxModules 2.0.1-2
+  * rack-v2-FrozenWasteland 2.1.1-2
+  * rack-v2-Hutara 2.0.0-2
+  * rack-v2-NOI 2.0.6-2
+  * rack-v2-RPJ 2.2.4-2
+  * rack-v2-SIM 2.1.2-2
+  * rack-v2-SanguineMutants 2.3.0-2
+  * rack-v2-SickoCV 2.6.14-2
+  * rack-v2-SmarTAZZStudio-Free 2.2.0-2
+  * rack-v2-Sparkette 2.8.0-2
+  * rack-v2-StochasticTelegraph 2.0.15-2
+  * rack-v2-TMT 2.1.10-2
+  * rack-v2-Venom 2.8.0-2
+  * rack-v2-WavsynModular 2.0.0-2
+  * rack-v2-computerscare 2.1.11-2
+  * rack-v2-eightfold 2.0.1-2
+  * rack-v2-squinktronix-plug1 2.2.4-2
+  * rack-v2-trowaSoft 2.0.8-2
+  * rack-v2-vanTies 2.4.1-2
+  * ratatouille 0.4-1
+  * rivendell 4.3.0-1
+  * rosegarden4 24.06-4
+  * saugns 0.4.4c-1
+  * schismtracker 20240630-2
+  * sfxr-qt 1.5.1-1
+  * sisco.lv2 0.9.11-1
+  * spectra.lv2 0.6.6-1
+  * splash 0.10.12-1
+  * stepseq.lv2 0.6.14-1
+  * stomptuner 0.5-1
+  * testsignal.lv2 0.7.0-1
+  * thekissofshame 1.0.2-1
+  * tuna.lv2 0.6.6-1
+  * tuxguitar 1.6.3-14
+
 ### News for may 2024
 
 * new packages
