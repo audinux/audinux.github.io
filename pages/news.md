@@ -29,6 +29,63 @@ Build of Fedora 40 and Rawhide version is not over (4 days of rebuild). Now it's
   * glava -> is triggering the generation of an executable stack (because it has an executable .note.GNU-stack section) - rawhide only
   * lives-mao -> libunicap-devel missing on rawhide
 
+### News for july 2024
+
+* new packages
+  * xenos 1.0.1-1
+  * bassman-preamp 0.5.0-1
+  * beataligninglooper 0.0.1-1
+  * cmajor 1.0.2591-1
+
+* updated packages
+  * ImpulseLoader 0.3-1
+  * ImpulseLoaderStereo 0.3-1
+  * JUCE 8.0.1-10
+  * airwin2rack 2.12.0-1
+  * airwindows 0.0.1-87
+  * audibleplanets 1.1.4-1
+  * chuck 1.5.2.5-2
+  * dexed 0.9.7-1
+  * drumlabooh 3.0.0-1
+  * firefly-synth 1.8.3-1
+  * gnomedistort2 1.0.0-1
+  * guitarmidi 1.6-2
+  * jack-link 0.2.2-1
+  * jack_mixer 19-1
+  * jacktrip 2.3.1-2
+  * js80p 3.1.2-1
+  * kernel-lqx-mao 6.9.9.lqx1-14
+  * kernel-rt-mao 6.6.41.rt37-13
+  * kernel-rt-stable-mao 5.10.221.rt113-12
+  * kernel-xan-mao 6.9.9.xan1-12
+  * line 0.6.7.4-1
+  * livecd-tools-mao 31.0-8
+  * lmms-mao-weekly 1.2.99-14
+  * miniaudicle 1.5.2.5-2
+  * non-mixer-xt 2.0.2-4
+  * octasine 0.9.1-1
+  * onetrick-cryptid 1.0.2-1
+  * onetrick-keys 1.0.1-1
+  * onetrick-urchin 1.0.2-1
+  * ossia-score 3.2.4-1
+  * plugdata 0.9.0-1
+  * python3-soundfile 0.12.1-1
+  * qutecsound 1.1.2-3
+  * rack-v2-Ahornberg 2.3.2-2
+  * rack-v2-Airwin2Rack 2.12.0-2
+  * rack-v2-BaconMusic 2.7.0-2
+  * rack-v2-CosineKitty-Sapphire 2.4.7-2
+  * rack-v2-TinyTricks 2.5.2-2
+  * rack-v2-dbRackModules 2.4.0-2
+  * ratatouille 0.7-1
+  * saugns 0.4.4d-1
+  * showdmidi 1.9.9-1
+  * specmatch 0.10.0-1
+  * splash 0.10.16-1
+  * tascar 0.232.2-1
+  * vst3sdk 3.7.12-1
+  * zl-equalizer 0.3.3-2
+
 ### News for june 2024
 
 * new packages
