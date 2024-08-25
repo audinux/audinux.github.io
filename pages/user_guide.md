@@ -1,18 +1,11 @@
-# Audinux User Guide Templates
+# Audinux User Guide
 
 View the Guide with "<i class="fa fa-book fa-fw"></i> Book Mode".
-
-Examples
----
-- [Book example](/s/book-example)
-- [Slide example](/s/slide-example)
-- [YAML metadata](/s/yaml-metadata)
-- [Features](/s/features)
 
 Table of Content
 ---
 
-- Introduction to Audinux
+- [Introduction to Audinux](user_guide/introduction.md)
 - How to find right Audio/Music packages for your creative work: [Search packages](https://audinux.github.io/packages/index.html)
 - Plugins vs hardware outboard gear
 - Plugin host (carla) and format in Linux
@@ -21,5 +14,4 @@ Table of Content
 - How to load plugins to DAW (Digital Audio Workstation) and OBS Studio
 - Rack and patchbay
 
-
-###### tags: `Templates` `Book`
+###### tags: `Introduction`
