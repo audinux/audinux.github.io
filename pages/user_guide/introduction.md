@@ -19,7 +19,9 @@ Now that all the most important settings are done, you are ready to make sounds 
 
 You can perform some other settings describred in [2] (most of these settings are optional).
 
+The article "[Configure Fedora to practice and compose music](https://fedoramagazine.org/configure-fedora-to-practise-and-compose-music/)" talk a little bit more on this topic.
+
 ## Links
 
-- [1] https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/kernel-module-driver-configuration/Working_with_the_GRUB_2_Boot_Loader/
-- [2] https://linuxmusicians.com/viewtopic.php?p=167895#p167895
+- [1] <https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/kernel-module-driver-configuration/Working_with_the_GRUB_2_Boot_Loader/>
+- [2] <https://linuxmusicians.com/viewtopic.php?p=167895#p167895>

@@ -10,7 +10,6 @@ Making music using Linux is addictive ...
 
 ### Using Audinux
 
-- [Installing and configuring Audinux](pages/configuration.md)
 - [Search packages](packages/index.html)
 - [Installing VCV Rack and plugins](pages/vcvrack.md)
 - [Related links](pages/links.md)
