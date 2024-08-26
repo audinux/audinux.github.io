@@ -23,5 +23,5 @@ The article "[Configure Fedora to practice and compose music](https://fedoramaga
 
 ## Links
 
-- [1] <https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/kernel-module-driver-configuration/Working_with_the_GRUB_2_Boot_Loader/>
+- [1] <https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/kernel-module-driver-configuration/Working_with_the_GRUB_2_Boot_Loader>
 - [2] <https://linuxmusicians.com/viewtopic.php?p=167895#p167895>
