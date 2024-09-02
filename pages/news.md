@@ -29,6 +29,82 @@ Build of Fedora 40 and Rawhide version is not over (4 days of rebuild). Now it's
   * glava -> is triggering the generation of an executable stack (because it has an executable .note.GNU-stack section) - rawhide only
   * lives-mao -> libunicap-devel missing on rawhide
 
+
+### News for august 2024
+
+* new packages
+  * delirion 0.0.1-1
+  * gearmulator 0.0.1-1
+
+* updated packages
+  * HISE 3.6.2-2
+  * aeolus_plugin 0.2.1-3
+  * airwindows 0.0.1-88
+  * audibleplanets 1.1.5-1
+  * caps-lv2 0.9.26.250844a-1
+  * chaffverb 0.2.3-1
+  * cmajor 1.0.2616-1
+  * common-music 3.10.2-3
+  * deteriorate-lv2 1.0.7-2
+  * dm-graindelay 0.0.1-2
+  * drumlabooh 4.0.0-1
+  * drumrox-kits 0.0.1-5
+  * enscribe 0.1.0-1
+  * ensemble-chorus 0.0.1-2
+  * fasttracker2 1.85-3
+  * fatfrog 1.0.0-1
+  * firefly-synth 1.9.0-1
+  * furnace 0.6.7-4
+  * grandorgue 3.15.0.1-7
+  * jconvolver-reverbs 0.8.7-1
+  * js80p 3.1.3-1
+  * kernel-rt-mao 6.6.48.rt40-13
+  * kernel-rt-stable-mao 5.10.223.rt115-12
+  * lebiniou 3.67.0-3
+  * lebiniou-data 3.67.0-5
+  * lmms-mao-weekly 1.2.99-15
+  * lsp-plugins 1.2.17-1
+  * lv2-neural-amp-modeler 0.1.4-1
+  * mandelbulber2 2.32-1
+  * non-mixer-xt 2.0.3-4
+  * plugdata 0.9.1-2
+  * projectM-mao 4.1.2-15
+  * protracker2 1.70-4
+  * puredata 0.55.0-4
+  * python-wstd2daisy 0.5.2-1
+  * python3-wstd2daisy 0.5.2-1
+  * rack-v2-Ahornberg 2.3.3-2
+  * rack-v2-Cella 2.0.1-2
+  * rack-v2-CosineKitty-Sapphire 2.4.9-2
+  * rack-v2-DrumKit 2.0.1-2
+  * rack-v2-ImpromptuModular 2.5.0-2
+  * rack-v2-JW-Modules 2.0.5-2
+  * rack-v2-NOI 2.0.7-2
+  * rack-v2-PitchGrid 2.0.1-2
+  * rack-v2-SSE 2.0.2-2
+  * rack-v2-SanguineMonsters 2.3.0-2
+  * rack-v2-SanguineMutants 2.3.2-2
+  * rack-v2-SickoCV 2.6.15-2
+  * rack-v2-SmarTAZZStudio-Free 2.3.0-2
+  * rack-v2-Sparkette 2.8.1-2
+  * rack-v2-StochasticTelegraph 2.0.16-2
+  * rack-v2-SurgeXTRack 2.2.4.0-2
+  * rack-v2-TinyTricks 2.5.3-2
+  * rack-v2-Venom 2.9.0-2
+  * rack-v2-captvolt 2.1.0-2
+  * rack-v2-gwrthiant 2.0.2-2
+  * rack-v2-vanTies 2.5.0-2
+  * rakarrack-plus 1.2.6-2
+  * ratatouille 0.8-1
+  * roomreverb 1.2.0-1
+  * saugns 0.4.5-1
+  * schismtracker 20240809-2
+  * seq66 0.99.14-1
+  * surge-xt 1.3.4-2
+  * tuxguitar 1.6.4-14
+  * uhhyouplugins 0.62.0-1
+  * zl-equalizer 0.3.5-2
+
 ### News for july 2024
 
 * new packages
