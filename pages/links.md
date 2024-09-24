@@ -15,3 +15,5 @@ A list of [available plugins](https://linuxdaw.org) on Linux.
 [Linux musicians](https://linuxmusicians.com) community.
 
 [LinuxMAO](https://linuxmao.org/Accueil) french community.
+
+If you want to find some examples for pure-data / plugdata and other tools, check [patchstorage](https://patchstorage.com/) website.
