@@ -30,6 +30,121 @@ Build of Fedora 40 and Rawhide version is not over (4 days of rebuild). Now it's
   * lives-mao -> libunicap-devel missing on rawhide
 
 
+### News for september 2024
+
+* new package
+  * bitKlavier 3.4-112
+  * digital-audio-effects 0.0.1-1
+  * dm-Reverse 0.0.4-1
+  * dm-Whammy 0.0.5-1
+  * gearmulator 1.3.20-1
+  * lv2-dkbuilder-guitarix-lv2-plugins 1.0.1-1
+  * multi-tap-delay 0.0.1-1
+  * nam-juce 0.4.0-1
+  * three-osc 0.2.0-1
+
+* updated packages
+
+  * BambooTracker 0.6.4-1
+  * BespokeSynth-weekly 1.2.9-1
+  * Carla-mao 1:2.5.9-3
+  * HOA3-plugins 0.3.0-1
+  * JUCE 8.0.2-10
+  * actuate 1.3.3-1
+  * airwindows 0.0.1-89
+  * cardinal 24.09-2
+  * chaffverb 0.2.3-1
+  * chataigne 1.9.20-1
+  * chuck 1.5.3.0-2
+  * clap 1.2.2-1
+  * clap-info 1.2.1-1
+  * cmajor 1.0.2658-1
+  * dgedit 0.10.0-2
+  * drumlabooh 6.0.0-1
+  * drumrox 3.3.1-1
+  * drumrox-kits-ARP_Axxe 1.0.0-6
+  * drumrox-kits-Cheetah_SpecDrum_Afro 1.0.0-6
+  * drumrox-kits-Cheetah_SpecDrum_Electro 1.0.0-6
+  * drumrox-kits-Cheetah_SpecDrum_Latin 1.0.0-6
+  * drumrox-kits-Cheetah_SpecDrum_Standard 1.0.0-6
+  * drumrox-kits-Drumulator 1.0.0-6
+  * drumrox-kits-ELI_CompuRhythm_CR_7030 1.0.0-6
+  * drumrox-kits-Fricke_MFB512 1.0.0-6
+  * drumrox-kits-GEM_Drum15 1.0.0-6
+  * drumrox-kits-Gretch_Jazzkit 1.0.0-6
+  * drumrox-kits-Lel-DR8 1.0.0-6
+  * drumrox-kits-Lel-PSR 1.0.0-6
+  * drumrox-kits-Ludwig_Basic 1.0.0-6
+  * drumrox-kits-Ludwig_Sixties 1.0.0-6
+  * drumrox-kits-MTI_AO_1 1.0.0-6
+  * drumrox-kits-Rokton-UDS 1.0.0-6
+  * drumrox-kits-SoundMaster_SR-88 1.0.0-6
+  * drumrox-kits-Tamil 1.0.0-6
+  * drumrox-kits-TamilMultiLayered 1.0.0-6
+  * drumrox-kits-Technics_PCM_DP50 1.0.0-6
+  * drumrox-kits-The_Almighty_Sound_Drumkit 1.0.0-6
+  * drumrox-kits-Wooden 1.0.0-6
+  * enscribe 0.1.0-1
+  * equis 0.7.1-1
+  * fasttracker2 1.86-3
+  * faust 2.75.7-37
+  * faustlive 2.5.19-1
+  * firefly-synth 1.9.4-1
+  * gearmulator 1.3.20-1
+  * grandorgue 3.15.2.0-7
+  * gxtuner 3.0.792d453-3
+  * helio-workstation 3.14.0-2
+  * hvcc 0.12.0-2
+  * jacktrip 2.4.1-2
+  * jamulus 3.11.0-8
+  * jc303 0.11.1-2
+  * jjazzlab 4.1.1-2
+  * joepvanlier_ysfx 0.2.0-1
+  * kernel-rt-mao 6.6.52.rt43-13
+  * kernel-rt-stable-mao 5.10.225.rt117-12
+  * lv2-airwindows 30.0-1
+  * midi-monitor 30072020-2
+  * miniaudicle 1.5.3.0-2
+  * mscore-mao 4.4.2-3
+  * padthv1 1.1.2-4
+  * processing 4.3-2
+  * puredata 0.55.0-4
+  * rack-v1-ParableInstruments 1.0.0-3
+  * rack-v1-WrongPeople 1.0.1-3
+  * rack-v2-AuntyLangtonsFree 2.0.1-2
+  * rack-v2-CVfunk 2.0.8-2
+  * rack-v2-Calvario 2.3.1-2
+  * rack-v2-Cella 2.0.2-2
+  * rack-v2-CosineKitty-Sapphire 2.5.0-2
+  * rack-v2-DivergentWaves 2.0.0-1
+  * rack-v2-FreeSurface 2.1.1-2
+  * rack-v2-HamptonHarmonics 2.0.2-1
+  * rack-v2-HolonicSystems-Free 2.0.7-1
+  * rack-v2-JE 1.0.0-1
+  * rack-v2-JW-Modules 2.0.6-2
+  * rack-v2-MUS-X 2.1.0-2
+  * rack-v2-NullSet 2.0.0-2
+  * rack-v2-OrangeLine 2.4.6-2
+  * rack-v2-PhoturiElectronics 2.1.0-1
+  * rack-v2-SanguineMutants 2.4.1-2
+  * rack-v2-SmarTAZZStudio-Free 2.4.0-2
+  * rack-v2-StochasticTelegraph 2.0.17-2
+  * rack-v2-SunsetSignals 1.0.0-1
+  * rack-v2-Venom 2.9.1-2
+  * rack-v2-WavsynModular 2.1.0-2
+  * rack-v2-Wygonium 2.0.1-2
+  * rack-v2-dbRackModules 2.5.0-2
+  * rack-v2-modular80 2.0.1-1
+  * rack-v2-squinktronix-plug1 2.2.5-2
+  * rack-v2-voxglitch 2.29.0-2
+  * ratatouille 0.9.1-1
+  * saugns 0.4.6-1
+  * schismtracker 20240909-2
+  * sparta 1.7.1-3
+  * splash 0.10.18-1
+  * ysfx 0.0.25-1
+  * zplugins 0.2.7-1
+
 ### News for august 2024
 
 * new packages
