@@ -3,7 +3,10 @@
 ## Initialization
 
 ```
-$ xdnf install fedora-packager
+$ dnf install fedora-packager
+$ dnf install fedora-packager-kerberos
+$ dnf install rpmdevtools
+$ dnf install fedpkg
 ```
 
 ## Authentication
@@ -204,3 +207,36 @@ Testing a package:
 - <https://bodhi.fedoraproject.org/>
 - <https://fedoraproject.org/wiki/Fedora_Easy_Karma/>
 - <https://docs.pagure.org/koji/using_the_koji_build_system/>
+
+# Annex: update to drumstick 2.9.1
+
+## Rawhide update
+
+Change the drumstick version in the spec file.
+
+```
+$ spectool -g drumstick.spec
+$ fedpkg prep
+$ fedpkg local
+# install missing packages
+$ fedpkg local
+$ fedpkg mockbuild
+$ fedpkg diff
+$ fedpkg lint
+$ fedpkg srpm
+$ git add drumstick.spec
+$ fedpkg new-sources drumstick-2.9.1.tar.bz2
+$ fedpkg upload drumstick-2.9.1-1.fc42.src.rpm
+$ fedpkg commit -m "update to 2.9.1"
+$ fedpkg clog
+$ fedpkg push
+# Be careful, I had some changes in .gitignore and sources files not in the commit
+# fedpkg switch-branch <f40,el9,rawhide>
+$ fedpkg build
+$ fedpkg build # to check if everything was OK
+$ fedpkg update # check the goal of this step
+```
+
+## Branch update
+
+TO DO
