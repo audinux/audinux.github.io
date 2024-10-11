@@ -19,6 +19,7 @@ Making music using Linux is addictive ...
 
 - [Articles about audio and music creation](articles/articles.md)
 - [Some documents (slides, and other ressources) for Linux and audio workshops](pages/workshops.html)
+- [RPM packaging](pages/rpm.html)
 
 ### Download
 
