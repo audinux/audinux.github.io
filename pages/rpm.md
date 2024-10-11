@@ -188,19 +188,19 @@ $ fedpkg update
 # Links
 
 To host some data on a website:
-https://fedorapeople.org/
+- <https://fedorapeople.org/>
 
 Some information related to packaging:
-https://docs.fedoraproject.org/en-US/packaging-guidelines/
-https://docs.fedoraproject.org/en-US/packaging-guidelines/Naming/
-https://docs.fedoraproject.org/en-US/packaging-guidelines/ReviewGuidelines/
+- <https://docs.fedoraproject.org/en-US/packaging-guidelines/>
+- <https://docs.fedoraproject.org/en-US/packaging-guidelines/Naming/>
+- <https://docs.fedoraproject.org/en-US/packaging-guidelines/ReviewGuidelines/>
 
 Maintaining a package:
-https://docs.fedoraproject.org/en-US/package-maintainers/New_Package_Process_for_Existing_Contributors/
-https://docs.fedoraproject.org/en-US/package-maintainers/Package_Maintenance_Guide/
-https://docs.fedoraproject.org/en-US/package-maintainers/Upstream_Release_Monitoring/
+- <https://docs.fedoraproject.org/en-US/package-maintainers/New_Package_Process_for_Existing_Contributors/>
+- <https://docs.fedoraproject.org/en-US/package-maintainers/Package_Maintenance_Guide/>
+- <https://docs.fedoraproject.org/en-US/package-maintainers/Upstream_Release_Monitoring/>
 
 Testing a package:
-https://bodhi.fedoraproject.org/
-https://fedoraproject.org/wiki/Fedora_Easy_Karma
-https://docs.pagure.org/koji/using_the_koji_build_system/
+- <https://bodhi.fedoraproject.org/>
+- <https://fedoraproject.org/wiki/Fedora_Easy_Karma/>
+- <https://docs.pagure.org/koji/using_the_koji_build_system/>
