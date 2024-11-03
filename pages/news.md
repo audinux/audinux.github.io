@@ -17,7 +17,6 @@ Build of Fedora 40 and Rawhide version is not over (4 days of rebuild). Now it's
   * mscore-mao
   * lv2-loop192
   * bipescript-ide -> conversion error on f40 / rawhide
-  * vmpc -> error: assignment of read-only member
   * soundux -> convertion error
   * shortcircuit -> distutils missing - python 3.12
   * seq192 -> rawhide - conversion error
@@ -30,9 +29,103 @@ Build of Fedora 40 and Rawhide version is not over (4 days of rebuild). Now it's
   * lives-mao -> libunicap-devel missing on rawhide
 
 
+### News for october 2024
+
+* new packages
+  * csound 6.18.1-12
+  * csound-plugins 1.0.2-1
+  * dm-LFO 0.0.3-1
+  * dm-SD1 0.0.5-1
+  * dm-Spaceecho 0.1.1-1
+  * dm-TubeScreamer 0.0.6-1
+  * dm-bigmuff 0.0.2-1
+  * dm-ds1 0.0.8-1
+  * dm-fuzz 0.0.5-1
+  * dm-octaver 0.0.3-1
+  * dm-rat 0.0.7-1
+  * dm-reverb 0.0.8-1
+  * dm-shredmaster 0.0.7-1
+  * dm-vibrato 0.0.4-1
+  * scrollscope 1.4.1-1
+
+* updated packages
+  * BespokeSynth 1.2.1-9
+  * BespokeSynth-weekly 1.2.10-1
+  * HISE 4.1.0-2
+  * JUCE 8.0.3-10
+  * actuate 1.3.5-1
+  * chataigne 1.9.24-1
+  * chuck 1.5.4.0-2
+  * clap-info 1.2.2-1
+  * cmajor 1.0.2724-1
+  * coppwr 1.6.1-1
+  * dexed 0.9.8-1
+  * elektroid 3.1-1
+  * firefly-synth 1.9.6-1
+  * fluida 0.9.3-1
+  * gearmulator 1.3.21-1
+  * geonkick 3.5.0-2
+  * grandorgue 3.15.3.0-7
+  * june21 0.9.6-1
+  * kernel-lqx-mao 6.10.12.lqx1-14
+  * kernel-rt-mao 6.6.58.rt45-13
+  * kernel-xan-mao 6.10.12.xan1-12
+  * kluppe 0.6.20-1
+  * lmms-mao-weekly 1.2.99-16
+  * lsp-plugins 1.2.19-1
+  * miniaudicle 1.5.4.0-2
+  * mscore-mao 4.4.3-3
+  * mxcomp 0.1.0-1
+  * non-mixer-xt 2.0.4-4
+  * padthv1 1.1.3-4
+  * polyphone 2.4.1-3
+  * processing 4.3-2
+  * qtractor-mao 1.4.0-2
+  * qutecsound 1.1.3-3
+  * rack-v2-Ahornberg 2.3.4-2
+  * rack-v2-BlackNoiseModular 2.0.1-2
+  * rack-v2-CVfunk 2.0.9-2
+  * rack-v2-CosineKitty-Sapphire 2.5.2-2
+  * rack-v2-DigitalAtavism 2.0.0-2
+  * rack-v2-FreeSurface 2.1.4-2
+  * rack-v2-FrequencyDomain 2.0.3-2
+  * rack-v2-FrozenWasteland 2.1.2-2
+  * rack-v2-Geodesics 2.3.3-2
+  * rack-v2-MindMeldModular 2.5.0-2
+  * rack-v2-NonlinearCircuits 2.3.1-2
+  * rack-v2-OrangeLine 2.4.8-2
+  * rack-v2-PitchGrid 2.1.0-2
+  * rack-v2-SanguineMonsters 2.3.1-2
+  * rack-v2-SanguineMutants 2.5.2-2
+  * rack-v2-SickoCV 2.6.16-2
+  * rack-v2-SmarTAZZStudio-Free 2.4.1-2
+  * rack-v2-SurgeXTRack 2.2.5.0-2
+  * rack-v2-Tyche 2.1.5-2
+  * rack-v2-VectorModular 2.0.0-2
+  * rack-v2-Venom 2.10.0-2
+  * rack-v2-Wygonium 2.0.2-2
+  * rack-v2-acModules 2.0.2-2
+  * rack-v2-squinktronix-plug1 2.2.6-2
+  * rack-v2-voxglitch 2.29.1-2
+  * receivemidi 1.4.4-3
+  * saugns 0.4.8-1
+  * schismtracker 20241021-2
+  * stochas 1.3.12-4
+  * tascar 0.233.2-1
+  * tsunami 2024.10-2
+  * uhhyouplugins 0.64.0-1
+  * vmpc 0.6.4-1
+  * vst3-guitarix 0.4-1
+  * wavetable 1.0.22-1
+  * xuidesigner 1.1-1
+  * ysfx 0.0.26-1
+  * zita-bls1 0.4.0-1
+  * zl-equalizer 0.4.2-2
+  * zynthian-data 1.0.0-8
+
 ### News for september 2024
 
-* new package
+* new packages
   * bitKlavier 3.4-112
   * digital-audio-effects 0.0.1-1
   * dm-Reverse 0.0.4-1
@@ -44,7 +137,6 @@ Build of Fedora 40 and Rawhide version is not over (4 days of rebuild). Now it's
   * three-osc 0.2.0-1
 
 * updated packages
-
   * BambooTracker 0.6.4-1
   * BespokeSynth-weekly 1.2.9-1
   * Carla-mao 1:2.5.9-3
