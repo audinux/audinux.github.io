@@ -17,3 +17,15 @@ A list of [available plugins](https://linuxdaw.org) on Linux.
 [LinuxMAO](https://linuxmao.org/Accueil) french community.
 
 If you want to find some examples for pure-data / plugdata and other tools, check [patchstorage](https://patchstorage.com/) website.
+
+Patches for various tools [patchstorage](https://patchstorage.com/):
+- BespokeSynth
+- PureData
+- Chuck
+- Camomille
+- Cabbage
+- LV2 plugins
+- Orca
+- PlugData
+- SuperCollider
+- VCVRack
