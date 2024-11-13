@@ -12,6 +12,7 @@ Table of Content
 - How to find right Audio/Music packages for your creative work: [Search packages](https://audinux.github.io/packages/index.html)
 - Plugins vs hardware outboard gear
 - Plugin host (carla) and format in Linux
+- [VST plugins from Windows](user_guide/vst_windows.md)
 - Use cases: Home recording
 - How to find subpackages that complement plugins and install subpackages
 - How to load plugins to DAW (Digital Audio Workstation) and OBS Studio
