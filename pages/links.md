@@ -29,3 +29,7 @@ Patches for various tools [patchstorage](https://patchstorage.com/):
 - PlugData
 - SuperCollider
 - VCVRack
+
+A website hosting a lot of intersting [musical artifacts](https://musical-artifacts.com)
+
+A website referencing [audio plugins](https://linuxdaw.org)
