@@ -24,6 +24,7 @@ A sequencer for GuitarPro scores | [PDF](../workshop/audio/TuxGuitar.pdf), [ODP]
 The real power of Modular synths | [PDF](../workshop/audio/VCVRack.pdf), [ODP](../workshop/audio/VCVRack.odp)
 A new approach to Modular synth: BespokeSynth | [PDF](../workshop/audio/BespokeSynth.pdf), [ODP](../workshop/audio/BespokeSynth.odp)
 Setting a sound with Guitarix | [PDF](../workshop/audio/GuitarEffectChain.pdf), [ODP](../workshop/audio/GuitarEffectChain.odp)
+Using rakarrack-plus | [PDF](../workshop/audio/rakarrack.pdf), [ODP](../workshop/audio/rakarrack.odp)
 
 And some various files on some interest for Audio and Linux: [ZIP](../workshop/audio/Divers.zip)
 * decouverte_du_noyau_gnu_linux.pdf
