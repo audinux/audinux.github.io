@@ -29,6 +29,68 @@ Build of Fedora 40 and Rawhide version is not over (4 days of rebuild). Now it's
   * lives-mao -> libunicap-devel missing on rawhide
 
 
+### News for november 2024
+
+* new packages
+  * bluez-mao 5.79-1
+  * subhoofer 2.2.2-1
+
+* * updated packages
+  * BespokeSynth-weekly 1.2.10-3
+  * HISE 4.1.0-4
+  * JUCE 8.0.4-10
+  * LinVst 4.9-4
+  * Rack-v2 2.6.0-4
+  * airwindows 0.0.1-90
+  * chuck 1.5.4.2-2
+  * cloudreverb 0.2-1
+  * cmajor 1.0.2738-1
+  * fasttracker2 1.88-3
+  * faust 2.75.7-38
+  * firefly-synth 1.9.9-1
+  * gearmulator 1.4.0-1
+  * grandorgue 3.15.4.0-7
+  * harvid 0.9.1-4
+  * jack-link 0.2.3-1
+  * js80p 3.2.1-1
+  * kernel-lqx-mao 6.11.10.lqx1-14
+  * kernel-rt-mao 6.6.63.rt46-13
+  * kernel-rt-stable-mao 5.10.229.rt121-12
+  * kernel-xan-mao 6.11.10.xan1-12
+  * lmms-mao-weekly 1.2.99-18
+  * lv2-neural-amp-modeler 0.1.5-1
+  * milkytracker 1.05.01-2
+  * miniaudicle 1.5.4.2-2
+  * ossia-score 3.3.2-1
+  * powertabeditor 2.0.21-4
+  * premake5 5.0.0beta3-1
+  * processing 4.3.1-2
+  * protracker2 1.71-4
+  * rack-v2-Befaco 2.8.2-2
+  * rack-v2-BlackNoiseModular 2.0.2-2
+  * rack-v2-CVfunk 2.0.10-2
+  * rack-v2-Cella 2.0.5-2
+  * rack-v2-CosineKitty-Sapphire 2.5.4-2
+  * rack-v2-Fundamental 2.6.1-3
+  * rack-v2-HetrickCV 2.5.0-2
+  * rack-v2-NonlinearCircuits 2.3.2-2
+  * rack-v2-PitchGrid 2.1.1-2
+  * rack-v2-Venom 2.11.0-2
+  * rack-v2-Wygonium 2.0.4-2
+  * rack-v2-acModules 2.0.6-2
+  * rack-v2-kocmoc 2.0.6-2
+  * raysession 0.14.4-3
+  * rt-tests 2.8-1
+  * saugns 0.4.8c-1
+  * splash 0.10.20-1
+  * stereocrossdelay 0.2.0-1
+  * stochas 1.3.13-4
+  * terrain 1.2.2-1
+  * uhhyouplugins 0.65.0-1
+  * yabridge 5.1.1-7
+  * ysfx 0.0.27-1
+  * zl-equalizer 0.4.4-2
+
 ### News for october 2024
 
 * new packages
