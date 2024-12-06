@@ -8,13 +8,18 @@
 
 The [github repository](https://github.com/audinux/fedora-spec) where you can find the specs of the RPM packages:
 
-A [Website of AI models](https://tonehunt.org).
+A [Website of AI models](https://tonehunt.org). Provides models for:
+- AIDA-X
+- NAM
+- Proteus
 
-A list of [available plugins](https://linuxdaw.org) on Linux.
+Lists of available plugins on Linux:
+- [LinuxDaw](https://linuxdaw.org)
+- [StudioRack](https://studiorack.github.io/studiorack-site)
 
-[Linux musicians](https://linuxmusicians.com) community.
+The [Linux musicians](https://linuxmusicians.com) community.
 
-[LinuxMAO](https://linuxmao.org/Accueil) french community.
+The [LinuxMAO](https://linuxmao.org/Accueil) french community.
 
 If you want to find some examples for pure-data / plugdata and other tools, check [patchstorage](https://patchstorage.com/) website.
 
@@ -31,5 +36,3 @@ Patches for various tools [patchstorage](https://patchstorage.com/):
 - VCVRack
 
 A website hosting a lot of intersting [musical artifacts](https://musical-artifacts.com)
-
-A website referencing [audio plugins](https://linuxdaw.org)
