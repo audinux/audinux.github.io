@@ -36,3 +36,8 @@ Patches for various tools [patchstorage](https://patchstorage.com/):
 - VCVRack
 
 A website hosting a lot of intersting [musical artifacts](https://musical-artifacts.com)
+
+You can find good samples here:
+- [freesound](https://lasonotheque.org/)
+- [lasonoteque](https://lasonotheque.org/) (a french website)
+- [one laptop per child](https://wiki.laptop.org/go/Free_sound_samples)
