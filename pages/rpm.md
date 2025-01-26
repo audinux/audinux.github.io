@@ -27,10 +27,17 @@ Authenticated via GSSAPI
 
 ## Working on an existing spec
 
+Modify the spec and tests. Once this is done:
+```
+$ git add foo.spec
+$ git commit -m "update to 2.10.0"
+```
+
 Import the src.rpm package:
 ```
 $ fedpkg import libfoo-x.x.x.src.rpm
-$ git commit -m "Initial import (fedora#nnnnnn)."
+$ git add sources .gitignores # if modified
+$ git commit --amend
 $ git push
 ```
 
