@@ -8,6 +8,65 @@ I will stop building the RT kernel 5.15 because it has too many problems with au
 
 Build of Fedora 41 and Rawhide version is not over (4 days of rebuild). Now it's time to fix the broken packages.
 
+### News for february 2025
+
+* new packages
+  * aloop 0.3-1
+  * bombaz 1.0.0-1
+  * enover 1.0-1
+  * minaton-xt 0.2.0-1
+  * miriyaki-xt 0.0.1-1
+  * prototracker-modular 0.0.8-3
+  * prototracker-opll 0.0.8-1
+  * rcverb 1.0-2
+  * ripplerx 1.4.2-1
+  * rp2a03 0.0.1-1
+  * trackerboy 0.6.5-1
+  * wild-blossom-plugins 0.0.1-1
+
+* updated packages
+  * ImpulseLoader 0.4-1
+  * actuate 1.3.8-1
+  * alsa-scarlett-gui 0.5.0-2
+  * clap 1.2.5-1
+  * cmajor 1.0.2771-1
+  * fasttracker2 1.94-3
+  * gearmulator 1.4.2-1
+  * giada 1.1.1-1
+  * gmsynth.lv2 0.6.2-1
+  * hvcc 0.13.2-2
+  * lsp-plugins 1.2.21-1
+  * lv2-neural-amp-modeler 0.1.7-1
+  * lvtk 2.0.0.6bfe981-4
+  * premake5 5.0.0beta5-1
+  * processing 4.3.4-2
+  * prototracker 0.0.2-1
+  * protrekkr2 2.8.2-1
+  * python3-wstd2daisy 0.5.3-1
+  * qtractor-mao 1.5.3-2
+  * rack-v2-Cella 2.0.6-2
+  * rack-v2-ChemicalElements 2.0.0-2
+  * rack-v2-HoyerHoppes 2.0.0-2
+  * rack-v2-QuantalAudio 2.2.2-2
+  * rack-v2-SickoCV 2.7.0-2
+  * rack-v2-StochasticTelegraph 2.0.19-2
+  * rack-v2-not-things 2.0.0-2
+  * rack-v2-not-things 2.0.0-2
+  * rack-v2-voxglitch 2.32.3-2
+  * rack-v2-wildergarden 2.0.1-2
+  * ratatouille 0.9.7-1
+  * rosegarden4 24.12.1-4
+  * saugns 0.5.1-1
+  * seq66 0.99.19-1
+  * sg-323 1.0.0-1
+  * six-sines 1.0.5-2
+  * spek 0.8.5-2
+  * tascar 0.234.2-1
+  * vst3sdk 3.7.13-1
+  * wavetable 1.0.23-1
+  * ysfx 0.0.33-1
+  * zl-equalizer 0.6.0-2
+
 ### News for january 2025
 
 * new packages
