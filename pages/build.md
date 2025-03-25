@@ -8,7 +8,7 @@ A ticket has been opened for vst3sdk: https://github.com/steinbergmedia/vst3sdk/
 
 ### Fedora 42
 
-No beta release yet
+Repository has been built for Fedora 42 Beta. Still some packages to be fixed.
 
 ### Fedora 41
 
