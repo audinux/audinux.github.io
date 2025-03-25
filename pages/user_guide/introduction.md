@@ -21,6 +21,16 @@ You can perform some other settings describred in [2] (most of these settings ar
 
 The article "[Configure Fedora to practice and compose music](https://fedoramagazine.org/configure-fedora-to-practise-and-compose-music/)" talk a little bit more on this topic.
 
+## Power management fixes
+
+On some laptops, the power management is always stuck on 'powersave'.
+A first fix is to force the performance policy to 'performance':
+```
+$ sudo x86_energy_perf_policy --all 'performance' --turbo-enable '1' --force
+```
+
+A complete step list to add an udev rule is described on [this page](https://wiki.realmofespionage.xyz/linux).
+
 ## Links
 
 - [1] <https://docs.fedoraproject.org/en-US/fedora/latest/system-administrators-guide/kernel-module-driver-configuration/Working_with_the_GRUB_2_Boot_Loader>
