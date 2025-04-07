@@ -5,9 +5,63 @@
 Since Fedora 35, the repository is called Audinux (due to a conflict with the website linuxmao.org).
 
 I will stop building the RT kernel 5.15 because it has too many problems with audio (the USB Audio driver seems to have a lot of problems and doesn't play well with pipewire).
+I will stop building the RT kernel 5.10 because it has a build problem with the last version of gcc..
 
-Build of Fedora 41 and Rawhide version is not over (4 days of rebuild). Now it's time to fix the broken packages.
+Build for Fedora 42 is now over (4 days of rebuild). Now it's time to fix the broken packages.
 
+### News for march 2025
+
+* new packages
+  * podcastplugins 1.0.0-1
+
+* updated packages
+  * BespokeSynth-weekly 1.3.10-2
+  * Rack-v2 2.6.3-5
+  * aloop 0.4-1
+  * alsa-scarlett-gui 0.5.1-2
+  * chuck 1.5.5.0-2
+  * clap 1.2.6-1
+  * cmajor 1.0.2788-1
+  * ddsp 1.1.0-1
+  * drumlabooh 7.0.1-1
+  * drumrox-kits 2.0.0-6
+  * fasttracker2 1.95-3
+  * faust 2.79.3-39
+  * furnace 0.6.8.1-4
+  * gearmulator 1.4.4-1
+  * jnoisemeter 0.4.1-1
+  * lmms-mao-weekly 1.2.99-19
+  * lv2-toobamp-plugins 1.1.58-1
+  * maim 1.1.1-1
+  * mandelbulber2 2.33-1
+  * miniaudicle 1.5.5.0-2
+  * neuralrack 0.1.4-1
+  * pipecontrol 0.3.0-1
+  * premake5 5.0.0beta6-1
+  * qlcplus 4.14.1-1
+  * qtractor-mao 1.5.4-2
+  * rack-v2-ArhythmeticUnits-Fourier 2.1.1-2
+  * rack-v2-Befaco 2.9.0-2
+  * rack-v2-CVfunk 2.0.14-2
+  * rack-v2-CosineKitty-Sapphire 2.5.8-2
+  * rack-v2-HoyerHoppes 2.0.1-2
+  * rack-v2-JW-Modules 2.0.8-2
+  * rack-v2-Moffenzeef 2.0.1-2
+  * rack-v2-NOI 2.0.8-2
+  * rack-v2-SanguineMutants 2.6.4-2
+  * rack-v2-SickoCV 2.7.1-2
+  * rack-v2-not-things 2.0.1-2
+  * rack-v2-wildergarden 2.1.0-2
+  * ratatouille 0.9.10-1
+  * scrollscope 1.4.2-1
+  * seq192 1.6.1-1
+  * sg-323 1.0.1-1
+  * six-sines 1.1.0-2
+  * stegosaurus 0.0.1-1
+  * supercollider 3.13.1-6
+  * vst3-guitarix 0.5-1
+  * ysfx 0.0.35-1
+  
 ### News for february 2025
 
 * new packages
