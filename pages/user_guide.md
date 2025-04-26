@@ -210,6 +210,7 @@ These tools provide visual feedback on:
 - Evaluating your final mix
 - Live monitoring during recording or streaming
 - Ensuring a balanced stereo field and avoiding clipping
+
 ---
 
 ## Summary
