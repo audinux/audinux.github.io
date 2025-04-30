@@ -10,20 +10,12 @@ Table of Content
   
 - [Understand Your Voice Chain](#understand-your-voice-chain)
   
-  From input (mic or instrument) to output (speakers/headphones), understand how audio flows in a basic setup using PipeWire or JACK.
+  From input (mic or instrument) to output (speakers/headphones), understand how audio flows in a basic setup using Carla.
 
-- **Build Your Audio Workflow**
+- [Build Your Audio Workflow](#build-your-audio-workflow)
   
-  Learn how to connect software instruments, audio effects, and DAWs using Carla, JACK Patchbay, or similar tools.
-
-- **Monitor and Test Sound**
+  You've explored the essentials with Audinux. It is time to start building your audio workflow.
   
-  Make sure your inputs and outputs are routed correctly. Learn how to monitor levels and avoid xruns or silent devices.
-
-- **Use Racks and Patchbays Visually**
-  
-  Use Carla to easily connect plugins and audio sources just like physical hardware.
-
 ---
 
 # Audinux: Fedora Audio Production Environment
@@ -424,6 +416,22 @@ With a solid understanding of these tools and techniques, you can improve the qu
 
 - [LSP(Linux Studio Plugins)](https://lsp-plug.in/?page=manuals&section=controls) - Learn more about LSP's basic controls and elements of plugin's UI.
 
+---
 
+# Build Your Audio Workflow
+
+You have explored the essentials with Audinux. Your next steps can align with your creative goals, whether recording a podcast, building live setups, experimenting with plugin chains, or diving into full multi-track production. Audinux gives you a modular foundation, but your journey continues with tools like Ardour, Pipewire-jack, and advanced plugin workflows. Your path depends on how deep you want to go - performance, production, or precision mixing. You're not just using tools now. You're shaping your audio environment.
+
+Audinux offers opportunities with open-source tools: you’ve already explored plugin hosting, routing, and monitoring. The next step is personal—build a repeatable workflow, trust your ears, and keep it simple at first. As with any creative tool, familiarity grows with use. Audinux doesn’t aim to mimic commercial DAWs—it gives you the freedom to shape your sound, in your way.
+
+---
+
+## Additional Resources
+
+- [Ardour Tutorial](https://prokoudine.github.io/ardour-tutorial/getting-started/) - Learn more about recording and editing audio on Linux. It covers setup, basic workflows, and essential tools in a concise format, making it ideal for newcomers.
+
+- [Latency Tuning](https://fedoramagazine.org/using-artificial-intelligence-to-set-a-guitar-sound/) - Low-latency audio is key to real-time performance and smooth monitoring. Achieving it on Linux involves choosing the right kernel (often low-latency or real-time), tuning buffer sizes, and ensuring your system isn’t introducing unnecessary delays. Tools like JACK or PipeWire allow fine-grained control, and using interfaces with solid driver support helps. For a practical approach, including how AI can even help dial in guitar tones with low latency, check out the Fedora Magazine article on latency tuning.
+
+---
 
 ###### tags: `Introduction`
