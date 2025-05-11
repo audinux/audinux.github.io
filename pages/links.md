@@ -37,6 +37,8 @@ Patches for various tools [patchstorage](https://patchstorage.com/):
 
 A website hosting a lot of intersting [musical artifacts](https://musical-artifacts.com)
 
+A website with a complete list of plugins and applications: [linuxdaw](https://linuxdaw.org)
+
 You can find good samples here:
 - [freesound](https://lasonotheque.org/)
 - [lasonoteque](https://lasonotheque.org/) (a french website)
