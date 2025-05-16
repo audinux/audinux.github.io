@@ -20,12 +20,13 @@ Making music using Linux is addictive ...
 - [Articles about audio and music creation](articles/articles.md)
 - [Some documents (slides, and other ressources) for Linux and audio workshops](pages/workshops.html)
 - [RPM packaging](pages/rpm.html)
+- [Kernel boot parameters](pages//kernel_boot.html)
 
 ### Download
 
-You can download an ISO file for Fedora 37.
+You can download an ISO file for Fedora 39.
 It has been built using the script found on the fedora-specs github repository
-[Download link](https://drive.google.com/file/d/1F_3PficBobRYT7rYHFWyNM8Xai98FC3R/view?usp=share_link)
+[Download link](https://drive.google.com/file/d/1jd1OytuLX9BPy-hvKDP6fHdErwu7gAQC/view?usp=drive_link)
 
 ### News
 
