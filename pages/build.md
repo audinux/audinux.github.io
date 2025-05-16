@@ -11,21 +11,12 @@ A ticket has been opened for vst3sdk: https://github.com/steinbergmedia/vst3sdk/
 Repository has been built for Fedora 42 Beta. Still some packages to be fixed.
 
 Packages to fix:
-* BYOD
-* Cadence
-* actuate
 * camomile
-* chordv
 * jamesdsp
-* kernel-rt-mao
-* lv2-mephisto
-* lvtk
-* python3-soundfile
 * rack-v1-KRTPluginA
 * rack-v1-RJModules
 * rack-v1-SurgeRack
 * rack-v1-squinkylabs-plug1
-* remid
 * veejay-core
 * vmpc
 
