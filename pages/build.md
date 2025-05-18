@@ -15,17 +15,89 @@ Packages to fix:
 * rt-tests - ticket opened
 * kernel-rt-mao -> standard kernel has real time capabilities
 * veejay-core -> waiting for a new release
+* veejay-gui -> waiting for a new release
+* veejay-server -> waiting for a new release
 * camomile -> ticket
 * vmpc -> ticket
 * jamesdsp -> wrong variable in function -> disabling the package
+* imogen -> to deactivate - abandonned
+* redkite -> to deactivate
+* vsxu -> to deactivate - abandonned
+* zrythm -> to deactivate - waiting for 2.0
+* kernel-rt-stable-mao -> to deactivate
+* purr-data -> to deactivate
+* lomse -> to deactivate - included in lenmus
+* sonic-pi -> to deactivate - still doesn't work on Fedora
+* lv2-dexed-presets -> WIP
+* rack-v1-BOKONTEPByteBeatMachine -> to deactivate - doesn't build anymore - 0.6 only maybe
+* rack-v1-BaconMusic -> to deactivate - doesn't build anymore - 0.6 only maybe
+* rack-v1-BeckstromResearch -> to deactivate - doesn't build anymore - 0.6 only maybe
+* rack-v1-CaptainsSounds -> to deactivate - doesn't build anymore - 0.6 only maybe
+* rack-v1-ErraticInstruments -> to deactivate - doesn't build anymore - 0.6 only maybe
+* rack-v1-Gratrix -> to deactivate - doesn't build anymore - 0.6 only maybe
+* rack-v1-NauModular -> to deactivate - doesn't build anymore - 0.6 only maybe
+* rack-v1-PG-Instruments -> to deactivate - doesn't build anymore - 0.6 only maybe
+* rack-v1-PvC -> to deactivate - doesn't build anymore - 0.6 only maybe
+* rack-v1-Quadraphonics -> to deactivate - doesn't build anymore - 0.6 only maybe
+* rack-v1-RODENTMODULES -> to deactivate - doesn't build anymore - 0.6 only maybe
+* rack-v1-STS -> to deactivate - doesn't build anymore - 0.6 only maybe
+* rack-v1-SerialRacker -> to deactivate - doesn't build anymore - 0.6 only maybe
+* rack-v1-Southpole-parasites -> to deactivate - doesn't build anymore - 0.6 only maybe
+* rack-v1-SubmarineUtility -> to deactivate - doesn't build anymore - 0.6 only maybe
+* rack-v1-SunsetSignals -> to deactivate - doesn't build anymore - 0.6 only maybe
+* rack-v1-TheXOR -> to deactivate - doesn't build anymore - 0.6 only maybe
+* rack-v1-UnforgettableLuncheon -> to deactivate - doesn't build anymore - 0.6 only maybe
+* rack-v1-VCV-Prototype - LUAJIT not found via wget -> to deactivate - doesn't build anymore - 0.6 only maybe
+* rack-v1-aP-Modules -> to deactivate - doesn't build anymore - 0.6 only maybe
+* rack-v1-arjo_modules -> to deactivate - doesn't build anymore - 0.6 only maybe
+* rack-v1-com-soundchasing-stochasm -> to deactivate - doesn't build anymore - 0.6 only maybe
+* rack-v1-mtsch-plugins -> to deactivate - doesn't build anymore - 0.6 only maybe
+* rack-v2-23volts -> to deactivate - doesn't build anymore 
+* rack-v2-AriaSalvatrice -> to deactivate - doesn't build anymore 
+* rack-v2-BOKONTEPByteBeatMachine -> to deactivate - doesn't build anymore 
+* rack-v2-BeckstromResearch -> to deactivate - doesn't build anymore 
+* rack-v2-CaptainsSounds -> to deactivate - doesn't build anymore 
+* rack-v2-ChowDSP -> to deactivate - doesn't build anymore 
+* rack-v2-DelexanderVol1 -> to deactivate - doesn't build anymore 
+* rack-v2-ErraticInstruments -> to deactivate - doesn't build anymore 
+* rack-v2-Gratrix -> to deactivate - doesn't build anymore 
+* rack-v2-ILovePerlin -> to deactivate - doesn't build anymore 
+* rack-v2-Koralfx-Modules -> to deactivate - doesn't build anymore 
+* rack-v2-ModularFungi -> to deactivate - doesn't build anymore 
+* rack-v2-Mog -> to deactivate - doesn't build anymore 
+* rack-v2-MpSeries -> to deactivate - doesn't build anymore 
+* rack-v2-MyLittleTools -> to deactivate - doesn't build anymore 
+* rack-v2-NauModular -> to deactivate - doesn't build anymore 
+* rack-v2-OuroborosModules -> to deactivate - doesn't build anymore 
+* rack-v2-PG-Instruments -> to deactivate - doesn't build anymore 
+* rack-v2-ParableInstruments -> to deactivate - doesn't build anymore 
+* rack-v2-PvC -> to deactivate - doesn't build anymore 
+* rack-v2-RJModules -> to deactivate - doesn't build anymore 
+* rack-v2-RODENTMODULES -> to deactivate - doesn't build anymore 
+* rack-v2-RPJVisualizer - projectM missing -> to deactivate - doesn't build anymore 
+* rack-v2-RacketScience -> to deactivate - doesn't build anymore 
+* rack-v2-ReTunesFree -> to deactivate - doesn't build anymore 
+* rack-v2-SerialRacker -> to deactivate - doesn't build anymore 
+* rack-v2-Southpole -> to deactivate - doesn't build anymore 
+* rack-v2-Southpole-parasites -> to deactivate - doesn't build anymore 
+* rack-v2-SubmarineFree -> to deactivate - doesn't build anymore 
+* rack-v2-SubmarineUtility -> to deactivate - doesn't build anymore 
+* rack-v2-TheXOR - no more sources -> to deactivate - doesn't build anymore 
+* rack-v2-UnforgettableLuncheon -> to deactivate - doesn't build anymore 
+* rack-v2-WrongPeople -> to deactivate - doesn't build anymore 
+* rack-v2-aP-Modules -> to deactivate - doesn't build anymore 
+* rack-v2-arjo_modules -> to deactivate - doesn't build anymore 
+* rack-v2-com-soundchasing-stochasm -> to deactivate - doesn't build anymore 
+* rack-v2-luckyxxl -> to deactivate - doesn't build anymore 
+* rack-v2-mscHack -> to deactivate - doesn't build anymore 
+* rack-v2-mtsch-plugins -> to deactivate - doesn't build anymore 
+
+To fix:
+* rack-v2-monome
 
 Missing packages:
-* BambooTracker
-* BatLib
 * ChowCentaur
 * ChowPhaser
-* FoxDot
-* FoxDotQuark
 * IanniX
 * LinVst3
 * abNinjam
@@ -37,21 +109,16 @@ Missing packages:
 * fodpad-port
 * fugio
 * hybridreverb2
-* imogen
 * improviz
 * jack_delay
 * jack_utils
 * jackass
 * juceopl
-* kernel-rt-stable-mao
-* klystrack
 * komposter
 * kpp
 * ladspa-t5-plugins
-* lomse
 * loopidity
 * lv2-BSpacr
-* lv2-dexed-presets
 * midi2voice
 * mod-dm-graindelay
 * musikernel2
@@ -59,109 +126,13 @@ Missing packages:
 * onetrick-bboi
 * peaksynth-audio-plugin
 * performer
-* purr-data
-* python%{pybasever}
-* rack-v1-BOKONTEPByteBeatMachine
-* rack-v1-BaconMusic
-* rack-v1-BeckstromResearch
-* rack-v1-CaptainsSounds
-* rack-v1-ErraticInstruments
-* rack-v1-Gratrix
-* rack-v1-NauModular
-* rack-v1-PG-Instruments
-* rack-v1-PvC
-* rack-v1-Quadraphonics
-* rack-v1-RODENTMODULES
-* rack-v1-SLUGNAME
-* rack-v1-STS
-* rack-v1-SerialRacker
-* rack-v1-Southpole-parasites
-* rack-v1-SubmarineUtility
-* rack-v1-SunsetSignals
-* rack-v1-TheXOR
-* rack-v1-UnforgettableLuncheon
-* rack-v1-VCV-Prototype
-* rack-v1-aP-Modules
-* rack-v1-arjo_modules
-* rack-v1-com-soundchasing-stochasm
-* rack-v1-mtsch-plugins
-* rack-v2-23volts
-* rack-v2-AriaSalvatrice
-* rack-v2-BOKONTEPByteBeatMachine
-* rack-v2-BeckstromResearch
-* rack-v2-CaptainsSounds
-* rack-v2-ChowDSP
-* rack-v2-DelexanderVol1
-* rack-v2-ErraticInstruments
-* rack-v2-Gratrix
-* rack-v2-ILovePerlin
-* rack-v2-Koralfx-Modules
-* rack-v2-ModularFungi
-* rack-v2-Mog
-* rack-v2-MpSeries
-* rack-v2-MyLittleTools
-* rack-v2-NauModular
-* rack-v2-OuroborosModules
-* rack-v2-PG-Instruments
-* rack-v2-ParableInstruments
-* rack-v2-PvC
-* rack-v2-RJModules
-* rack-v2-RODENTMODULES
-* rack-v2-RPJVisualizer
-* rack-v2-RacketScience
-* rack-v2-ReTunesFree
-* rack-v2-SLUGNAME
-* rack-v2-SerialRacker
-* rack-v2-Southpole
-* rack-v2-Southpole-parasites
-* rack-v2-SubmarineFree
-* rack-v2-SubmarineUtility
-* rack-v2-SurgeRack
-* rack-v2-TheXOR
-* rack-v2-UnforgettableLuncheon
-* rack-v2-WrongPeople
-* rack-v2-aP-Modules
-* rack-v2-arjo_modules
-* rack-v2-com-soundchasing-stochasm
-* rack-v2-luckyxxl
-* rack-v2-monome
-* rack-v2-mscHack
-* rack-v2-mtsch-plugins
-* rack-v2-pachde-one
-* redkite
 * rtcqs
 * samplebrain
 * shoopdaloop
 * shortcircuit
-* slv2
-* sonic-pi
 * soundux
-* veejay-gui
-* veejay-server
 * virtualanalog
-* vswell
-* vsxu
-* zrythm
 
-### Fedora 41
-
-Python2 has been removed from rawhide and Fedora 41.
-Paython-3.12 is the default version of Python on Fedora 41.
-
-#### psi-plugin
-
-python2 problem
-
-#### Missing packages:
-
-```
-lv2-avw-plugins  - No matching package to install: 'slv2-devel'
-opl3bankeditor  - No matching package to install: 'qwt-devel'
-opn2bankeditor  -No matching package to install: 'qwt-devel'
-prelude  - No matching package to install: 'sfizz-devel' - rebusmitted
-toccata  - No matching package to install: 'sfizz-devel'
-rack-v2-RPJ  - fatal error: emmintrin.h: No such file or directory
-```
 
 ## Todo
 
