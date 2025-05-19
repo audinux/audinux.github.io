@@ -91,32 +91,24 @@ Packages to fix:
 * rack-v2-luckyxxl -> to deactivate - doesn't build anymore 
 * rack-v2-mscHack -> to deactivate - doesn't build anymore 
 * rack-v2-mtsch-plugins -> to deactivate - doesn't build anymore 
+* clap-plugins -> ticket opened
+* fodpad-port -> to deactivate - doesn't build
+* abNinjam -> broken build
 
 To fix:
 * rack-v2-monome
 
 Missing packages:
-* ChowCentaur
-* ChowPhaser
-* IanniX
 * LinVst3
-* abNinjam
 * backupband
 * bintracker
 * buzztrax
-* clap-plugins
 * fluxus
-* fodpad-port
 * fugio
-* hybridreverb2
 * improviz
-* jack_delay
-* jack_utils
-* jackass
 * juceopl
 * komposter
 * kpp
-* ladspa-t5-plugins
 * loopidity
 * lv2-BSpacr
 * midi2voice
@@ -132,7 +124,6 @@ Missing packages:
 * shortcircuit
 * soundux
 * virtualanalog
-
 
 ## Todo
 
