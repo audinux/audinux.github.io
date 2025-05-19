@@ -94,34 +94,30 @@ Packages to fix:
 * clap-plugins -> ticket opened
 * fodpad-port -> to deactivate - doesn't build
 * abNinjam -> broken build
+* mod-dm-graindelay -> dm-graindelay
+* improviz -> deprecated
+* fluxus -> racket3m not found
+* fugio -> a submodule is not available anymore
+* lv2-BSpacr -> was a 1st april joke
+* performer -> does not build anymore
+* shoopdaloop -> use rust but needs a zita-resampler-config.cmake 
+
+WIP:
+* backupband
+* bintracker
+* shortcircuit
+* rtcqs
+* midi2voice
 
 To fix:
 * rack-v2-monome
+* peaksynth-audio-plugin
 
 Missing packages:
 * LinVst3
-* backupband
-* bintracker
 * buzztrax
-* fluxus
-* fugio
-* improviz
 * juceopl
-* komposter
-* kpp
-* loopidity
-* lv2-BSpacr
-* midi2voice
-* mod-dm-graindelay
 * musikernel2
-* nanoinvaders
-* onetrick-bboi
-* peaksynth-audio-plugin
-* performer
-* rtcqs
-* samplebrain
-* shoopdaloop
-* shortcircuit
 * soundux
 * virtualanalog
 
