@@ -101,6 +101,10 @@ Packages to fix:
 * lv2-BSpacr -> was a 1st april joke
 * performer -> does not build anymore
 * shoopdaloop -> use rust but needs a zita-resampler-config.cmake 
+* musikernel2 -> source code not available anymore
+* virtualanalog -> replaced by wavetable
+* soundux -> doesn't build anymore
+* LinVst3 -> ticket opened
 
 WIP:
 * backupband
@@ -112,14 +116,7 @@ WIP:
 To fix:
 * rack-v2-monome
 * peaksynth-audio-plugin
-
-Missing packages:
-* LinVst3
-* buzztrax
-* juceopl
-* musikernel2
-* soundux
-* virtualanalog
+* buzztrax -> gstreamer bug during build
 
 ## Todo
 
