@@ -9,6 +9,70 @@ I will stop building the RT kernel 5.10 because it has a build problem with the 
 
 Build for Fedora 42 is now over (4 days of rebuild).
 
+### News for june 2025
+
+* new packages
+  * borg-er-3-0:1.0.4-1
+  * boris-granular-station-0:0.0.1-1
+  * filtr-0:1.0.9-1
+  * gate12-0:1.1.7-1
+  * hamburger-0:0.5-1
+  * python-jack-client-0:0.5.5-16
+  * reevr-0:1.0.2-1
+  * resonarium-0:1.0.0-1
+  * time12-0:1.1.8-1
+
+* updated packages
+  * BespokeSynth-weekly-0:1.3.10-6
+  * airwindows-0:0.0.1-96
+  * cardinal-0:25.06-2
+  * cstop-0:1.0.1-1
+  * drumlabooh-0:10.0.1-1
+  * furnace-0:0.6.8.3-4
+  * giada-0:1.2.1-1
+  * jacktrip-0:2.7.0-2
+  * jamesdsp-0:2.7.4-2
+  * jc303-0:0.12.2-2
+  * lmms-mao-weekly-0:1.2.99-22
+  * master_me-0:1.3.0-1
+  * milkytracker-0:1.06-2
+  * neuralrack-0:0.1.19-1
+  * noteahead-0:0.9.0-1
+  * powertabeditor-0:2.0.22-4
+  * qlcplus-0:4.14.2-1
+  * qtractor-mao-0:1.5.6-2
+  * rack-v2-Airwin2Rack-0:2.12.0-2
+  * rack-v2-AmbushedCat-0:2.0.0-2
+  * rack-v2-CosineKitty-Sapphire-0:2.6.000-2
+  * rack-v2-GP-0:2.0.0-2
+  * rack-v2-HetrickCV-0:2.5.4-2
+  * rack-v2-JW-Modules-0:2.0.16-2
+  * rack-v2-JulioChaos-0:2.1.0-2
+  * rack-v2-NonlinearCircuits-0:2.4.0-2
+  * rack-v2-OkaySynthesizer-0:2.0.1-2
+  * rack-v2-OrangeLine-0:2.4.11-2
+  * rack-v2-PS-PurrSoftware-0:2.0.35-2
+  * rack-v2-RSBATechModules-0:2.1.8-2
+  * rack-v2-SanguineMonsters-0:2.4.0-2
+  * rack-v2-SanguineMutants-0:2.6.8-2
+  * rack-v2-StochasticTelegraph-0:2.0.21-2
+  * rack-v2-Stoermelder-P1-0:2.0.0-2
+  * rack-v2-Sulamith-0:2.1.0-2
+  * rack-v2-TeknoLogical-0:2.0.0-2
+  * rack-v2-TeknoLogical-0:2.0.1-2
+  * rack-v2-Venom-0:2.12.3-2
+  * rack-v2-dbRackSequencer-0:2.6.3-2
+  * rack-v2-kocmoc-0:2.0.8-2
+  * rack-v2-not-things-0:2.0.4-2
+  * rack-v2-not-things-0:2.0.5-2
+  * rack-v2-vanTies-0:2.6.1-2
+  * rack-v2-voxglitch-0:2.33.0-2
+  * rosegarden4-0:25.06-4
+  * seq66-0:0.99.20-1
+  * splash-0:0.11.6-1
+  * vst3sdk-0:3.7.14-1
+  * zam-mao-plugins-0:4.4-4
+
 ### News for may 2025
 
 * new packages
