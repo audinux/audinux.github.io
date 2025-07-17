@@ -43,3 +43,5 @@ You can find good samples here:
 - [freesound](https://lasonotheque.org/)
 - [lasonoteque](https://lasonotheque.org/) (a french website)
 - [one laptop per child](https://wiki.laptop.org/go/Free_sound_samples)
+
+A database of MIDI files corresponding to scanned [piano rolls](http://www.pianorollmusic.org/rolldatabase.php).
