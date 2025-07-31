@@ -6,8 +6,75 @@ Since Fedora 35, the repository is called Audinux (due to a conflict with the we
 
 I will stop building the RT kernel 5.15 because it has too many problems with audio (the USB Audio driver seems to have a lot of problems and doesn't play well with pipewire).
 I will stop building the RT kernel 5.10 because it has a build problem with the last version of gcc..
+I will stop building the RT kernel 6.6 because it is now included in the default Fedora kernel (needs boot options to be activated)
 
-Build for Fedora 42 is now over (4 days of rebuild).
+### News for july 2025
+
+* new packages
+  * dm-seq-0:0.0.1-1
+  * solid-arp-0:0.3.0-1
+  * solid-utility-0:1.0.0-1
+  * kernel-rt-tests-0:2.9-2 (renamed from rt-tests)
+
+* updated packages
+  * BespokeSynth-weekly-0:1.3.10-7
+  * airwindows-0:0.0.1-99
+  * chuck-0:1.5.5.2-2
+  * cmajor-0:1.0.2945-1
+  * dm-LFO-0:0.0.5-1
+  * dm-Reverse-0:0.0.6-1
+  * dm-SD1-0:0.0.8-1
+  * dm-Spaceecho-0:0.1.4-1
+  * dm-TimeWarp-0:0.0.1-2
+  * dm-TubeScreamer-0:0.0.7-2
+  * dm-Whammy-0:0.0.8-1
+  * dm-bigmuff-0:0.0.6-1
+  * dm-ds1-0:0.1.1-1
+  * dm-fuzz-0:0.0.8-1
+  * dm-graindelay-0:0.0.5-2
+  * dm-octaver-0:0.0.5-1
+  * dm-rat-0:0.1.0-1
+  * dm-repeat-0:0.0.8-1
+  * dm-reverb-0:0.1.4-1
+  * dm-shredmaster-0:0.1.0-1
+  * dm-stutter-0:0.1.2-1
+  * dm-vibrato-0:0.0.6-1
+  * fasttracker2-0:1.97-3
+  * faust-0:2.81.2-39
+  * fire-0:1.0.2-1
+  * fluida-0:0.9.5-1
+  * geonkick-0:3.6.1-2
+  * hydrogen-0:1.2.6-12
+  * jacktrip-0:2.7.1-2
+  * libefsw-0:1.5.0-1
+  * lmms-mao-weekly-0:1.2.99-24
+  * master_me-0:1.3.1-1
+  * midi-utils-0:0.0.1-1
+  * miniaudicle-0:1.5.5.2-2
+  * neuralrack-0:0.2.0-1
+  * non-mixer-xt-0:2.0.8-4
+  * noteahead-0:0.10.0-1
+  * ossia-score-0:3.5.3-1
+  * processing-0:4.4.5-2
+  * qlcplus-0:4.14.3-1
+  * qtractor-mao-0:1.5.7-2
+  * rack-v2-Airwin2Rack-0:2.13.0-2
+  * rack-v2-GP-0:2.0.1-2
+  * rack-v2-OuroborosModules-0:2.1.2-2
+  * rack-v2-TinyTricks-0:2.5.4-2
+  * rack-v2-alefsbits-0:2.5.60-2
+  * rack-v2-silver-Visions-0:2.1.1-2
+  * rakarrack-plus-0:1.3.0-3
+  * samplecat-0:0.3.4-1
+  * seq192-0:1.8.0-1
+  * seq66-0:0.99.21-1
+  * snd-0:25.5-1
+  * sparta-0:1.8.0-3
+  * supercollider-0:3.14.0-6
+  * swami-0:2.2.2-25
+  * vmpc-0:0.9.0.4-1
+  * wineasio-0:1.3.0-2
+  * zl-compressor-0:0.1.1-1
 
 ### News for june 2025
 
