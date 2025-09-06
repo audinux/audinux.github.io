@@ -7,7 +7,6 @@
 Description | link
 ----------- | ----
 Some slides related to ALSA Modular Synth | [PDF](../workshop/audio/AMS.pdf), [ODP](../workshop/audio/AMS.odp)
-Some ideas of exercices | [PDF](../workshop/audio/Exercices.pdf), [ODP](../workshop/audio/Exercices.odp)
 Some slides for Guitarix | [PDF](../workshop/audio/Guitarix.pdf), [ODP](../workshop/audio/Guitarix.odp)
 A rapid history of Linux | [PDF](../workshop/audio/Historique.pdf), [ODP](../workshop/audio/Historique.odp)
 Hydrogen, the drum sequencer | [PDF](../workshop/audio/Hydrogen.pdf), [ODP](../workshop/audio/Hydrogen.odp)
