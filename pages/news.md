@@ -8,6 +8,144 @@ I will stop building the RT kernel 5.15 because it has too many problems with au
 I will stop building the RT kernel 5.10 because it has a build problem with the last version of gcc..
 I will stop building the RT kernel 6.6 because it is now included in the default Fedora kernel (needs boot options to be activated)
 
+### News for october 2025
+
+* new packages
+  * kholorsstation-0:1.24.1-1
+  * millisecond-0:0.2.0-1
+
+* updated packages
+  * BespokeSynth-weekly-0:1.3.10-10
+  * Rack-v2-0:2.6.5-7
+  * SN76489-0:0.0.1-4
+  * SocaLabs-plugins-0:20250807-6
+  * actuate-0:1.4.1-1
+  * airwindows-0:0.0.1-102
+  * bedroomstudio-0:1.0.0-2
+  * boris-granular-station-0:0.0.1-2
+  * camomile-0:1.0.8-1
+  * chataigne-0:1.9.24-1
+  * cmajor-0:1.0.3016-1
+  * darc.lv2-0:0.7.1-1
+  * drumlabooh-0:11.0.0-2
+  * faust-0:2.81.10-39
+  * fire-0:1.5.0-2
+  * gearmulator-0:2.0.2-1
+  * geraintluff_ysfx-0:0.0.1-2
+  * giada-0:1.3.1-2
+  * gmsynth.lv2-0:0.6.3-1
+  * kernel-lqx-mao-0:6.16.10.lqx1-14
+  * kernel-xan-mao-0:6.16.10.xan1-12
+  * lmms-mao-weekly-0:1.2.99-27
+  * lsp-plugins-0:1.2.24-1
+  * lv2-airwindows-0:32.0-1
+  * lv2-toobamp-plugins-0:1.1.61-2
+  * midifilter.lv2-0:0.7.5-1
+  * nanomsg-0:1.2.2-2
+  * nih-plug-0:0.4.3-3
+  * node-sound-0:5.2.0-1
+  * non-mixer-xt-0:2.0.10-4
+  * noteahead-0:0.14.0-1
+  * phaserotate.lv2-0:0.6.8-1
+  * processing-0:4.4.10-2
+  * qtractor-mao-0:1.5.9-2
+  * rack-v2-AlteredStateMachines-0:2.0.0-2
+  * rack-v2-Animatek-0:2.1.0-2
+  * rack-v2-CVfunk-0:2.0.30-2
+  * rack-v2-LydD-Modules-0:2.0.16-2
+  * rack-v2-MADZINE-0:2.3.0-2
+  * rack-v2-Moffenzeef-0:2.2.0-2
+  * rack-v2-StochasticTelegraph-0:2.0.22-2
+  * rack-v2-Stoermelder-P1-0:2.1.0-2
+  * rack-v2-TeknoLogical-0:2.0.2-2
+  * rack-v2-Venom-0:2.13.2-2
+  * rack-v2-pachde-CHEM-0:2.0.1-2
+  * rack-v2-voxglitch-0:2.35.0-2
+  * rivendell-0:4.4.1-1
+  * saugns-0:0.5.5-1
+  * seq66-0:0.99.22-1
+  * sparta-0:1.8.1-4
+  * tascar-0:0.235.1-1
+  * tuxguitar-0:2.0.0-15
+  * vst3sdk-0:3.8.0-1
+  * ysfx-0:0.0.42-2
+  * zl-equalizer-0:0.6.3-2
+  * zmann-0:0.0.1-1
+
+### News for september 2025
+
+* new packages
+  * snibbetracker-0:1.1.1-1
+
+* updated packages
+  * BYOD-0:1.3.0-2
+  * Carla-mao-1:2.5.10-4
+  * JUCE-0:8.0.10-10
+  * JUCE5-0:5.4.7-3
+  * JUCE60-0:6.0.8-6
+  * JUCE61-0:6.1.6-7
+  * JUCE7-0:7.0.12-11
+  * bombaz-0:1.0.0-2
+  * chuck-0:1.5.5.5-2
+  * cloudreverb-0:0.3.1-2
+  * cmajor-0:1.0.3009-1
+  * coppwr-0:1.7.0-1
+  * fasttracker2-0:1.99-3
+  * faust-0:2.81.8-39
+  * filtr-0:1.0.9-2
+  * fire-0:1.5.0b-2
+  * gate12-0:1.1.7-2
+  * gearmulator-0:2.0.0-1
+  * giada-0:1.3.0-2
+  * grandorgue-0:3.16.2.0-7
+  * hvcc-0:0.14.0-2
+  * iem-plugins-0:1.15.0-2
+  * lebiniou-0:3.67.0-3
+  * leiningen-0:2.12.0-1
+  * linux-show-player-0:0.6.4-1
+  * lv2-fil-plugins-0:2.0-13
+  * miniaudicle-0:1.5.5.5-2
+  * monique-monosynth-0:30092025-1
+  * node-sound-0:5.1.0-1
+  * noteahead-0:0.12.0-1
+  * ossia-score-0:3.7.1-1
+  * patchance-0:1.1.0-1
+  * patchichi-0:0.3.0-1
+  * plugdata-0:0.9.2-2
+  * processing-0:4.4.7-2
+  * protracker2-0:1.78-4
+  * rack-v2-Biset-0:2.0.14-2
+  * rack-v2-Chinenual-VCV-0:2.7.5-2
+  * rack-v2-Clonotribe-0:2.2.0-2
+  * rack-v2-DanTSynth-0:2.0.1-2
+  * rack-v2-FartSynthson-0:2.0.0-2
+  * rack-v2-Gemini-0:2.0.0-2
+  * rack-v2-Moffenzeef-0:2.1.0-2
+  * rack-v2-ODDSound_MTS_ESP-0:2.0.3-2
+  * rack-v2-SickoCV-0:2.7.7-2
+  * rack-v2-Sulamith-0:2.2.0-2
+  * raysession-0:0.14.4-4
+  * reevr-0:1.0.2-2
+  * resonarium-0:1.0.0-2
+  * ripplerx-0:1.5.18-1
+  * rivendell-0:4.4.0-1
+  * roomreverb-0:1.4.1-2
+  * splash-0:0.11.10-1
+  * stochas-0:1.3.13-5
+  * surge-xt-0:1.3.4-3
+  * tascar-0:0.234.4-1
+  * terrain-0:1.2.2-2
+  * thekissofshame-0:1.0.2-2
+  * time12-0:1.1.8-2
+  * trackerboy-0:0.6.6-1
+  * tuxguitar-0:1.6.6-15
+  * ulfius-0:2.7.0-1
+  * unplugred-0:0.0.1-1
+  * valentine-0:1.0.1-2
+  * vmpc-0:0.9.0.16-1
+  * ysfx-0:0.0.40-2
+  * zrythm-0:1.9.9-1
+
 ### News for august 2025
 
 * new packages
