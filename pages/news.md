@@ -8,6 +8,96 @@ I will stop building the RT kernel 5.15 because it has too many problems with au
 I will stop building the RT kernel 5.10 because it has a build problem with the last version of gcc..
 I will stop building the RT kernel 6.6 because it is now included in the default Fedora kernel (needs boot options to be activated)
 
+### News for november 2025
+* new packages
+  * adt-0:0.2.2-1
+  * cchorus-0:2.2.0-1
+  * dfjpverb-0:0.2.2-1
+  * dfzitarev1-0:0.2.6-1
+  * drumcraker-0:1.2.2-1
+  * drumelidrum-0:0.2.0-1
+  * drumgroovepro-0:0.9.9-1
+  * filurep-0:0.2.0-1
+  * firefly-synth-2-0:2.0.6a26-1
+  * karmaviz-0:0.0.1-1
+  * polyfilur-0:0.2.0-1
+  * python3-glcontext-0:3.0.0-1
+  * python3-moderngl-0:5.12.0-1
+  * python3-sounddevice-0:0.5.3-1
+  * sendmixer-0:0.2.0-1
+  * tenacity-0:1.3.4-1
+  * waxman-0:0.1.0-1
+
+* updated packages
+  * Carla-mao-1:2.5.10-4
+  * Rack-v2-0:2.6.6-7
+  * actuate-0:1.4.2-1
+  * airwindows-0:0.0.1-103
+  * chuck-0:1.5.5.6-2
+  * clap-0:1.2.7-1
+  * cloudreverb-0:0.4-2
+  * cmajor-0:1.0.3029-1
+  * dexed-0:1.0.1-2
+  * fasttracker2-0:2.00-3
+  * filtr-0:1.1.0-2
+  * gate12-0:1.2.2-2
+  * gearmulator-0:2.0.12-1
+  * grandorgue-0:3.16.3.0-7
+  * jack-link-0:0.2.5-1
+  * jc303-0:0.12.3-3
+  * jjazzlab-0:5.0.1-2
+  * js80p-0:3.5.0-1
+  * kholorsstation-0:1.25.0-1
+  * loopino-0:0.0.1-2
+  * lsp-plugins-0:1.2.25-1
+  * lv2-airwindows-0:34.0-1
+  * miniaudicle-0:1.5.5.6-2
+  * node-sound-0:5.4.1-1
+  * non-mixer-xt-0:2.0.11-4
+  * noteahead-0:1.0.0-1
+  * patchance-0:1.3.0-1
+  * portsmf-0:0.1-2
+  * projectM-mao-0:4.1.6-15
+  * qlcplus-0:5.0.1-1
+  * rack-v2-BGal256-0:2.0.3-2
+  * rack-v2-CVfunk-0:2.0.39-2
+  * rack-v2-CosineKitty-Sapphire-0:2.6.002-2
+  * rack-v2-CuteLab-0:2.1.0-2
+  * rack-v2-LydD-Modules-0:2.0.18-2
+  * rack-v2-Moffenzeef-0:2.3.0-2
+  * rack-v2-Ohmer-0:2.6.6-2
+  * rack-v2-QuestionableDinner-0:2.0.5-2
+  * rack-v2-RestocK-0:2.0.0-2
+  * rack-v2-SignalFunctionSet-0:2.1.0-2
+  * rack-v2-StochasticTelegraph-0:2.0.23-2
+  * rack-v2-TMT-0:2.2.0-2
+  * rack-v2-Venom-0:2.14.1-2
+  * rack-v2-pachde-CHEM-0:2.0.2-2
+  * rack-v2-vanTies-0:2.6.3-2
+  * rack-v2-voxglitch-0:2.36.2-2
+  * raysession-0:0.17.1-4
+  * reevr-0:1.1.0-2
+  * saugns-0:0.5.5b-1
+  * seq42-0:2.1.6-1
+  * tascar-0:0.235.2-1
+  * tetraproc-0:0.10.0-2
+  * time12-0:1.2.2-2
+  * tuxguitar-0:2.0.0-16
+  * wstd-3q-0:1.1-1
+  * wstd-crshr-0:1.1-1
+  * wstd-dl3y-0:1.1-1
+  * wstd-dlay-0:1.1-1
+  * wstd-eq-0:1.1-1
+  * wstd-fl3ngr-0:1.1-1
+  * wstd-fldr-0:1.1-1
+  * wstd-manglr-0:1.2-1
+  * wstd-smthr-0:1.1-1
+  * xjadeo-0:0.8.15-5
+  * ysfx-0:0.0.42-2
+  * zix-0:0.8.0-1
+  * zl-equalizer-0:1.0.3-2
+  * zrythm-0:1.9.9-2
+
 ### News for october 2025
 
 * new packages
