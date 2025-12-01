@@ -9,7 +9,8 @@ I will stop building the RT kernel 5.10 because it has a build problem with the 
 I will stop building the RT kernel 6.6 because it is now included in the default Fedora kernel (needs boot options to be activated)
 
 ### News for november 2025
-* new packages
+
+  * new packages
   * adt-0:0.2.2-1
   * cchorus-0:2.2.0-1
   * dfjpverb-0:0.2.2-1
