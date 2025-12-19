@@ -45,3 +45,5 @@ You can find good samples here:
 - [one laptop per child](https://wiki.laptop.org/go/Free_sound_samples)
 
 A database of MIDI files corresponding to scanned [piano rolls](http://www.pianorollmusic.org/rolldatabase.php).
+
+A good resource on Linux and audio: [linuxaudia](https://linuxaudio.dev/)
