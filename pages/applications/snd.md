@@ -51,7 +51,7 @@ or **Guile** variants:
 (%load-path).
 ```
 
-These lines cause errors with modern **snd** (s7).
+These lines cause errors with modern **snd** (**s7**).
 
 ## Scheme Module Locations
 
@@ -66,6 +66,21 @@ Some important modules:
 - env.scm: Envelopes
 - mix.scm: Non-Destructive Mixing
 - marks.scm: Markers
+
+To test a module:
+```
+$ mkdir snd
+$ cp /usr/lib64/snd/scheme/* snd
+$ snd-gui
+```
+
+Then click on 'View->Show listener' in the main GUI.
+In the Scheme console, enter:
+```
+> (load "bird.scm")
+make-birds
+> (make-birds)
+```
 
 ## Built-in Documentation (Main Source)
 
