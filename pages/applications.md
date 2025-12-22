@@ -2,6 +2,6 @@
 
 Table of Content
 ---
-- [snd](#applications/snd)
+- [snd](applications/snd)
 
 ###### tags: `applications`
