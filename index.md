@@ -14,13 +14,15 @@ Making music using Linux is addictive ...
 - [Installing VCV Rack and plugins](pages/vcvrack.md)
 - [Related links](pages/links.md)
 - [Status of Fedora beta](pages/build.md)
+- [Applications](pages/applications.md)
+- [User guide](pages/user_guide.md)
 
 ### Other information
 
 - [Articles about audio and music creation](articles/articles.md)
-- [Some documents (slides, and other ressources) for Linux and audio workshops](pages/workshops.html)
-- [RPM packaging](pages/rpm.html)
-- [Kernel boot parameters](pages//kernel_boot.html)
+- [Some documents (slides, and other ressources) for Linux and audio workshops](pages/workshops.md)
+- [RPM packaging](pages/rpm.md)
+- [Kernel boot parameters](pages/kernel_boot.md)
 
 ### Download
 
