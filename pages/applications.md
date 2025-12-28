@@ -2,6 +2,8 @@
 
 Table of Content
 ---
-- [snd](applications/snd)
+- [linvst](applications/linvst.md)
+- [snd](applications/snd.md)
+- [yabridge](applications/yabridge.md)
 
 ###### tags: `applications`
