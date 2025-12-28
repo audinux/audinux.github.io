@@ -4,9 +4,7 @@
 
 ### Tickets
 
-A ticket has been opened for vst3sdk: https://github.com/steinbergmedia/vst3sdk/issues/123
-
-### Fedora 42
+### Fedora 43
 
 Packages to fix:
 * tunefish 
