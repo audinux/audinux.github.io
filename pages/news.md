@@ -8,9 +8,125 @@ I will stop building the RT kernel 5.15 because it has too many problems with au
 I will stop building the RT kernel 5.10 because it has a build problem with the last version of gcc..
 I will stop building the RT kernel 6.6 because it is now included in the default Fedora kernel (needs boot options to be activated)
 
+
+### News for december 2025
+
+* new packages
+  * arpligner-0:0.0.1-1
+  * jdrummer-0:0.0.1-1
+  * redrose-0:0.5.47-2
+  * signalview-0:0.0.1-1
+  * vocoder-0:1.1.0-1
+  * vocodersynth-0:0.0.1-1
+
+* updated packages
+  * BespokeSynth-weekly-0:1.3.10-12
+  * ChowMultiTool-0:1.1.0^git20240624.2d77bdc-1
+  * JUCE-0:8.0.12-10
+  * airwindows-0:0.0.1-104
+  * audio-effects-0:1.0.0-2
+  * birdhouse-0:0.1.2-1
+  * cmajor-0:1.0.3088-1
+  * coppwr-0:1.7.1-1
+  * drumcraker-0:1.2.3-1
+  * drumlabooh-0:12.1.0-2
+  * drumrox-kits-0:4.0.0-7
+  * drumrox-kits-ARP_Axxe-0:4.0.0-7
+  * drumrox-kits-ASR-XPro-0:4.0.0-7
+  * drumrox-kits-Cheetah_SpecDrum_Afro-0:4.0.0-7
+  * drumrox-kits-Cheetah_SpecDrum_Electro-0:4.0.0-7
+  * drumrox-kits-Cheetah_SpecDrum_Latin-0:4.0.0-7
+  * drumrox-kits-Cheetah_SpecDrum_Standard-0:4.0.0-7
+  * drumrox-kits-ChoosyHouseKit-0:4.0.0-7
+  * drumrox-kits-Copyc4tElNacho-0:4.0.0-7
+  * drumrox-kits-Drumulator-0:4.0.0-7
+  * drumrox-kits-ELI_CompuRhythm_CR_7030-0:4.0.0-7
+  * drumrox-kits-ElgamCarousel-0:4.0.0-7
+  * drumrox-kits-FormantaPolivoks-0:4.0.0-7
+  * drumrox-kits-FrickeMFB512-0:4.0.0-7
+  * drumrox-kits-Fricke_MFB512-0:4.0.0-7
+  * drumrox-kits-GEM_Drum15-0:4.0.0-7
+  * drumrox-kits-Jazzkit-0:4.0.0-7
+  * drumrox-kits-KloneDualPercussionSynthesiser-0:4.0.0-7
+  * drumrox-kits-Lel-DR8-0:4.0.0-7
+  * drumrox-kits-Lel-PSR-0:4.0.0-7
+  * drumrox-kits-MTI_AO_1-0:4.0.0-7
+  * drumrox-kits-Rokton-UDS-0:4.0.0-7
+  * drumrox-kits-Sixties_Basic-0:4.0.0-7
+  * drumrox-kits-Sixties_Rock-0:4.0.0-7
+  * drumrox-kits-SoundMaster_SR-88-0:4.0.0-7
+  * drumrox-kits-Tamil-0:4.0.0-7
+  * drumrox-kits-TamilMultiLayered-0:4.0.0-7
+  * drumrox-kits-Technics_PCM_DP50-0:4.0.0-7
+  * drumrox-kits-WatfordRhythmGenerator-0:4.0.0-7
+  * drumrox-kits-Wooden-0:4.0.0-7
+  * fasttracker2-0:2.03-3
+  * faust-0:2.83.1-39
+  * firefly-synth-2-0:2.0.8b2-1
+  * foam-synth-0:0.1.3-1
+  * fxseq-0:0.1-2
+  * gammou-0:0.8.1-2
+  * gate12-0:1.2.3-2
+  * gearmulator-0:2.1.0-1
+  * giada-0:1.4.0-2
+  * grandorgue-0:3.16.3.1-7
+  * helio-workstation-0:3.17.0-2
+  * hvcc-0:0.15.0-2
+  * jack-link-0:0.2.6-1
+  * kernel-lqx-mao-0:6.17.11.lqx1-14
+  * kernel-xan-mao-0:6.17.11.xan1-12
+  * kholorsstation-0:1.26.0-1
+  * ladspa-twk-0:0.0.1-1
+  * lesynth-fourier-0:1.2.0-1
+  * librearp-0:2.5-2
+  * lmms-mao-weekly-0:1.2.99-29
+  * loopino-0:0.2.0-2
+  * lsp-plugins-0:1.2.26-1
+  * lv2-avw-plugins-0:0.0.8-19
+  * lv2-dexed-0:0.9.2.32cce1e-1
+  * lv2-fomp-plugins-0:1.2.4-14
+  * lv2-freeze-0:0.2.0-1
+  * lv2-triceratops-0:0.5.0-13
+  * midivisualizer-0:7.3-1
+  * mod-utilities-0:0.1.b8a9d45-1
+  * noteahead-0:1.2.1-1
+  * obxd-0:2.19-2
+  * paulstretch-0:1.2.4-5
+  * protracker2-0:1.80.1-4
+  * puredata-0:0.56.2-4
+  * qtractor-mao-0:1.5.11-2
+  * rack-v2-Animatek-0:2.3.1-2
+  * rack-v2-CosineKitty-Sapphire-0:2.6.003-2
+  * rack-v2-JW-Modules-0:2.0.20-2
+  * rack-v2-Moffenzeef-0:2.4.0-2
+  * rack-v2-TextDisplay-0:2.0.0-2
+  * rack-v2-Venom-0:2.14.5-2
+  * rack-v2-pachde-one-0:2.3.0-2
+  * radiance-0:0.7.0-1
+  * raysession-0:0.17.2-4
+  * reevr-0:1.3.0-2
+  * rosegarden4-0:25.12-4
+  * snd-0:25.9-1
+  * tuxguitar-0:2.0.1-16
+  * uhhyouplugins-0:0.69.0-1
+  * wstd-3q-0:1.1.1-1
+  * wstd-crshr-0:1.1.1-1
+  * wstd-dl3y-0:1.1.1-1
+  * wstd-dlay-0:1.1.1-1
+  * wstd-eq-0:1.1.1-1
+  * wstd-fl3ngr-0:1.1.1-1
+  * wstd-flangr-0:1.1.1-1
+  * wstd-fldr-0:1.1.1-1
+  * wstd-m3nglr-0:1.1.1-1
+  * wstd-manglr-0:1.2.1-1
+  * wstd-smthr-0:1.1.1-1
+  * xuidesigner-0:1.1-2
+  * zl-equalizer-0:1.1.0-2
+  * zl-split-0:0.2.1-1
+
 ### News for november 2025
 
-  * new packages
+* new packages
   * adt-0:0.2.2-1
   * cchorus-0:2.2.0-1
   * dfjpverb-0:0.2.2-1
