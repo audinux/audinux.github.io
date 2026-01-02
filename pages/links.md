@@ -16,6 +16,7 @@ A [Website of AI models](https://tonehunt.org). Provides models for:
 Lists of available plugins on Linux:
 - [LinuxDaw](https://linuxdaw.org)
 - [StudioRack](https://studiorack.github.io/studiorack-site)
+- [OpenAudio](https://github.com/webprofusion/OpenAudio)
 
 The [Linux musicians](https://linuxmusicians.com) community.
 
