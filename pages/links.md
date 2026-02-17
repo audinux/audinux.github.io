@@ -47,4 +47,8 @@ You can find good samples here:
 
 A database of MIDI files corresponding to scanned [piano rolls](http://www.pianorollmusic.org/rolldatabase.php).
 
-A good resource on Linux and audio: [linuxaudia](https://linuxaudio.dev/)
+A good resource on Linux and audio: [linuxaudio](https://linuxaudio.dev/)
+
+Some resources about JSFX / YSFX plugins:
+- [Cockos page about JSFX](https://www.cockos.com/jsfx/)
+- [Reaper page about JSFX](https://www.reaper.fm/sdk/js/js.php)
