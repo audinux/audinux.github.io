@@ -9,10 +9,7 @@
 #### Errors
 
 - liquidsfz: termios missing ?? a priori a missing include
-- kernel-xan:drivers/gpu/drm/amd/amdgpu/amdgpu_gart.c:305:18: error: variable ‘p’ set but not used [-Werror=unused-but-set-variable=]
 - Cadence: deactivated: python3-qt4 not available anymore and project archived
-- chaffverb: requires hvcc 0.10
-- vswell: requires hvcc 0.10
 - cmajor: cmajor/juce/modules/juce_audio_processors/processors/juce_AudioPluginInstance.h:164:74: error: no matching constructor for initialization of 'AudioProcessor'
 - ensemble-chorus: error: invalid use of incomplete type ‘class Fl_Group’
 - fxseq: make: No rule to make target 'fxseq-VST3_All'.  Stop.
@@ -33,7 +30,6 @@
 
 - chowkick: source.sh script not using the good url
 - csound-plugins: # {_libdir}/csound/plugins-6.0/libchua.so -> because eigen3 not correctly detected ...
-- FoxDot: restart at the end
 - audiogridder: package libpostproc not found -> to restart a little bit latter.
 
 ## TODO
