@@ -8,6 +8,148 @@ I will stop building the RT kernel 5.15 because it has too many problems with au
 I will stop building the RT kernel 5.10 because it has a build problem with the last version of gcc..
 I will stop building the RT kernel 6.6 because it is now included in the default Fedora kernel (needs boot options to be activated)
 
+### Interesting packages for 2026
+  * smoothir
+    https://github.com/brummer10/SmoothIR
+	Creating impulse responses (IRs) through spectral matching of two audio files.
+
+  * kernel-audio-tuned
+    Audio tuned kernel boot entries for Fedora
+	
+  * luma
+    https://github.com/brummer10/Luma
+	Luma is a lightweight, multi-instance LV2 host for Linux.
+	
+  * protoplug
+    https://github.com/pac-dev/protoplug
+	Create audio plugins on-the-fly with Lua.
+	
+  * pluginval
+    https://github.com/Tracktion/pluginval
+    Cross platform plugin testing and validation tool.
+	
+  * audiveris
+    https://github.com/Audiveris/audiveris
+	Latest generation of Audiveris OMR engine 
+	
+  * maolan
+    https://github.com/maolan/maolan
+	Maolan is a Rust DAW focused on recording, editing, routing, automation, export, and plugin hosting.
+	
+  * yadaw
+    https://github.com/mlm-games/yadaw
+	An sfx creation tool and midi player that doesn't crash often.
+	
+  * magda-core
+    https://github.com/Conceptual-Machines/magda-core
+    A DAW built for automation, transformation, and fast musical iteration.
+	
+### News for april 2026
+
+* new packages
+  * drummock 0.0.1-1
+  * muse 1:4.2.1-10
+  * rokerpack 1.0.0-1
+  * smoothir 0.1-1
+  * vimix 0.9.0-1
+  * yabridge-tui 0.2.1-2
+  * yadaw 0.7.11-1
+
+* updated packages
+  * BespokeSynth-weekly 1.3.10-23
+  * Carla-mao 1:2.5.10-5
+  * Rack-v2 2.6.6-7
+  * SN76489 1.1.5-4
+  * SocaLabs-plugins 20260503-6
+  * actuate 1.4.5-1
+  * airwindows 0.0.1-108
+  * amplitron 0.1.164-2
+  * balance.lv2 0.7.1-1
+  * chibitracker 0.0.1-1
+  * chuck 1.5.5.8-2
+  * cloudreverb 0.5-2
+  * darc.lv2 0.7.2-1
+  * din 63.0.0-1
+  * dpl.lv2 0.7.1-1
+  * drumcraker 1.3.3-1
+  * fasttracker2 2.19-3
+  * fat1.lv2 0.8.9-1
+  * fil4.lv2 0.8.11-1
+  * freeeq8 2.2.0-1
+  * gearmulator 2.2.3-1
+  * grandorgue 3.17.2.0-7
+  * hydrogen-drumkits 0.9.6-6
+  * jacktrip 3.0.0-2
+  * jamulus 3.12.0-8
+  * jjazzlab 5.2.1-2
+  * ladspa-aweight 0.3.0-1
+  * ladspa-vocoder 0.4-1
+  * ladspa-wasp 0.1.5-1
+  * libefsw 1.6.1-1
+  * libreproc 14.2.7-1
+  * lmms-mao-weekly 1.2.99-36
+  * luna-co-software 0.0.1-9
+  * lv2-avldrums-x42-plugin 0.7.4-3
+  * lv2-toobamp-plugins 1.2.74-2
+  * magda-core 0.6.1-1
+  * maolan 0.0.7-1
+  * matrixmixer.lv2 0.4.8-2
+  * meters.lv2 0.9.28-1
+  * midifilter.lv2 0.7.7-1
+  * millisecond 0.2.3-1
+  * miniaudicle 1.5.5.8-2
+  * mixtri.lv2 0.4.12-1
+  * node-sound 5.5.0-1
+  * noteahead 2.1.0-1
+  * organ 1.0.7-5
+  * padthv1 1.4.2-4
+  * patchance 1.4.0-1
+  * phaserotate.lv2 0.6.9-1
+  * piano 1.0.8-3
+  * pluginval 1.0.4-3
+  * polyphonic-pitch-detector-for-guitars 0.0.1-2
+  * protoplug 0.0.1-1
+  * protracker2 1.88-4
+  * rack-v2-AlteredStateMachines 2.0.1-2
+  * rack-v2-Animatek 2.5.0-2
+  * rack-v2-ChordChemist 2.0.2-2
+  * rack-v2-DanTSynth 2.0.2-2
+  * rack-v2-DogmanDevices 2.0.1-2
+  * rack-v2-HetrickCVGPL 2.0.0-2
+  * rack-v2-JW-Modules 2.0.33-2
+  * rack-v2-Leviathan 2.3.12-2
+  * rack-v2-LydD-Modules 2.0.22-2
+  * rack-v2-Moffenzeef 2.6.0-2
+  * rack-v2-NewtronAudio 2.0.1-2
+  * rack-v2-OuroborosModules 2.2.2-2
+  * rack-v2-RexAudio 2.0.1-2
+  * rack-v2-SanguineMutants 2.6.11-2
+  * rack-v2-SignalFunctionSet 2.9.1-2
+  * rack-v2-Stoermelder-P1 2.3.1-2
+  * rack-v2-Venom 2.15.0-2
+  * rack-v2-computerscare 2.1.16-2
+  * rack-v2-dbRackModules 2.6.0-2
+  * rack-v2-forsitan 2.2.1-2
+  * rack-v2-hrubix 2.0.0-2
+  * rack-v2-modular80 2.0.4-2
+  * rack-v2-not-things 2.0.6-2
+  * raysession 0.18.0-5
+  * saugns 0.5.7-1
+  * schismtracker 20251014-2
+  * seq66 0.99.24-1
+  * sisco.lv2 0.9.11-1
+  * snd 26.3-4
+  * spectra.lv2 0.6.7-1
+  * stepseq.lv2 0.6.15-1
+  * tascar 0.237.1-1
+  * tuna.lv2 0.6.8-1
+  * uhhyouplugins 0.70.0-1
+  * ultramaster-kr106 2.5.12-1
+  * vmpc 0.9.4-1
+  * voc 1.1.5-3
+  * wavetable 1.0.32-2
+  * zl-equalizer 1.1.1-2
+
 ### News for march 2026
 
 * new packages
