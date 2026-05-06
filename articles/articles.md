@@ -12,5 +12,8 @@
 * Using artificial intelligence to set a guitar sound:
 [on Fedora Magazine](https://fedoramagazine.org/using-artificial-intelligence-to-set-a-guitar-sound/), [LibreOffice version](Using_artificial_intelligence_to_set_a_guitar_sound.odt), [PDF version](Using_artificial_intelligence_to_set_a_guitar_sound.pdf)
 * Render a Guitar Pro Score in Real Time:
-[on Fedora Magazine](https://fedoramagazine.org/render-a-guitar-pro-score-in-real-time/), [LibreOffice version](Render_a_Guitar_Pro_Score_in_Real_Time.odt), [PDF version](Render_a_Guitar_Pro_Score_in_Real_Time.pdf
+[on Fedora Magazine](https://fedoramagazine.org/render-a-guitar-pro-score-in-real-time/), [LibreOffice version](Render_a_Guitar_Pro_Score_in_Real_Time.odt), [PDF version](Render_a_Guitar_Pro_Score_in_Real_Time.pdf)
 )
+* JSFX on Fedora Linux: an ultra-fast audio prototyping engine:
+[on Fedora Magazine](https://fedoramagazine.org/jsfx-on-fedora-linux-an-ultra-fast-audio-prototyping-engine/), [LibreOffice version](JSFX_on_Fedora_Linux_an_ultra_fast_audio_prototyping_engine.odt), [PDF version](JSFX_on_Fedora_Linux_an_ultra_fast_audio_prototyping_engine.pdf)
+
