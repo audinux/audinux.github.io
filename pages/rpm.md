@@ -38,21 +38,22 @@ Import the src.rpm package:
 $ fedpkg import libfoo-x.x.x.src.rpm
 $ git add sources .gitignores # if modified
 $ git commit --amend
-$ git push
+$ fedpkg push
 ```
 
 To push the work on rawhide to another branch:
 ```
 $ fedpkg switch-branch <BRANCH>
 $ git merge rawhide
-$ git push
+$ fedpkg push
 ```
 
 Now you can request a build on the branch you modified:
 ```
-$ fedpkg switch-branch <BRANCH>
 $ fedpkg build
 ```
+
+If only an update on a spec is done, without update of the version of the tool, then the fedpkg import set is not required.
 
 ## Working on a new spec
 
