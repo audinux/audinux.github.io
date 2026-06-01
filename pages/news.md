@@ -44,6 +44,125 @@ I will stop building the RT kernel 6.6 because it is now included in the default
     https://github.com/Conceptual-Machines/magda-core
     A DAW built for automation, transformation, and fast musical iteration.
 	
+  * guitarmidi
+    https://github.com/geraldmwangi/GuitarMidi-LV2
+    A concept for guitar to midi as an lv2 plugin
+
+  * vimix
+    https://github.com/brunoherbelin/vimix
+    A live video mixer
+	
+### News for mai 2026
+
+* new packages
+  * boutronique 0.0.1-1
+  * cdp 8.0-2
+  * classicreverb-re02 0.0.1-1
+  * classicreverb-re03 0.0.1-1
+  * classicreverb-re04 0.0.1-1
+  * dsp4guitar 1.1-1
+  * ladspa-bs2b 0.9.1-1
+  * ladspa-clipper 1.0-1
+  * ladspa-foo-plugins 1.2.1-1
+  * ladspa-lemux 0.2-1
+  * ladspa-lgv 0.1-1
+  * ladspa-njl 0.2.1-1
+  * ladspa-trigger 20080510-1
+  * ladspa-wubflip 1-1
+  * nebula-cluster 1.0.0-1
+  * nebula-de-esser 3.2.0-1
+  * nebula-delay 1.2.0-1
+  * nebula-stereo-delay 1.2.0-1
+  * nine-strip 0.1.2-1
+  * niner 0.7.9-1
+  * qpitch 1.2.2-1
+  * rokerpack 1.1.0-1
+  * spicefx 0.0.1-1
+  * spiro 0.0.1-1
+
+* updated packages
+  * BespokeSynth-weekly 1.3.10-26
+  * Carla-mao 1:2.5.10-6
+  * JUCE 8.0.13-10
+  * SN76489 1.1.5-4
+  * SocaLabs-plugins 20260503-6
+  * SoundThread 0.4.0b-2
+  * airwin2rack 2.12.0-3
+  * airwindows 0.0.1-109
+  * amplitron 0.1.304-2
+  * atlas-06-synthesizer 0.0.1-2
+  * clap 1.2.8-1
+  * din 64.2.0-1
+  * drumgroovepro 1.0.0-1
+  * drumlabooh 12.2.0-2
+  * drumrox-kits 5.0.0-7
+  * fasttracker2 2.19-3
+  * firefly-synth-2 2.1.3-1
+  * freeeq8 2.3.0-1
+  * gearmulator 2.2.6-1
+  * giada 1.4.2-2
+  * guitarmidi 2.1-3
+  * hvcc 0.16.0-2
+  * jack-link 0.2.7-1
+  * jamulus 3.12.1-8
+  * js80p 4.0.2-1
+  * kernel-audio-tuned 1.0-4
+  * kernel-lqx-mao 6.19.14.lqx1-14
+  * kernel-xan-mao 6.19.14.xan1-12
+  * libbs2b 3.1.0-1
+  * libefsw 1.6.2-1
+  * lmms-mao-weekly 1.2.99-40
+  * luna-co-software 0.0.1-11
+  * lv2-toobamp-plugins 1.2.77-2
+  * magda-core 0.9.2-2
+  * maolan 0.1.1-1
+  * mod-gxpitchshifter 1.0.4-1
+  * neuralrack 0.3.3-1
+  * noise-suppression-for-voice 1.21-4
+  * non-mixer-xt 2.0.15-4
+  * noteahead 3.1.0-1
+  * openwurli 0.5.1-1
+  * orca-lang 0.1.0.9df9786-6
+  * organ 1.0.7-5
+  * piano 1.0.8-3
+  * polyphone 2.6.0-4
+  * rack-v2-Astravox 2.0.3-2
+  * rack-v2-BCNmodular 2.1.0-2
+  * rack-v2-Befaco 2.10.0-2
+  * rack-v2-CVfunk 2.0.43-2
+  * rack-v2-JW-Modules 2.0.38-2
+  * rack-v2-OrangeLine 2.4.14-2
+  * rack-v2-OuroborosModules 2.2.3-2
+  * rack-v2-PatchableDevices 2.0.1-2
+  * rack-v2-QuestionableDinner 2.1.7-2
+  * rack-v2-SignalFunctionSet 2.10.1-2
+  * rack-v2-SillySounds 2.1.1-2
+  * rack-v2-SphericalSoundSocietyFree 2.0.0-2
+  * rack-v2-StochasticTelegraph 2.0.26-2
+  * rack-v2-Stoermelder-P1 2.4.0-2
+  * rack-v2-TeknoLogical 2.0.6-2
+  * rack-v2-VostokInstruments 2.1.0-2
+  * rack-v2-WaveOfHormuz 2.2.0-2
+  * rack-v2-computerscare 2.2.5-2
+  * rack-v2-swv-guitar-tools 2.0.3-2
+  * redrose 0.6.11-2
+  * saugns 0.5.7b-1
+  * schismtracker 20260524-2
+  * smoothir 0.3-1
+  * splash 0.12.2-1
+  * stompbox 0.2.2-1
+  * stompboxui 0.2.2-1
+  * supercollider-sc3-plugins 3.14.0-5
+  * ultramaster-kr106 2.5.13-1
+  * vimix 0.9.1a-1
+  * vmpc 0.9.11-1
+  * voc 1.1.5-3
+  * wavetable 1.0.32-2
+  * wineasio 1.3.0-3.fc43
+  * yabridge 5.1.1-8
+  * yadaw 0.8.5-1
+  * zl-equalizer 1.2.0-2
+
 ### News for april 2026
 
 * new packages
