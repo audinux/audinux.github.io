@@ -10,47 +10,78 @@ I will stop building the RT kernel 6.6 because it is now included in the default
 
 ### Interesting packages for 2026
   * smoothir
-    https://github.com/brummer10/SmoothIR
+  
+    <https://github.com/brummer10/SmoothIR>
+	
 	Creating impulse responses (IRs) through spectral matching of two audio files.
 
+    <img src="images/smoothir.png" alt="SmoothIR screenshot" style="max-width: 50%;">	
+
   * kernel-audio-tuned
+  
     Audio tuned kernel boot entries for Fedora
 	
   * luma
-    https://github.com/brummer10/Luma
+  
+    <https://github.com/brummer10/Luma>
+	
 	Luma is a lightweight, multi-instance LV2 host for Linux.
 	
+    <img src="images/luma.png" alt="Luma screenshot" style="max-width: 50%;">	
+	
   * protoplug
-    https://github.com/pac-dev/protoplug
+  
+    <https://github.com/pac-dev/protoplug>
+	
 	Create audio plugins on-the-fly with Lua.
 	
   * pluginval
-    https://github.com/Tracktion/pluginval
+  
+    <https://github.com/Tracktion/pluginval>
+	
     Cross platform plugin testing and validation tool.
 	
   * audiveris
-    https://github.com/Audiveris/audiveris
+  
+    <https://github.com/Audiveris/audiveris>
+	
 	Latest generation of Audiveris OMR engine 
 	
   * maolan
-    https://github.com/maolan/maolan
+  
+    <https://github.com/maolan/maolan>
+	
 	Maolan is a Rust DAW focused on recording, editing, routing, automation, export, and plugin hosting.
 	
+    <img src="images/maolan.gif" alt="Maolan screenshot" style="max-width: 50%;">	
+	
   * yadaw
-    https://github.com/mlm-games/yadaw
+  
+    <https://github.com/mlm-games/yadaw>
+	
 	An sfx creation tool and midi player that doesn't crash often.
 	
+    <img src="images/yadaw.gif" alt="YaDAW screenshot" style="max-width: 50%;">	
+	
   * magda-core
-    https://github.com/Conceptual-Machines/magda-core
+  
+    <https://github.com/Conceptual-Machines/magda-core>
+	
     A DAW built for automation, transformation, and fast musical iteration.
 	
   * guitarmidi
-    https://github.com/geraldmwangi/GuitarMidi-LV2
+  
+    <https://github.com/geraldmwangi/GuitarMidi-LV2>
+	
     A concept for guitar to midi as an lv2 plugin
 
   * vimix
-    https://github.com/brunoherbelin/vimix
+  
+    <https://github.com/brunoherbelin/vimix>
+	
     A live video mixer
+	
+    <img src="images/vimix.png" alt="ViMIX screenshot" style="max-width: 50%;">	
 	
 ### News for mai 2026
 
