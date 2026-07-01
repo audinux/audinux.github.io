@@ -9,6 +9,26 @@ I will stop building the RT kernel 5.10 because it has a build problem with the 
 I will stop building the RT kernel 6.6 because it is now included in the default Fedora kernel (needs boot options to be activated)
 
 ### Interesting packages for 2026
+  * audio-topology-profile
+  
+    CPU topology aware audio tuning for PipeWire/JACK.
+	
+  * nodebox
+  
+    <https://nodebox.net>
+	
+	Node-based GUI for data visualizations and generative design.
+
+    <img src="images/nodebox.png" alt="SmoothIR screenshot" style="max-width: 50%;">	
+
+  * nextstudio
+  
+    <https://github.com/BaraMGB/NextStudio>
+	
+	Digital Audio Workstation built with JUCE and Tracktion Engine.
+
+    <img src="images/nextstudio.png" alt="SmoothIR screenshot" style="max-width: 50%;">	
+
   * smoothir
   
     <https://github.com/brummer10/SmoothIR>
@@ -19,7 +39,7 @@ I will stop building the RT kernel 6.6 because it is now included in the default
 
   * kernel-audio-tuned
   
-    Audio tuned kernel boot entries for Fedora
+    Audio tuned kernel boot entries for Fedora.
 	
   * luma
   
@@ -45,7 +65,7 @@ I will stop building the RT kernel 6.6 because it is now included in the default
   
     <https://github.com/Audiveris/audiveris>
 	
-	Latest generation of Audiveris OMR engine 
+	Latest generation of Audiveris OMR engine.
 	
   * maolan
   
@@ -73,16 +93,109 @@ I will stop building the RT kernel 6.6 because it is now included in the default
   
     <https://github.com/geraldmwangi/GuitarMidi-LV2>
 	
-    A concept for guitar to midi as an lv2 plugin
+    A concept for guitar to midi as an lv2 plugin.
 
   * vimix
   
     <https://github.com/brunoherbelin/vimix>
 	
-    A live video mixer
+    A live video mixer.
 	
     <img src="images/vimix.png" alt="ViMIX screenshot" style="max-width: 50%;">	
 	
+### News for june 2026
+* new packages
+  * a2core 0.0.1-1
+  * audio-topology-profile 1.0-6
+  * boreas 0.0.2-1
+  * midi-ble-rt 0.8.1-2
+  * ml7 0.0.1-1
+  * nodebox 3.1.0-2
+  * patchage 1.0.10-1
+  * nextstudio 0.0.2a-1
+  * wstd-mseq 1.0.1-1
+
+* updated packages
+  * BambooTracker 0.6.5-1
+  * BespokeSynth-weekly 1.3.10-31
+  * Carla-mao 1:2.5.10-7
+  * JUCE 8.0.14-10
+  * amplitron 0.1.355-2
+  * azr3-jack 2.0.0-2
+  * clap 1.2.9-1
+  * context-free 3.4.3-1
+  * dexed 1.0.1a-4
+  * dm-graindelay 0.0.5-3
+  * drumcraker 1.3.4-1
+  * element 1.1.0-1
+  * ganv 1.8.2-1
+  * giada 1.5.0-2
+  * grains-of-sand 0.0.1-1
+  * grandorgue 3.17.3.0-7
+  * guitarmidi 2.2-3
+  * hamburger 0.6-2
+  * hvcc 0.16.2-2
+  * jamulus 3.12.2-8
+  * js80p 4.1.0-1
+  * kernel-audio-tuned 1.0-6
+  * kernel-rt-mao 7.0.12.rt0-13
+  * leiningen 2.13.0-1
+  * libefsw 1.6.3-1
+  * lmms-mao-weekly 1.2.99-41
+  * lsp-plugins 1.2.33-1
+  * lv2-gxmrfreeze 0.5-1
+  * lv2-mrfreeze 0.1-1
+  * lv2-neural-amp-modeler 0.2.1-1
+  * magda-core 0.13.0-2
+  * maolan 0.2.1-1
+  * nebula-de-esser 3.3.0-1
+  * niner 1.0.1-1
+  * noteahead 4.1.0-1
+  * ossia-score 3.8.2-3
+  * processing 4.5.5-3
+  * protracker2 1.90-4
+  * puredata 0.56.4-4
+  * python-arpeggio 2.0.3-1
+  * python-wstd2daisy 0.5.2-1
+  * python3-soundfile 0.13.1-1
+  * qlcplus 5.2.2-1
+  * qmidictl 1.0.3-1
+  * qmidinet 1.0.2-1
+  * qpitch 1.3.1-1
+  * qtractor-mao 1.6.1-2
+  * rack-v2-Animatek 2.5.4-2
+  * rack-v2-BCNmodular 2.1.1-2
+  * rack-v2-Befaco 2.11.0-2
+  * rack-v2-CosineKitty-Sapphire 2.6.005-2
+  * rack-v2-JW-Modules 2.0.39-2
+  * rack-v2-Leviathan 2.5.2-2
+  * rack-v2-Moffenzeef 2.6.1-2
+  * rack-v2-SickoCV 2.7.9-2
+  * rack-v2-SignalFunctionSet 2.13.0-2
+  * rack-v2-Sticksy 2.0.0-2
+  * rack-v2-Stoermelder-P1 2.4.1-2
+  * rack-v2-Submit 2.15.3-2
+  * rack-v2-TC-Wurl 2.0.1-2
+  * rack-v2-Zoxnoxious 2.0.9-2
+  * rack-v2-dbRackModules 2.6.1-2
+  * rack-v2-tnn1t1s-ghost 2.1.1-2
+  * ripplerx 1.5.19-1
+  * rokerpack 1.1.1-1
+  * rosegarden4 26.06-4
+  * rustydrumgizmo 0.1.2-1
+  * satordist 0.0.1-1
+  * saugns 0.5.7c-1
+  * seq66 0.99.25-1
+  * sitar 0.0.6-1
+  * snd 26.4-4
+  * songrec 0.7.4-1
+  * tuxguitar 2.0.1-17
+  * vmpc 0.9.13-1
+  * yadaw 0.9.2-1
+  * zl-equalizer 1.2.2-2
+
+
+
 ### News for mai 2026
 
 * new packages
