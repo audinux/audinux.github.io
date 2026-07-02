@@ -35,6 +35,7 @@ It has been built using the script found on the fedora-specs github repository
 You can find some news related to update and new packages in the [news](pages/news.md) page.
 
 The past news are archived here:
+* [2025](pages/news-2025.md)
 * [2024](pages/news-2024.md)
 * [2023](pages/news-2023.md)
 * [2022](pages/news-2022.md)
