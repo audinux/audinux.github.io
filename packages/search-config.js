@@ -43,10 +43,37 @@ $.getJSON("data/search-data.json", function (json) {
         selected_filters: [],
         sort_keys: [],
         sort: '',
-        per_page: 500
+        per_page: 500,
+        lightbox: {
+          visible: false,
+          screenshots: [],
+          index: 0
+        }
       }
     },
     methods: {
+
+      screenshot_url: function (path) {
+        return 'https://raw.githubusercontent.com/audinux/fedora-spec/master/' + path.replace(/^\/+/, '');
+      },
+
+      open_lightbox: function (screenshots, index) {
+        this.lightbox.screenshots = screenshots;
+        this.lightbox.index = index || 0;
+        this.lightbox.visible = true;
+      },
+
+      close_lightbox: function () {
+        this.lightbox.visible = false;
+      },
+
+      next_screenshot: function () {
+        this.lightbox.index = (this.lightbox.index + 1) % this.lightbox.screenshots.length;
+      },
+
+      prev_screenshot: function () {
+        this.lightbox.index = (this.lightbox.index - 1 + this.lightbox.screenshots.length) % this.lightbox.screenshots.length;
+      },
 
       remove_filter: function (facet, name) {
         this.filters[facet] = this.filters[facet].filter(v => {

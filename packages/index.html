@@ -98,9 +98,13 @@
           <table class="table table-striped">
             <tbody>
               <tr v-for="item of searchResult.data.items">
-                <td></td>
                 <td>
-                  <h5>{{ item.name }} <span class="fa fa-arrow-right"></span> <small class="fs-6">{{ item.summary }}</small></h5>       
+                  <img v-if="item.screenshot && item.screenshot.length" :src="screenshot_url(item.screenshot[0])"
+                    :alt="item.name" v-on:click="open_lightbox(item.screenshot, 0)"
+                    style="max-height: 60px; max-width: 80px; margin: 2px; border-radius: 3px; cursor: pointer;">
+                </td>
+                <td>
+                  <h5>{{ item.name }} <span class="fa fa-arrow-right"></span> <small class="fs-6">{{ item.summary }}</small></h5>
                   <p style="font-size: 13px;">(v{{ item.version }}) <a :href="item.url">{{ item.url }}</a></p>
                   <p style="font-size: 14px;"><span style="white-space: pre-wrap;">{{ item.description }}</span></p>                  
                 </td>
@@ -120,6 +124,20 @@
           <div class="clearfix"></div>
         </div>
       </div>
+    </div>
+
+    <div v-if="lightbox.visible" v-on:click.self="close_lightbox()"
+      style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.85); z-index: 1050; display: flex; align-items: center; justify-content: center;">
+      <span v-on:click="close_lightbox()"
+        style="position: absolute; top: 20px; right: 30px; color: #fff; font-size: 35px; cursor: pointer; line-height: 1;">&times;</span>
+      <span v-if="lightbox.screenshots.length > 1" v-on:click="prev_screenshot()"
+        style="position: absolute; left: 20px; color: #fff; font-size: 45px; cursor: pointer; user-select: none;">&#10094;</span>
+      <img :src="screenshot_url(lightbox.screenshots[lightbox.index])"
+        style="max-width: 90%; max-height: 90%;">
+      <span v-if="lightbox.screenshots.length > 1" v-on:click="next_screenshot()"
+        style="position: absolute; right: 20px; color: #fff; font-size: 45px; cursor: pointer; user-select: none;">&#10095;</span>
+      <div v-if="lightbox.screenshots.length > 1"
+        style="position: absolute; bottom: 20px; color: #fff; font-size: 14px;">{{ lightbox.index + 1 }} / {{ lightbox.screenshots.length }}</div>
     </div>
   </div>
 
