@@ -54,7 +54,7 @@ $.getJSON("data/search-data.json", function (json) {
     methods: {
 
       screenshot_url: function (path) {
-        return 'https://raw.githubusercontent.com/audinux/fedora-spec/master/' + path.replace(/^\/+/, '');
+        return 'https://github.com/audinux/fedora-spec/blob/master/' + path.replace(/^\/+/, '');
       },
 
       open_lightbox: function (screenshots, index) {
