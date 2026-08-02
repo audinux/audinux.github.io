@@ -103,6 +103,126 @@ I will stop building the RT kernel 6.6 because it is now included in the default
 	
     <img src="images/vimix.png" alt="ViMIX screenshot" style="max-width: 50%;">	
 	
+### News for july 2026
+* new packages
+  * cagire 0.2.0-1
+  * LMTR 0.4.5-1
+  * clap-validator 0.4.1-1
+  * glados 0.0.1-1
+  * hydra-rust 0.0.1-1
+  * mechanodd 0.3.0-1
+  * morpheus6 0.4.7-1
+  * tetraop 1.0.3-1
+  * zanhyang6 0.8.7-1
+
+* updated packages
+  * BespokeSynth-weekly 1.3.10-34
+  * JUCE 8.0.15-10
+  * SN76489 1.1.8-4
+  * SocaLabs-plugins 20260727-6
+  * ToneShiftEQ 0.6.0-1
+  * airwindows 0.0.1-111
+  * amplitron 0.1.360-2
+  * audiveris 5.11.0-1
+  * bombaz 1.0.1-2
+  * boreas 0.1.0-1
+  * clap 1.2.10-1
+  * cmajor 1.0.3177-1
+  * coddle 0.0.1-1
+  * cstop 2.0.1-1
+  * eko 8.0.0-1
+  * fasttracker2 2.22-3
+  * filtr 1.3.0-2
+  * floe 2.0.2-2
+  * freeeq8 2.3.1-1
+  * gearmulator 2.2.9-1
+  * hamburger 0.7.1-2
+  * jamin 0.98.9-4
+  * jamulus 3.12.3-8
+  * jmidiracc 0.0.1-1
+  * js80p 4.1.1-1
+  * komposter 0.1-2
+  * konfyt 1.8.0-3
+  * lmms-mao-weekly 1.2.99-46
+  * luna-co-software 0.0.1-13
+  * lv2-neural-amp-modeler 0.2.3-1
+  * magda-core 0.17.1-5
+  * maolan 0.2.4-1
+  * midi-ble-rt 0.9.5-2
+  * neuralrack 0.4.0-1
+  * noteahead 6.0.0-1
+  * openwurli 0.6.0-1
+  * organ 1.0.11-5
+  * patchichi 0.5.0-1
+  * piano 1.0.11-3
+  * pluginval 1.0.4-4
+  * processing 4.5.6-3
+  * projectM-mao 4.1.7-15
+  * protracker2 1.92-4
+  * qtractor-mao 1.6.2-2
+  * rack-v2-AISynthesis 2.0.1-2
+  * rack-v2-Aerodyne 2.0.0-2
+  * rack-v2-Avalanche 2.0.0-2
+  * rack-v2-BCNmodular 2.2.0-2
+  * rack-v2-BerserkAudio 2.0.1-2
+  * rack-v2-Bruer 2.0.3-2
+  * rack-v2-CVfunk 2.0.48-2
+  * rack-v2-Cella 2.11.1-2
+  * rack-v2-ChaoticInstruments 2.0.0-2
+  * rack-v2-Coalescent 2.3.0-2
+  * rack-v2-Corpus 2.0.0-2
+  * rack-v2-CosineKitty-Sapphire 2.6.007-2
+  * rack-v2-EternalEclipseModular 2.7.1-2
+  * rack-v2-ForgeAudio-AnalogSeries 2.0.1-2
+  * rack-v2-HamptonHarmonics 2.0.3-2
+  * rack-v2-JW-Modules 2.0.43-2
+  * rack-v2-Leviathan 2.8.0-2
+  * rack-v2-LoudNumbers 2.1.0-2
+  * rack-v2-LydD-Modules 2.0.30-2
+  * rack-v2-ModularMooch 2.1.0-2
+  * rack-v2-NTRWabot 2.9.7-2
+  * rack-v2-NoSuchDevice 2.1.4-2
+  * rack-v2-OPC-OctobIR 2.2.0-2
+  * rack-v2-Ohmer 2.6.13-2
+  * rack-v2-QualiaSense 2.0.0-2
+  * rack-v2-QuestionableDinner 2.1.8-2
+  * rack-v2-RoomiFields 2.1.2-2
+  * rack-v2-SickoCV 2.7.10-2
+  * rack-v2-SignalFunctionSet 2.16.3-2
+  * rack-v2-StochasticTelegraph 2.0.27-2
+  * rack-v2-Stoermelder-P1 2.5.0-2
+  * rack-v2-Submit 2.16.1-2
+  * rack-v2-akaudio 2.0.4-2
+  * rack-v2-bikeshed 2.1.2-2
+  * rack-v2-computerscare 2.3.3-2
+  * rack-v2-dbRackModules 2.6.2-2
+  * rack-v2-forsitan 2.7.0-2
+  * rack-v2-not-things 2.0.8-2
+  * rack-v2-phrasing-module 2.0.0-2
+  * rack-v2-piruetas-popusintes 2.0.0-2
+  * rack-v2-swv-guitar-tools 2.1.0-2
+  * rack-v2-tapestry 2.1.0-2
+  * rack-v2-tnn1t1s-ghost 2.1.2-2
+  * receivemidi 1.6.1-3
+  * rustick 0.3.3-1
+  * rustydrumgizmo 0.3.3-1
+  * satordist2 0.6.5-1
+  * sendmidi 1.4.3-3
+  * seq 0.0.1-1
+  * seq66 0.99.26-1
+  * sitar 0.3.0-1
+  * six-sines 1.2.1-3
+  * snd 26.5-4
+  * sonic-pi 4.6.0-13
+  * spek 0.8.5-2
+  * splash 0.12.4-1
+  * tenacity 1.3.5-1
+  * tuxguitar 2.1.0-18
+  * vmpc 0.9.15-1
+  * voc 1.1.8-3
+  * wavetable 1.0.34-2
+  * ysfx 0.0.46-2
+
 ### News for june 2026
 * new packages
   * a2core 0.0.1-1
