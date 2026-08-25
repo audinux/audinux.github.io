@@ -26,9 +26,9 @@ Making music using Linux is addictive ...
 
 ### Download
 
-You can download an ISO file for Fedora 39.
+You can download an ISO file for Fedora 43.
 It has been built using the script found on the fedora-specs github repository
-[Download link](https://drive.google.com/file/d/1jd1OytuLX9BPy-hvKDP6fHdErwu7gAQC/view?usp=drive_link)
+[Download link](https://drive.google.com/file/d/1Cr2SUO6jnpqMjbmcz45YC_xCB1BxVyKK/view?usp=drive_link)
 
 ### News
 
