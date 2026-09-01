@@ -8,7 +8,41 @@ I will stop building the RT kernel 5.15 because it has too many problems with au
 I will stop building the RT kernel 5.10 because it has a build problem with the last version of gcc..
 I will stop building the RT kernel 6.6 because it is now included in the default Fedora kernel (needs boot options to be activated)
 
+Kernel-rt is back and now, the NVidia driver compiles fine with this kernel !
+
 ### Interesting packages for 2026
+  * neuralblender
+  
+    <https://sourceforge.net/projects/neuralblender>
+
+    Guitar amp modeling plugin based on RTNeural and NeuralAmp.
+	
+    <img src="images/neuralblender.png" alt="NeuralBlender screenshot" style="max-width: 50%;">
+  
+  * rusty-amp
+  
+    <https://github.com/danylokravchenko/rusty-amp>
+  
+    Guitar rig in your terminal with external plugins support.
+  
+    <img src="images/rusty-amp.png" alt="Rusty Amp screenshot" style="max-width: 50%;">
+  
+  * zestbay
+
+    <https://github.com/lemonxah/zestbay>
+
+    A PipeWire patchbay for Linux that visualizes your audio graph, hosts LV2 effects plugins inline, and auto-connects ports with persistent routing rules.
+	
+    <img src="images/zestbay.png" alt="ZestBay screenshot" style="max-width: 50%;">
+  
+  * spectrumworx
+
+    <https://github.com/surge-synthesizer/SpectrumWorx>
+	
+	A port of Little Endian's SpectrumWorx effect plugin to modern plugin standards.
+	
+    <img src="images/spectrumworx.png" alt="SpectrumWorx screenshot" style="max-width: 50%;">
+  
   * audio-topology-profile
   
     CPU topology aware audio tuning for PipeWire/JACK.
@@ -102,7 +136,128 @@ I will stop building the RT kernel 6.6 because it is now included in the default
     A live video mixer.
 	
     <img src="images/vimix.png" alt="ViMIX screenshot" style="max-width: 50%;">	
-	
+
+### News for august 2026
+* new packages
+  * ampforge 0.4.0-1
+  * gala 1.1.0-1
+  * galdr 1.1.0-1
+  * gjalla 1.0.0-1
+  * maolan-plugins 0.0.3-1
+  * loadbox 0.1.0-1
+  * neuralblender 1.2.16-1
+  * owmb 1.1.1-1
+  * ppsvaulttracker 1.1.0-1
+  * retrotrax 0.92.0-1
+  * rusty-amp 0.2.14-1
+  * spectrumworx 20260822-1
+  * zestbay 0.8.6-1
+
+* updated packages
+  * BespokeSynth-weekly 1.3.10-36
+  * JUCE 9.0.1-10
+  * SN76489 1.1.10-4
+  * SocaLabs-plugins 20260818-6
+  * ToneShiftEQ 0.9.0-1
+  * airwindows 0.0.1-113
+  * amplitron 0.1.363-2
+  * cagire 0.2.1-1
+  * classicreverb-re04 1.1.0-1
+  * darc.lv2 0.7.3-1
+  * din 65.0.0-1
+  * dpl.lv2 0.7.2-1
+  * elektroid 3.4-1
+  * element 1.2.0-1
+  * fasttracker2 2.23-3
+  * fat1.lv2 0.8.10-1
+  * fil4.lv2 0.8.12-1
+  * firefly-synth-2 2.1.4-1
+  * freeeq8 2.3.1-1
+  * grandorgue 3.18.0.0-7
+  * hamburger 0.8-2
+  * hvcc 0.17.0-2
+  * jacktrip 3.0.1-2
+  * jamulus 3.12.5-8
+  * kernel-audio-tuned 1.0-8
+  * kernel-lqx-mao 7.1.9.lqx1-20
+  * kernel-rt-mao 7.1.9.rt0-19
+  * kernel-xan-mao 7.1.9.xan1-18
+  * libefsw 1.7.2-1
+  * libreproc 14.2.8-1
+  * lmms-mao-weekly 1.2.99-49
+  * lsp-plugins 1.2.35-1
+  * luna-co-software 0.0.1-15
+  * lv2-avldrums-x42-plugin 0.7.5-3
+  * magda-core 0.19.0-5
+  * maolan 0.2.5-1
+  * matrixmixer.lv2 0.4.9-2
+  * mechanodd 0.3.1-1
+  * meters.lv2 0.9.29-1
+  * midish 1.5.0-1
+  * mixtri.lv2 0.4.13-1
+  * nam-juce 0.5.0-2
+  * nanomsg 1.2.4-2
+  * nextstudio 0.0.5a-1
+  * nine-strip 0.1.3-1
+  * noise-repellent 0.3.2-5
+  * noteahead 7.2.1-1
+  * organ 1.0.14-5
+  * phaserotate.lv2 0.6.10-1
+  * piano 1.0.14-3
+  * qmidiarp 0.7.5-21
+  * rack-v2-Aluminium 2.0.2-2
+  * rack-v2-AmbientModules 2.1.1-2
+  * rack-v2-Animatek 2.5.8-2
+  * rack-v2-BCNmodular 2.3.0-2
+  * rack-v2-BerserkAudio 2.1.0-2
+  * rack-v2-ChordChemist 2.0.3-2
+  * rack-v2-CountModula 2.6.0-2
+  * rack-v2-EternalEclipseModular 2.9.2-2
+  * rack-v2-InfiniteNoise 2.0.3-2
+  * rack-v2-JW-Modules 2.0.45-2
+  * rack-v2-Kalliste 2.0.1-2
+  * rack-v2-Keeos 2.0.0-2
+  * rack-v2-Leviathan 2.9.1-2
+  * rack-v2-MindMeldModular 2.5.1-2
+  * rack-v2-MockbaModular 2.0.2-2
+  * rack-v2-ModularMooch 2.1.1-2
+  * rack-v2-NTRWabot 2.10.0-2
+  * rack-v2-Quostate 2.2.2-2
+  * rack-v2-SignalFunctionSet 2.18.1-2
+  * rack-v2-StochasticTelegraph 2.0.28-2
+  * rack-v2-Submit 2.21.0-2
+  * rack-v2-TriggerFish-Elements 2.5.4-2
+  * rack-v2-Venom 2.16.2-2
+  * rack-v2-VitaocyThings 2.0.0-2
+  * rack-v2-VocalLamma 2.2.0-2
+  * rack-v2-Volders 2.1.2-2
+  * rack-v2-akaudio 2.0.7-2
+  * rack-v2-bmbo 2.0.0-2
+  * rack-v2-computerscare 2.3.11-2
+  * rack-v2-forsitan 2.13.3-2
+  * rack-v2-phrasing-module 2.2.0-2
+  * rack-v2-piruetas-popusintes 2.2.0-2
+  * rack-v2-shapetaker 2.2.1-2
+  * rack-v2-voxglitch 2.44.0-2
+  * rack-v2-wintoid 2.2.1-2
+  * resonarium 1:0.1.0-4
+  * rivendell 4.5.0-1
+  * seq66 0.99.27-1
+  * sisco.lv2 0.9.13-1
+  * sitar 0.3.0-1
+  * snd 26.6-4
+  * songrec 0.7.5-1
+  * spectra.lv2 0.6.8-1
+  * stepseq.lv2 0.6.17-1
+  * tuna.lv2 0.6.9-1
+  * vmpc 0.9.17-1
+  * voc 1.1.10-3
+  * vst3sdk 3.8.1-1
+  * wavetable 1.0.36-2
+  * yadaw 0.10.8-1
+  * ysfx 0.0.47-2
+  * zl-equalizer 1.3.1-2
+
 ### News for july 2026
 * new packages
   * cagire 0.2.0-1
