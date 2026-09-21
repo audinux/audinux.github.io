@@ -9,6 +9,10 @@
 The build is currently running.
 
 #### Errors
+- stompboxui: 
+```
+No match for argument: dotnet-sdk-8.0
+```
 
 #### Warnings
 
