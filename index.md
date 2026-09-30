@@ -16,6 +16,7 @@ Making music using Linux is addictive ...
 - [Status of Fedora beta](pages/build.md)
 - [Applications](pages/applications.md)
 - [User guide](pages/user_guide.md)
+- [Catalogue](pages/plugin-catalogue.md)
 
 ### Other information
 
