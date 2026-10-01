@@ -91,6 +91,8 @@ Kernel-rt is back and now, the NVidia driver compiles fine with this kernel !
 	
 	Create audio plugins on-the-fly with Lua.
 	
+    <img src="images/protoplug.png" alt="Protoplug screenshot" style="max-width: 50%;">	
+	
   * pluginval
   
     <https://github.com/Tracktion/pluginval>
@@ -125,11 +127,15 @@ Kernel-rt is back and now, the NVidia driver compiles fine with this kernel !
 	
     A DAW built for automation, transformation, and fast musical iteration.
 	
+    <img src="images/magda-core.png" alt="Magda-core screenshot" style="max-width: 50%;">	
+	
   * guitarmidi
   
     <https://github.com/geraldmwangi/GuitarMidi-LV2>
 	
     A concept for guitar to midi as an lv2 plugin.
+	
+    <img src="images/guitarmidi.png" alt="Guitarmidi screenshot" style="max-width: 50%;">	
 
   * vimix
   
