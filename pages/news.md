@@ -139,6 +139,153 @@ Kernel-rt is back and now, the NVidia driver compiles fine with this kernel !
 	
     <img src="images/vimix.png" alt="ViMIX screenshot" style="max-width: 50%;">	
 
+  * rustortion
+  
+    <https://github.com/OpenSauce/rustortion>
+	
+    A low latency guitar amp simulator.
+	
+    <img src="images/rustortion.png" alt="Rustortion screenshot" style="max-width: 50%;">	
+
+  * infinite
+  
+    <https://n1m21n.github.io/Infinite>
+	
+    Infinite is a node-based audiovisual workstation — real-time GPU video compositing, procedural 3D geometry, modular synths, DSP, and VST3 plugin hosting.
+	
+    <img src="images/infinite.png" alt="Infinite screenshot" style="max-width: 50%;">	
+
+  * hydra-rust
+  
+    <https://github.com/sova-org/hydra-rust>
+	
+    Prototype of hydra remade in Rust. A great tool for audio reactive video.
+	
+    <img src="images/hydra.png" alt="Hydra-rust screenshot" style="max-width: 50%;">	
+
+### News for september 2026
+* new packages
+  * adlibtracker 2.4.25-1
+  * infinite 0.4.5-2
+  * luppolo 1.2-1
+  * rustortion 0.3.0-1
+  * seq 0.0.1-4
+  * sova 0.1.1-1
+
+* updated packages
+  * BespokeSynth-weekly 1.3.10-39
+  * JUCE 9.0.3-10
+  * ToneShiftEQ 1.1.0-1
+  * airwindows 0.0.1-116
+  * bipscript 0.24-1
+  * bipscript-ide 0.24-1
+  * cabbage 2.10.0-5
+  * cagire 0.2.2-1
+  * chataigne 1.10.4-1
+  * chuck 1.5.5.8-3
+  * classicreverb-re02 1.1.1-1
+  * classicreverb-re03 1.1.1-1
+  * classicreverb-re04 1.1.1-1
+  * cmajor 1.0.3209-1
+  * csound7 7.0.0b17-3
+  * darc.lv2 0.7.4-1
+  * dpl.lv2 0.7.3-1
+  * fasttracker2 2.24-3
+  * fat1.lv2 0.8.11-1
+  * faust 2.88.0-39
+  * faustlive 2.5.19-2
+  * fil4.lv2 0.8.13-1
+  * firefly-synth-2 2.1.5-1
+  * floe 2.0.3-2
+  * flow 0.0.1-3
+  * gearmulator 2.2.25-1
+  * giada 1.6.0-2
+  * glados 1.0-1
+  * glslplugin 1.2-5
+  * guitarmidi 3.0-3
+  * hamburger 0.9-2
+  * helio-workstation 3.18.0-2
+  * hvcc 0.17.2-2
+  * hydra-rust 0.0.1-13
+  * iem-plugins 1.16.0-2
+  * jc303 0.13.0-3
+  * kernel-audio-tuned 1.0-10
+  * kernel-rt-tests 2.11-2
+  * kholorsstation 1.27.1-1
+  * lmms-mao-weekly 1.2.99-51
+  * lv2-avldrums-x42-plugin 0.7.6-3
+  * magda-core 0.20.0-5
+  * maolan 0.3.0-1
+  * maolan-plugins 0.1.0-1
+  * matrixmixer.lv2 0.4.10-2
+  * meters.lv2 0.9.30-1
+  * miniaudicle 1.5.5.8-3
+  * mixtri.lv2 0.4.14-1
+  * mod-host 0.10.6.f14a230-5
+  * nanomsg 1.2.5-2
+  * neothesia 0.5.0-1
+  * neuralblender 1.3.9-1
+  * nine-strip 0.1.6-1
+  * noise-repellent 0.4.1-6
+  * noteahead 8.0.0-1
+  * o2 0.3.7-1
+  * openwurli 0.9.0-1
+  * padthv1 1.5.0-4
+  * phaserotate.lv2 0.6.11-1
+  * processing 4.5.7-3
+  * protoplug 0.0.1-3
+  * python-jack-client 0.5.7-17
+  * qdelay 1.2.3-1
+  * qtractor-mao 1.6.4-2
+  * qutecsound 7.2.1-3
+  * rack-v2-Aluminium 2.1.1-2
+  * rack-v2-AmbientModules 2.3.1-2
+  * rack-v2-Coalescent 2.4.0-2
+  * rack-v2-EternalEclipseModular 2.10.0-2
+  * rack-v2-FreezerLabs 2.0.1-2
+  * rack-v2-GP 2.2.0-2
+  * rack-v2-InfiniteNoise 2.0.4-2
+  * rack-v2-MissingMileModular 2.0.0-2
+  * rack-v2-SignalFunctionSet 2.21.0-2
+  * rack-v2-Stoermelder-P1 2.6.0-2
+  * rack-v2-Submit 2.22.0-2
+  * rack-v2-TwinSlide 2.1.7-2
+  * rack-v2-Venom 2.17.6-2
+  * rack-v2-akaudio 2.0.10-2
+  * rack-v2-bmbo 2.1.0-2
+  * rack-v2-forsitan 2.16.1-2
+  * rack-v2-halfagiraf 2.0.2-2
+  * rack-v2-thereelpeet-seq 2.3.1-2
+  * rack-v2-voxglitch 2.47.0-2
+  * rack-v2-wintoid 2.3.2-2
+  * receivemidi 1.6.2-3
+  * redrose 0.6.12-2
+  * resonarium 1:0.1.1-4
+  * sendmidi 1.4.4-3
+  * sg-323 1.2.0-2
+  * simple106 1.1.2-1
+  * simple303 1.0.0-1
+  * simple606 1.1.0-1
+  * sisco.lv2 0.9.14-1
+  * sitar 0.3.0-1
+  * snd 26.7-4
+  * soundscaperenderer 0.6.1-2
+  * spectra.lv2 0.6.9-1
+  * spectrumworx 20260901-1
+  * splash 0.12.6-1
+  * stepseq.lv2 0.6.18-1
+  * supercollider-sc3-plugins 3.14.1-5
+  * traverso 0.49.6-5
+  * tuna.lv2 0.6.10-1
+  * uhhyouplugins 0.71.0-1
+  * veejay-core 1.6.0-1
+  * veejay-gui 1.6.0-4
+  * veejay-server 1.6.0-5
+  * vimix 0.9.2-1
+  * vmpc 0.9.18-1
+  * yadaw 0.11.3-1
+  * zl-equalizer 1.4.1-2
+
 ### News for august 2026
 * new packages
   * ampforge 0.4.0-1
