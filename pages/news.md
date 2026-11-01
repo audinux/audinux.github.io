@@ -169,6 +169,70 @@ Kernel-rt is back and now, the NVidia driver compiles fine with this kernel !
 	
     <img src="images/hydra.png" alt="Hydra-rust screenshot" style="max-width: 50%;">	
 
+  * bytebeat
+  
+    <https://github.com/ycollet/ByteBeat>
+	
+    Bytebeat player in Rust with a collection of many formulas from around the internet.
+	
+    <img src="images/bytebeat.png" alt="ByteBeat screenshot" style="max-width: 50%;">	
+
+  * ibniz-rust
+  
+    <https://github.com/ycollet/IBNIZ-rust>
+	
+    A clone of the old IBNIZ VM in Rust.
+	
+    <img src="images/ibniz-rust.png" alt="IBNIZ-rust screenshot" style="max-width: 50%;">	
+
+  * tone3000
+  
+    <https://github.com/tone-3000/tone3000-plugin>
+	
+    TONE3000 plugin (a NAM loader).
+	
+    <img src="images/tone3000.png" alt="Tone3000 plugin screenshot" style="max-width: 50%;">	
+
+  * frippertron
+  
+    <https://github.com/elgaucholoco/Frippertron>
+	
+    An audio vst plugin simulating a frippertronic installation.
+	
+    <img src="images/frippertron.png" alt="frippertron plugin screenshot" style="max-width: 50%;">	
+
+  * faderframe
+  
+    <https://github.com/BurningTreeC/faderframe>
+	
+    A DAW for Linux.
+	
+    <img src="images/faderframe.png" alt="fadderframe screenshot" style="max-width: 50%;">	
+
+  * soundcraft
+  
+    <https://github.com/storytold/soundcraft>
+	
+    An open-source, clean-room reimplementation of Avid Pro Tools in pure Rust.
+	
+    <img src="images/soundcraft.png" alt="soundcraft screenshot" style="max-width: 50%;">	
+
+  * CA-72
+  
+    <https://github.com/idlefoundry/ca-72>
+	
+    A synthesizer plug-in modelled from the circuit of a 1970s analogue synthesizer.
+	
+    <img src="images/ca-72.png" alt="ca-72 plugin screenshot" style="max-width: 50%;">	
+
+  * open-riff-box
+  
+    <https://github.com/dlujic/open-riff-box>
+	
+    Free, open-source, lightweight guitar effects processor.
+	
+    <img src="images/open_riff_box.png" alt="open-riff-box screenshot" style="max-width: 50%;">	
+
 ### News for october 2026
 * new packages
   * bytebeat 1.2.1-1
